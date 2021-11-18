@@ -108,8 +108,32 @@ class AvFuncional extends StatelessWidget {
                   SizedBox(
                     width: 350,
                     child: TextButton(
-                      onPressed: (){ 
-                          },
+                      onPressed: ()=> showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'História',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'Idade\n\nClasse funcional III-IV NYHA\n\nEtiologia da insuficiencia cardíaca\n\nMúltiplas admissões\n\nCaquexia e sarcopenia\n\nPouca adesão\n\nDepressão\n\nDiabetes\n\nDPOC\n\nIntolerância ao tratamento\n\nUso de inotrópico',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                           child: const Text(
                           "História",
                           style: TextStyle(
@@ -126,9 +150,32 @@ class AvFuncional extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'Exame Físico',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'Hipotensão\n\nTaquicardia\n\nPresença de B3\n\nCongestão persistente\n\nPerfusão inadequada',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                         child: const Text(
                           "Exame Físico",
                           style: TextStyle(
@@ -144,9 +191,32 @@ class AvFuncional extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'ECG',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'Fibrilação atrail/BRE\n\nArritimias ventriculares complexas\n\nRedução da VFC\n\nOnda T alternante\n\nQT longo',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                         child: const Text(
                           "ECG",
                           style: TextStyle(
@@ -162,9 +232,32 @@ class AvFuncional extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'Imagem',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'FEVE < 30%\n\nDisfunção de VD\n\nDisfunção diastólica\n\nHipertensão pulmonar\n\nInsuficiência mitral\n\nInsufiente tricúspide\n\nRealce tardio na RC',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                         child: const Text(
                           "Imagem",
                           style: TextStyle(
@@ -180,9 +273,32 @@ class AvFuncional extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'Hemodinâmica',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'DC/IC reduzido\n\nPOAP elevada\n\nPressões pulmonares elevadas\n\nGradiente transpulmonar elevado\n\nRVP elevada',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                         child: const Text(
                           "Hemodinâmica",
                           style: TextStyle(
@@ -198,9 +314,32 @@ class AvFuncional extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'Laboratório',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'Hiponatremia\n\nCreatina elevada\n\nUreia elevada\n\nDisfunção hepática\n\nAnemia\n\nHiperuricemia\n\nBNP/NT-proBNP elevados\n\nCitocinas elevadas\n\nCatecolaminas elevadas',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                         child: const Text(
                           "Laboratório",
                           style: TextStyle(
@@ -216,9 +355,32 @@ class AvFuncional extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => showDialog<String>(
+                        context: context,
+                        builder: (context) => AlertDialog(
+                          title: const Text(
+                            'Testes Funcionais',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          content: const Text(
+                            'Teste de Caminhada de 6 minutos\n\nTeste Cardiopulmonar com cxb',
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.black,
+                            ),
+                          ),
+                          actions: <Widget>[
+                            TextButton(
+                              onPressed: () => Navigator.pop(context, 'OK'),
+                              child: const Text('OK'),
+                            ),
+                          ],
+                        ),
+                      ),
                         child: const Text(
                           "Testes Funcionais",
                           style: TextStyle(
