@@ -7,6 +7,7 @@ import 'Classificacao.dart';
 import 'Diagnostico.dart';
 import 'Etiologia.dart';
 import 'prognostico.dart';
+import 'Questoes.dart';
 import 'package:photo_view/photo_view.dart';
 
 
@@ -196,7 +197,12 @@ class _TelaInicialState extends State<TelaInicial> {
                   SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => Questoes1()),
+                          );
+                        },
                         child: const Text(
                           "Questões",
                           style: TextStyle(

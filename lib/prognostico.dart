@@ -1,5 +1,7 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Prognostico extends StatelessWidget{
   const Prognostico ({Key?key}) : super(key:key);
@@ -431,6 +433,11 @@ class EsPrognosticos extends StatelessWidget {
                     width: 350,
                     child: TextButton(
                       onPressed: (){ 
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => HeartFailureScore()),
+                          );
                           },
                           child: const Text(
                           "Heart Failure Survival Score",
@@ -448,9 +455,7 @@ class EsPrognosticos extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => Model(),
                         child: const Text(
                           "Seattle Heart Failure Model",
                           style: TextStyle(
@@ -466,9 +471,7 @@ class EsPrognosticos extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => Index(),
                         child: const Text(
                           "Metabolic Exercise Cardiac Kidney Index",
                           style: TextStyle(
@@ -484,9 +487,7 @@ class EsPrognosticos extends StatelessWidget {
                 SizedBox(
                       width: 350,
                       child: TextButton(
-                        onPressed: () {
-                          
-                        },
+                        onPressed: () => Analise(),
                         child: const Text(
                           "Meta-analysis Global Group in Chronic Heart Failure",
                           style: TextStyle(
@@ -506,4 +507,68 @@ class EsPrognosticos extends StatelessWidget {
     );
   }
 
+}
+
+class HeartFailureScore extends StatelessWidget{
+  const HeartFailureScore ({Key? key}) : super(key:key);
+
+  @override 
+  Widget build(BuildContext context) {
+        return Scaffold(
+          appBar: AppBar(
+            backgroundColor: Colors.blue[900],
+            title: const Text('Edema Periférico'),
+           actions: [
+           IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+          ),
+          body: SafeArea(
+            child: LayoutBuilder(
+              builder: (BuildContext context, BoxConstraints constraints){
+                return Container(
+              decoration: BoxDecoration(
+                color: Colors.white
+              ),
+              child:PhotoView(
+               imageProvider: AssetImage('assets/images/HeartFailure.jpg' ,) ,
+               backgroundDecoration:  BoxDecoration(color: Colors.white),
+),
+                );
+              },
+            ),
+
+          ) //   <--- image
+        );
+    }
+}
+
+Model() async {
+  const url = 'https://depts.washington.edu/shfm/app.php?width=1536&height=864';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Não Conseguiu abrir o link: $url';
+  }
+}
+
+Index() async {
+  const url = 'https://www.cardiologicomonzino.it/en/mecki-score/';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Não Conseguiu abrir o link: $url';
+  }
+}
+
+Analise() async {
+  const url = 'https://www.mdcalc.com/maggic-risk-calculator-heart-failure';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Não Conseguiu abrir o link: $url';
+  }
 }
