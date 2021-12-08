@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:insuficiencia_cardiaca/Questao.dart';
 import 'Tratamento.dart';
 import 'Exames.dart';
 import 'Classificacao.dart';
@@ -200,7 +201,7 @@ class _TelaInicialState extends State<TelaInicial> {
                         onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => Questoes1()),
+                            MaterialPageRoute(builder: (context) => Questao()),
                           );
                         },
                         child: const Text(

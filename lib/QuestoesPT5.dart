@@ -1,106 +1,106 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
-import 'QuestoesPT3.dart';
-import 'Catalogo1.dart';
+import 'package:photo_view/photo_view.dart';
+import 'Catalogo2.dart';
 
-class Questoes17 extends StatefulWidget {
-  const Questoes17({Key? key}) : super(key: key);
-
-  @override
-  State<Questoes17> createState() => Questoes17State();
-}
-class Questoes18 extends StatefulWidget {
-  const Questoes18({Key? key}) : super(key: key);
+class Questoes53 extends StatefulWidget {
+  const Questoes53({Key? key}) : super(key: key);
 
   @override
-  State<Questoes18> createState() => Questoes18State();
+  State<Questoes53> createState() => Questoes53State();
 }
-class Questoes19 extends StatefulWidget {
-  const Questoes19({Key? key}) : super(key: key);
+class Questoes54 extends StatefulWidget {
+  const Questoes54({Key? key}) : super(key: key);
 
   @override
-  State<Questoes19> createState() => Questoes19State();
+  State<Questoes54> createState() => Questoes54State();
 }
-class Questoes20 extends StatefulWidget {
-  const Questoes20({Key? key}) : super(key: key);
+class Questoes55 extends StatefulWidget {
+  const Questoes55({Key? key}) : super(key: key);
 
   @override
-  State<Questoes20> createState() => Questoes20State();
+  State<Questoes55> createState() => Questoes55State();
 }
-class Questoes21 extends StatefulWidget {
-  const Questoes21({Key? key}) : super(key: key);
+class Questoes56 extends StatefulWidget {
+  const Questoes56({Key? key}) : super(key: key);
 
   @override
-  State<Questoes21> createState() => Questoes21State();
+  State<Questoes56> createState() => Questoes56State();
 }
-class Questoes22 extends StatefulWidget {
-  const Questoes22({Key? key}) : super(key: key);
+class Questoes57 extends StatefulWidget {
+  const Questoes57({Key? key}) : super(key: key);
 
   @override
-  State<Questoes22> createState() => Questoes22State();
+  State<Questoes57> createState() => Questoes57State();
 }
-class Questoes23 extends StatefulWidget {
-  const Questoes23({Key? key}) : super(key: key);
+class Questoes58 extends StatefulWidget {
+  const Questoes58({Key? key}) : super(key: key);
 
   @override
-  State<Questoes23> createState() => Questoes23State();
+  State<Questoes58> createState() => Questoes58State();
 }
-class Questoes24 extends StatefulWidget {
-  const Questoes24({Key? key}) : super(key: key);
+class Questoes59 extends StatefulWidget {
+  const Questoes59({Key? key}) : super(key: key);
 
   @override
-  State<Questoes24> createState() => Questoes24State();
+  State<Questoes59> createState() => Questoes59State();
 }
-class Questoes25 extends StatefulWidget {
-  const Questoes25({Key? key}) : super(key: key);
+class Questoes60 extends StatefulWidget {
+  const Questoes60({Key? key}) : super(key: key);
 
   @override
-  State<Questoes25> createState() => Questoes25State();
+  State<Questoes60> createState() => Questoes60State();
 }
-class Questoes26 extends StatefulWidget {
-  const Questoes26({Key? key}) : super(key: key);
+class Questoes61 extends StatefulWidget {
+  const Questoes61({Key? key}) : super(key: key);
 
   @override
-  State<Questoes26> createState() => Questoes26State();
+  State<Questoes61> createState() => Questoes61State();
 }
-class Questoes27 extends StatefulWidget {
-  const Questoes27({Key? key}) : super(key: key);
+class Questoes62 extends StatefulWidget {
+  const Questoes62({Key? key}) : super(key: key);
 
   @override
-  State<Questoes27> createState() => Questoes27State();
+  State<Questoes62> createState() => Questoes62State();
 }
-class Questoes28 extends StatefulWidget {
-  const Questoes28({Key? key}) : super(key: key);
+class Questoes63 extends StatefulWidget {
+  const Questoes63({Key? key}) : super(key: key);
 
   @override
-  State<Questoes28> createState() => Questoes28State();
+  State<Questoes63> createState() => Questoes63State();
 }
-class Questoes29 extends StatefulWidget {
-  const Questoes29({Key? key}) : super(key: key);
+class Questoes64 extends StatefulWidget {
+  const Questoes64({Key? key}) : super(key: key);
 
   @override
-  State<Questoes29> createState() => Questoes29State();
+  State<Questoes64> createState() => Questoes64State();
 }
-class Questoes30 extends StatefulWidget {
-  const Questoes30({Key? key}) : super(key: key);
+class Questoes65 extends StatefulWidget {
+  const Questoes65({Key? key}) : super(key: key);
 
   @override
-  State<Questoes30> createState() => Questoes30State();
+  State<Questoes65> createState() => Questoes65State();
 }
-class Questoes31 extends StatefulWidget {
-  const Questoes31({Key? key}) : super(key: key);
+class Questoes66 extends StatefulWidget {
+  const Questoes66({Key? key}) : super(key: key);
 
   @override
-  State<Questoes31> createState() => Questoes31State();
+  State<Questoes66> createState() => Questoes66State();
 }
-class Questoes32 extends StatefulWidget {
-  const Questoes32({Key? key}) : super(key: key);
+class Questoes67 extends StatefulWidget {
+  const Questoes67({Key? key}) : super(key: key);
 
   @override
-  State<Questoes32> createState() => Questoes32State();
+  State<Questoes67> createState() => Questoes67State();
+}
+class Questoes68 extends StatefulWidget {
+  const Questoes68({Key? key}) : super(key: key);
+
+  @override
+  State<Questoes68> createState() => Questoes68State();
 }
 
-class Questoes17State extends State<Questoes17> {
+class Questoes53State extends State<Questoes53> {
   
   @override
    bool click = false;
@@ -138,14 +138,13 @@ class Questoes17State extends State<Questoes17> {
                   
                    Container(
                     width: 350,
-                    height: 400,
+                    height: 875,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UNESP-2013)\nHomem de 60 anos, com antecedente de insuficiência cardíaca de etiologia hipertensiva, é admitido no pronto-socorro com mal-estar geral, extremidades frias e dispneia. Exame físico: FR 35 mpm; PA 70 x 40 mmHg; FC 115 bpm; SatO2 85% em ar ambiente; crepitações pulmonares finas até metade do tórax bilateralmente e edema +/4+ em membros inferiores. ECG: ritmo sinusal, com sobrecarga de câmaras cardíacas esquerdas. A conduta inicial é iniciar:',
+                    child: Text('(UERJ-2018)\nHomem jovem procura cardiologista relatando quadro compatível com insuficiência cardíaca congestiva, além de passado de episódio de morte súbita abortada por taquicardia ventricular sustentada, vindo em uso de carvedilol e amiodarona, desde então. Seu exame físico mostra turgência jugular patológica, crepitações bibasais, sopro sistólico em foco mitral, ritmo cardíaco em quatro tempos (B3 e B4) e edema dos membros inferiores. Seu eletrocardiograma mostra extrassístoles ventriculares esparsas, hipertrofia atrial esquerda e alterações inespecíficas da repolarização ventricular. A telerradiografia de tórax revela sinais de hipertensão venocapilar pulmonar e aumento de átrio e ventrículo esquerdos. Seus exames laboratoriais são normais, exceto por hiponatremia (Na+ = 130mEq/L). É realizado ecocardiograma transtorácico, que revela trabeculações no ventrículo esquerdo (VE), predominantes nas regiões lateral e apical, associadas à dilatação e disfunção sistólica de VE, com dilatação do anel valvar mitral e regurgitação transvalvar mitral moderada. Tais achados sugerem o diagnóstico de:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -155,7 +154,7 @@ class Questoes17State extends State<Questoes17> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A) noradrenalina em dose baixa, ventilação não invasiva (VNI) e, após recuperação da PA, administrar furosemida.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) displasia arritmogênica de ventrículo direito ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -176,7 +175,159 @@ class Questoes17State extends State<Questoes17> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B) dobutamina, colocar cateter de O2 e, após recuperação da PA, administrar furosemida.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) cardiomiopatia de Takotsubo ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corB=!corB);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('C) miocárdio não compactado ', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corC ? Colors.green : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corC=!corC);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('D) amiloidose cardíaca',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corD=!corD);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                  const SizedBox(height: 20),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: prox ? null : (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Catalogo2()),
+                          );
+                      }
+                      
+                    )),
+                ],
+              ));
+        }),)
+      ),
+    );
+  }
+}
+
+class Questoes54State extends State<Questoes54> {
+  
+  @override
+   bool click = false;
+   bool prox = true;
+   bool corA = false;
+   bool corB = false;
+   bool corC = false;
+   bool corD = false;
+   bool corE = false;
+   bool corProx = true;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Questões'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(child:LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              padding: const EdgeInsets.only(top: 20.0),
+              alignment: Alignment.center,
+              
+              child: Column(
+                children: [
+                  
+                   Container(
+                    width: 350,
+                    height: 875,
+                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                    // ignore: prefer_const_constructors
+                    decoration: BoxDecoration(
+                        color: Colors.blue[900],
+                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Text('(UERJ-2018)\nPaciente de 48 anos segue em acompanhamento no ambulatório de cardiologia, em função de insuficiência cardíaca (IC) com fração de ejeção reduzida decorrente de cardiopatia isquêmica em fase dilatada. Vítima de infarto extenso ocorrido dois anos antes, para o qual não foi possível a realização de intervenção coronária percutânea ou trombólise (contraindicada à época), se mantém com queixas compatíveis com IC em classe funcional III da NYHA, a despeito de excelente adesão ao tratamento com ácido acetilsalicílico, enalapril, carvedilol, espironolactona, furosemida e atorvastatina, esquema que se encontra otimizado em doses. Ao exame, verifica-se PA = 110 x 80mmHg, FC = 68bpm, presença de 3ª bulha de VE, turgência jugular patológica e estertores em bases pulmonares. Seu eletrocardiograma revela padrão de bloqueio de ramo direito de 3º grau, com duração do QRS de 124ms; o ecocardiograma mostra fração de ejeção de 28% e extensa área de acinesia na parede anterior do VE. A estratégia terapêutica para reduzir a taxa de mortalidade esperada para esse paciente é:',
+                      style:TextStyle(color: Colors.white,fontSize: 20)
+                    ),
+                  ),
+                  const SizedBox(height: 50),
+                  SizedBox(
+                    width: 350,
+                    child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('A) implantar dispositivo de assistência ventricular mecânica ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corA ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corA=!corA);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )
+                    ),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('B) indicar colocação de desfibrilador-cardioversor implantável ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -195,7 +346,7 @@ class Questoes17State extends State<Questoes17> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C) levosimendan, nitroglicerina e VNI.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) encaminhar para realização de terapia de ressincronização do VE  ', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -214,7 +365,7 @@ class Questoes17State extends State<Questoes17> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D) dopamina 3 µg/kg/min, cateter de O2 e, após recuperação da PA, iniciar dobutamina.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) proceder com ventriculectomia (remodelamento ventricular cirúrgico)',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -223,25 +374,6 @@ class Questoes17State extends State<Questoes17> {
                         setState(() => click = true);
                         setState(() => prox = false);
                         setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                     const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E) noradrenalina e dobutamina concomitantemente, VNI e, após recuperação da PA, administrar furosemida.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
                       }
                       
@@ -259,7 +391,7 @@ class Questoes17State extends State<Questoes17> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -271,8 +403,7 @@ class Questoes17State extends State<Questoes17> {
     );
   }
 }
-
-class Questoes18State extends State<Questoes18> {
+class Questoes55State extends State<Questoes55> {
   
   @override
    bool click = false;
@@ -310,14 +441,13 @@ class Questoes18State extends State<Questoes18> {
                   
                    Container(
                     width: 350,
-                    height: 475,
+                    height: 350,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UNICAMP-2016)\nHomem de 65 anos tem hipertensão arterial sistêmica e dislipidemia há dez anos. Queixa-se de inchaço nas pernas e falta de ar, que chegou aos mínimos esforços na última semana, tendo que dormir sentado. Exame físico: Agitado, extremidades frias, FR= 32ir/min, FC= 120bat/min, PA= 90/50 mmHg, turgência da jugular, ausculta cardíaca com 3ª bulha, estertores crepitantes até campos médios de ambos os pulmões, fígado palpável a 6cm do rebordo costal direito e edema de membros inferiores até joelhos. Qual o diagnóstico e o que deve ser feito?',
+                    child: Text('(UERJ-2018)\nImigrante de 54 anos, proveniente da África equatorial, apresenta insuficiência cardíaca biventricular. Seu ecocardiograma revela espessamento e obliteração dos ápices ventriculares, espessamento das valvas atrioventriculares e aumento biatrial, sugerindo endomiocardiofibrose. Considerando essa hipótese diagnóstica, o paciente pode ter passado por uma longa fase de:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -327,159 +457,7 @@ class Questoes18State extends State<Questoes18> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A) Insuficiência cardíaca perfil úmido e frio, diurético de alça via endovenosa, ventilação não invasiva e droga vasoativa.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corA ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corA=!corA);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )
-                    ),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('B) Insuficiência cardíaca perfil seco e quente, uso de vasodilatadores e ventilação não invasiva.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corB=!corB);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('C) Insuficiência cardíaca aguda, droga inotrópica positiva e oxigênio.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corC=!corC);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('D) Insuficiência cardíaca crônica, ventilação não invasiva, vasodilatador e beta-bloqueador.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                  const SizedBox(height: 20),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: prox ? null : (){
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
-                          );
-                      }
-                      
-                    )),
-                ],
-              ));
-        }),)
-      ),
-    );
-  }
-}
-class Questoes19State extends State<Questoes19> {
-  
-  @override
-   bool click = false;
-   bool prox = true;
-   bool corA = false;
-   bool corB = false;
-   bool corC = false;
-   bool corD = false;
-   bool corE = false;
-   bool corProx = true;
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Questões'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 20.0),
-              alignment: Alignment.center,
-              
-              child: Column(
-                children: [
-                  
-                   Container(
-                    width: 350,
-                    height: 700,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2016)\nEm relação ao tratamento da insuficiência cardíaca com fração de ejeção reduzida em populações especiais e nos pacientes que permanecem com sintomas, considere as afirmativas abaixo:\n1.A combinação de hidralazina com nitrato é recomendada em associação com betabloqueadores em pacientes afro-americanos com classe NYHA II a IV.\n2.A combinação de hidralazina com nitrato pode ser utilizada em associação à terapia com betabloqueadores e inibidores da enzima da conversão da angiotensina nos pacientes que permanecem com sintomas.\n3.Nos pacientes com sintomas persistentes, pode ser utilizada a terapia tripla com inibidores da enzima de conversão da angiotensina, bloqueadores dos receptores da angiotensina e antagonistas da aldosterona.\n\nAssinale a alternativa correta.',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
-                  ),
-                  const SizedBox(height: 50),
-                  SizedBox(
-                    width: 350,
-                    child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('A)As afirmativas 1, 2 e 3 são verdadeiras.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) exposição a arsênico ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -500,178 +478,7 @@ class Questoes19State extends State<Questoes19> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B)Somente as afirmativas 1 e 2 são verdadeiras.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corB=!corB);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('C)Somente as afirmativas 2 e 3 são verdadeiras.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corC=!corC);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('D)Somente as afirmativas 1 e 3 são verdadeiras.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)Somente a afirmativa 1 é verdadeira.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                  const SizedBox(height: 20),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: prox ? null : (){
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
-                          );
-                      }
-                      
-                    )),
-                ],
-              ));
-        }),)
-      ),
-    );
-  }
-}
-class Questoes20State extends State<Questoes20> {
-  
-  @override
-   bool click = false;
-   bool prox = true;
-   bool corA = false;
-   bool corB = false;
-   bool corC = false;
-   bool corD = false;
-   bool corE = false;
-   bool corProx = true;
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Questões'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 20.0),
-              alignment: Alignment.center,
-              
-              child: Column(
-                children: [
-                  
-                   Container(
-                    width: 350,
-                    height: 750,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2015)\nCom relação ao tratamento da insuficiência cardíaca, identifique afirmativas abaixo como verdadeiras (V) ou falsas (F):\n( ) A associação de IECA (inibidor da enzima de conversão do angiotensinogênio), BRA (bloqueador do receptor de angiotensina) e antagonista de aldosterona é indicada especialmente nos casos com insuficiência renal crônica.\n( ) O tratamento otimizado deve incluir betabloqueadores, iECA (inibidor da enzima de conversão do angiotensinogênio) ou antagonistas dos receptores da angiotensina, desde que não haja contraindicações.\n( ) Os antagonistas de aldosterona devem ser usados criteriosamente, pelo seu risco de causar hipocalemia.\n( ) A digoxina é indicada para pacientes com disfunção sintomática do ventrículo esquerdo e com fibrilação atrial.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo:',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
-                  ),
-                  const SizedBox(height: 50),
-                  SizedBox(
-                    width: 350,
-                    child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('A)F – V – V – F.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corA ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corA=!corA);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )
-                    ),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('B)V – F – V – V.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) terapia contra malária ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -690,9 +497,9 @@ class Questoes20State extends State<Questoes20> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C)V – V – F – F.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) síndrome hipereosinofílica', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.red : Colors.blue[900],
+                        backgroundColor: corC ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -709,7 +516,7 @@ class Questoes20State extends State<Questoes20> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D)F – F – V – V.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) carência proteico-calórica',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -718,25 +525,6 @@ class Questoes20State extends State<Questoes20> {
                         setState(() => click = true);
                         setState(() => prox = false);
                         setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)F – V – F – V.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
                       }
                       
@@ -754,7 +542,7 @@ class Questoes20State extends State<Questoes20> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -766,178 +554,7 @@ class Questoes20State extends State<Questoes20> {
     );
   }
 }
-class Questoes21State extends State<Questoes21> {
-  
-  @override
-   bool click = false;
-   bool prox = true;
-   bool corA = false;
-   bool corB = false;
-   bool corC = false;
-   bool corD = false;
-   bool corE = false;
-   bool corProx = true;
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Questões'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 20.0),
-              alignment: Alignment.center,
-              
-              child: Column(
-                children: [
-                  
-                   Container(
-                    width: 350,
-                    height: 375,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2015)\nPaciente do sexo masculino, com 58 anos de idade, iniciou há quatro dias com dispneia e palpitação durante atividades físicas habituais. É diabético em uso de metformina após o jantar. Realizou RX de tórax, cujo resultado mostrou aumento da área cardíaca. Foi aventada hipótese diagnóstica de insuficiência cardíaca. Qual a classe funcional desse paciente pela classificação da New York Heart Association (NYHA)?',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
-                  ),
-                  const SizedBox(height: 50),
-                  SizedBox(
-                    width: 350,
-                    child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('A)Classe III.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corA ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corA=!corA);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )
-                    ),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('B)Classe I para classe II.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corB=!corB);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('C)Classe IV.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corC=!corC);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('D)Classe II para classe III.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)Classe II.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                  const SizedBox(height: 20),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: prox ? null : (){
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
-                          );
-                      }
-                      
-                    )),
-                ],
-              ));
-        }),)
-      ),
-    );
-  }
-}
-class Questoes22State extends State<Questoes22> {
+class Questoes56State extends State<Questoes56> {
   
   @override
    bool click = false;
@@ -981,8 +598,7 @@ class Questoes22State extends State<Questoes22> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2014)\nEm relação à fisiopatologia da insuficiência cardíaca (IC), identifique como verdadeiras (V) ou falsas (F) as seguintes afirmativas:\n( ) A fração de ejeção (FE) é a medida mais utilizada para estimar a função sistólica do ventrículo esquerdo (VE) e é obtida pela fórmula: FE = (Dimensão diastólica do VE – Dimensão sistólica do VE) / Dimensão diastólica do VE.\n( ) Pode haver casos de IC com FE preservada, como na cardiopatia hipertensiva, amiloidose e fibrose isquêmica.\n( ) A pré-carga caracteriza-se pela pressão ou volume diastólicos finais, que são indicadores indiretos do comprimento diastólico final da fibra.\n( ) A medida mais precisa da pós-carga é o estresse parietal sistólico.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo:',
+                    child: Text('(UERJ-2018)\nPaciente de 55 anos, tabagista, em tratamento irregular para hipertensão arterial sistêmica e hipercolesterolemia, encontra-se internado no décimo dia após um infarto do miocárdio anterior extenso. Na admissão hospitalar, não estando disponível estratégias de intervenção coronária percutânea, foi procedida terapia trombolítica (rtPA), mas sem critérios de reperfusão. O paciente evoluiu com sinais e sintomas compatíveis com insuficiência ventricular esquerda (classe III da NYHA), recebendo tratamento indicado. Ele continua se sentindo levemente dispneico, com estertores crepitantes em bases pulmonares e infrequentes extrassístoles ventriculares identificáveis no monitor cardíaco. Um ecocardiograma transtorácico revela que a fração de ejeção de VE é de 38%. Entre as intervenções terapêuticas consideradas no caso, a única INCAPAZ de melhorar a taxa de mortalidade do paciente é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -992,7 +608,7 @@ class Questoes22State extends State<Questoes22> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A)V – V – F – V.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) uso do antagonista de mineralocorticoide eplerenona',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1013,178 +629,7 @@ class Questoes22State extends State<Questoes22> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B)F – F – V – V.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corB=!corB);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('C)F – V – V – V.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corC=!corC);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('D)V – V – V – F.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)V – F – F – F.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                  const SizedBox(height: 20),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: prox ? null : (){
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
-                          );
-                      }
-                      
-                    )),
-                ],
-              ));
-        }),)
-      ),
-    );
-  }
-}
-class Questoes23State extends State<Questoes23> {
-  
-  @override
-   bool click = false;
-   bool prox = true;
-   bool corA = false;
-   bool corB = false;
-   bool corC = false;
-   bool corD = false;
-   bool corE = false;
-   bool corProx = true;
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Questões'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 20.0),
-              alignment: Alignment.center,
-              
-              child: Column(
-                children: [
-                  
-                   Container(
-                    width: 350,
-                    height: 275,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2014)\nA insuficiência cardíaca é um grande problema mundial que afeta mais de 20 milhões de indivíduos. Sua prevalência global na população adulta dos países desenvolvidos é de 2%. Com relação ao tratamento da insuficiência cardíaca crônica com fração de ejeção abaixo de 40%, é correto afirmar:',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
-                  ),
-                  const SizedBox(height: 50),
-                  SizedBox(
-                    width: 350,
-                    child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('A)O diurético furosemida pode ser utilizado na dose máxima diária de 600 mg.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corA ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corA=!corA);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )
-                    ),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('B)Os bloqueadores dos receptores beta aprovados para essa condição clínica são: carvedilol, bisoprolol e succinato de metoprolol.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) colocação de cardioversor-desfibrilador implantável',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1203,7 +648,7 @@ class Questoes23State extends State<Questoes23> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C)A dose diária dos antagonistas de aldosterona indicada é de 100 mg.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) uso do betabloqueador succinato de metoprolol ', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1222,7 +667,7 @@ class Questoes23State extends State<Questoes23> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D)Não há indicação para utilização dos inibidores da enzima de conversão da angiotensina em pacientes assintomáticos.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) administração do inibidor da ECA lisinopril',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1231,25 +676,6 @@ class Questoes23State extends State<Questoes23> {
                         setState(() => click = true);
                         setState(() => prox = false);
                         setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)A losartana deve ser utilizada na dose inicial de 25 mg duas vezes ao dia.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
                       }
                       
@@ -1267,7 +693,7 @@ class Questoes23State extends State<Questoes23> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -1279,7 +705,7 @@ class Questoes23State extends State<Questoes23> {
     );
   }
 }
-class Questoes24State extends State<Questoes24> {
+class Questoes57State extends State<Questoes57> {
   
   @override
    bool click = false;
@@ -1317,14 +743,13 @@ class Questoes24State extends State<Questoes24> {
                   
                    Container(
                     width: 350,
-                    height: 175,
+                    height: 200,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2013)\nPaciente evolui com insuficiência cardíaca após infarto agudo do miocárdio. Seu ECG revela ondas Q e supradesnível de segmento ST em V4, V5 e V6. Em relação ao seu ecocardiograma, é correto afirmar:',
+                    child: Text('(UERJ-2018)\nIdosa de 60 anos é submetida à toracocentese diagnóstica para avaliar quadro de derrame pleural. Um resultado laboratorial obtido da análise do líquido pleural que seria virtualmente diagnóstico da condição correlacionada é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1334,7 +759,7 @@ class Questoes24State extends State<Questoes24> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A)A avaliação da função sistólica global do ventrículo esquerdo (VE) seria melhor feita com os dados obtidos pelo ecocardiograma unidimensional.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) concentração de glicose < 30mgdL – empiema pleural',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1355,7 +780,7 @@ class Questoes24State extends State<Questoes24> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B)A quantificação da fração de ejeção do VE pelo método de Simpson ao ecocardiograma bidimensional possivelmente mostraria valores superiores aos obtidos pelo ecocardiograma unidimensional.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) concentração de LDH > 200U/L – linfoma de cavidade serosa ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1374,7 +799,7 @@ class Questoes24State extends State<Questoes24> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C)A disfunção diastólica com padrão restritivo revelaria comprometimento maior da função diastólica do que o padrão de relaxamento alterado.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) dosagem de NT-ProBNP > 1500pg/mL – insuficiência cardíaca', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1393,7 +818,7 @@ class Questoes24State extends State<Questoes24> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D)A avaliação da função sistólica do VE seria preferencialmente feita pelo Doppler tecidual.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) dosagem de amilase > 150U/L – neoplasia maligna metastática',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1402,25 +827,6 @@ class Questoes24State extends State<Questoes24> {
                         setState(() => click = true);
                         setState(() => prox = false);
                         setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)O achado de um refluxo mitral permitiria a quantificação da hipertensão pulmonar.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
                       }
                       
@@ -1438,7 +844,7 @@ class Questoes24State extends State<Questoes24> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -1450,7 +856,7 @@ class Questoes24State extends State<Questoes24> {
     );
   }
 }
-class Questoes25State extends State<Questoes25> {
+class Questoes58State extends State<Questoes58> {
   
   @override
    bool click = false;
@@ -1488,14 +894,13 @@ class Questoes25State extends State<Questoes25> {
                   
                    Container(
                     width: 350,
-                    height: 100,
+                    height: 475,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2013)\nSobre a insuficiência cardíaca crônica, é correto afirmar:',
+                    child: Text('(AMRIGS-2016)\n Analise as seguintes assertivas em relação aos achados da ressonância magnética na avaliação de pacientes com insuficiência cardíaca:\nI.	O realce tardio com gadolínio pode ocorrer em pacientes com diagnóstico clínico de miocardiopatia dilatada. \nII.	 A presença de infiltração gordurosa é um achado específico de displasia arritmogênica do ventrículo direito. \nIII.	 O realce tardio com gadolínio indica pior prognóstico em pacientes com miocardiopatia hipertrófica.\n Quais estão corretas?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1505,7 +910,7 @@ class Questoes25State extends State<Questoes25> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A)A classificação funcional proposta pela New York Heart Association, baseada na intensidade dos sintomas, apresenta correlação pobre com a melhor proposta terapêutica.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) Apenas I.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1526,9 +931,9 @@ class Questoes25State extends State<Questoes25> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B)A classificação por estágios, baseada na progressão da doença, possibilita uma compreensão evolutiva da doença, permitindo a atuação preventiva, terapêutica ou para procedimentos especializados e cuidados paliativos.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) Apenas I e II.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.green : Colors.blue[900],
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -1545,9 +950,9 @@ class Questoes25State extends State<Questoes25> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C)A definição de sua etiologia permitirá um melhor prognóstico, independentemente do tratamento realizado de acordo com a sua classificação funcional.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text(' C) Apenas I e III.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.red : Colors.blue[900],
+                        backgroundColor: corC ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -1564,7 +969,7 @@ class Questoes25State extends State<Questoes25> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D)A determinação dos níveis do peptídeo natriurético tipo B tornou o seu tratamento mais preciso em relação à avaliação clínica pela classificação funcional proposta pela New York Heart Association.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) Apenas II e III. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1583,7 +988,7 @@ class Questoes25State extends State<Questoes25> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('E)O peptídeo natriurético tipo B não tem se mostrado um preditor prognóstico para reinternações e/ou morte nos pacientes com insuficiência cardíaca.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('E) I, II e III.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corE ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1609,7 +1014,7 @@ class Questoes25State extends State<Questoes25> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -1621,7 +1026,177 @@ class Questoes25State extends State<Questoes25> {
     );
   }
 }
-class Questoes26State extends State<Questoes26> {
+class Questoes59State extends State<Questoes59> {
+  
+  @override
+   bool click = false;
+   bool prox = true;
+   bool corA = false;
+   bool corB = false;
+   bool corC = false;
+   bool corD = false;
+   bool corE = false;
+   bool corProx = true;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Questões'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(child:LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              padding: const EdgeInsets.only(top: 20.0),
+              alignment: Alignment.center,
+              
+              child: Column(
+                children: [
+                  
+                   Container(
+                    width: 350,
+                    height: 300,
+                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                    // ignore: prefer_const_constructors
+                    decoration: BoxDecoration(
+                        color: Colors.blue[900],
+                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Text('(AMRIGS-2016)\nEm um paciente que apresenta Infarto Agudo do Miocárdio (IAM) complicado com insuficiência mitral aguda por ruptura de músculo papilar, com sinais clínicos de insuficiência cardíaca e hipotensão, qual a melhor associação de terapias para a otimização da sua condição clínica até que possa ser levado à cirurgia cardíaca?',
+                      style:TextStyle(color: Colors.white,fontSize: 20)
+                    ),
+                  ),
+                  const SizedBox(height: 50),
+                  SizedBox(
+                    width: 350,
+                    child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('A) Captopril, furosemida e metoprolol. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corA ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corA=!corA);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )
+                    ),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('B) Implante de balão intra-aórtico de contrapulsação, nitroprussiato de sódio e dobutamina. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corB ? Colors.green : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corB=!corB);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('C) Captopril, noradrenalina e digoxina.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corC ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corC=!corC);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('D) Implante de balão intra-aórtico de contrapulsação, nitroprussiato de sódio e digoxina.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corD=!corD);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                    const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('E) Captopril, noradrenalina e dobutamina.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corE ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corE=!corE);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                  const SizedBox(height: 20),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: prox ? null : (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Catalogo2()),
+                          );
+                      }
+                      
+                    )),
+                ],
+              ));
+        }),)
+      ),
+    );
+  }
+}
+class Questoes60State extends State<Questoes60> {
   
   @override
    bool click = false;
@@ -1665,8 +1240,7 @@ class Questoes26State extends State<Questoes26> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2013)\nEm relação ao tratamento farmacológico da insuficiência cardíaca, é correto afirmar:',
+                    child: Text('(AMRIGS-2016)\nSobre o tratamento da insuficiência cardíaca, é correto afirmar que:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1676,7 +1250,7 @@ class Questoes26State extends State<Questoes26> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A)Os mecanismos de ação dos inibidores da enzima de conversão da angiotensina são complexos e seus efeitos cardiovasculares resultam na redução da bradicinina e da angiotensina II.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) O uso de fármacos que bloqueiam a atividade beta-adrenérgica está contraindicado pelo seu efeito depressor na atividade miocárdica no longo prazo. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1697,7 +1271,7 @@ class Questoes26State extends State<Questoes26> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B)Os betabloqueadores, em decorrência de sua ação no antagonismo da atividade simpática, permitem uma melhora clínica e na sobrevida dos pacientes com insuficiência cardíaca, apesar de não melhorar a função ventricular.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) Não há benefício em bloquear a atividade do Sistema Renina-Angiotensina-Aldosterona (SRAA), pois ele atua no sentido de compensar o baixo débito cardíaco. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1716,7 +1290,7 @@ class Questoes26State extends State<Questoes26> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C)Os bloqueadores dos receptores da angiotensina II apresentam uma melhor resposta clínica, devido ao bloqueio na via final do sistema renina-angiotensina-aldosterona, tornando esse bloqueio mais efetivo, e são preferíveis aos inibidores da enzima de conversão da angiotensina, cursando com uma maior sobrevida aos pacientes.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) Os diuréticos não devem ser usados, pois reduzem a retenção hídrica promovida pelos sistemas adaptativos (SRAA e sistema nervoso simpático).', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1735,7 +1309,7 @@ class Questoes26State extends State<Questoes26> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D)Os antagonistas da aldosterona promovem uma redução na síntese e depósito de colágeno no músculo cardíaco, reduzindo o grau de fibrose, melhorando a função miocárdica.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) A hiperatividade do SRAA e a do sistema nervoso simpático contribuem para a progressão da insuficiência cardíaca. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1754,7 +1328,7 @@ class Questoes26State extends State<Questoes26> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('E)O uso continuado dos diuréticos, contribuindo para um melhor controle do estado volêmico, tem sua importância estabelecida por uma maior sobrevida dos pacientes com insuficiência cardíaca.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('E) O princípio básico do tratamento da insuficiência cardíaca está no uso de fármacos que aumentem a força de contração miocárdica e melhorem o débito cardíaco.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corE ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1780,7 +1354,7 @@ class Questoes26State extends State<Questoes26> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -1792,7 +1366,7 @@ class Questoes26State extends State<Questoes26> {
     );
   }
 }
-class Questoes27State extends State<Questoes27> {
+class Questoes61State extends State<Questoes61> {
   
   @override
    bool click = false;
@@ -1830,14 +1404,13 @@ class Questoes27State extends State<Questoes27> {
                   
                    Container(
                     width: 350,
-                    height: 175,
+                    height: 125,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFPR-2012)\nA insuficiência cardíaca cursa com a diminuição do débito cardíaco, que leva à ativação dos sistemas neuro-hormonais. NÃO se relaciona com a fisiopatologia da insuficiência cardíaca:',
+                    child: Text('(AMRIGS-2016)\nQuanto à Insuficiência Cardíaca (ICC), assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1847,7 +1420,177 @@ class Questoes27State extends State<Questoes27> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A)a liberação de renina, aumento de angiotensina II e redução de aldosterona em decorrência da estimulação simpática dos rins.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) Betabloqueadores pioram a evolução em razão do seu efeito inotrópico negativo.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corA ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corA=!corA);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )
+                    ),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('B) A espironolactona aumenta a sobrevida em pacientes de todas as classes funcionais.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corB=!corB);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('C) Inibidores da ECA deixam de ser uma opção em pacientes com creatinina >3,0 mg/dL. ', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corC ? Colors.green : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corC=!corC);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('D) Em pacientes com ICC e diabetes, o carvedilol é contraindicado devido ao risco de hipoglicemia.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corD=!corD);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                    const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('E) A digoxina deve ser usada objetivando uma concentração sérica de 1,5-2,0 ng/mL.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corE ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corE=!corE);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                  const SizedBox(height: 20),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: prox ? null : (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Catalogo2()),
+                          );
+                      }
+                      
+                    )),
+                ],
+              ));
+        }),)
+      ),
+    );
+  }
+}
+class Questoes62State extends State<Questoes62> {
+  
+  @override
+   bool click = false;
+   bool prox = true;
+   bool corA = false;
+   bool corB = false;
+   bool corC = false;
+   bool corD = false;
+   bool corE = false;
+   bool corProx = true;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Questões'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(child:LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              padding: const EdgeInsets.only(top: 20.0),
+              alignment: Alignment.center,
+              
+              child: Column(
+                children: [
+                  
+                   Container(
+                    width: 350,
+                    height: 375,
+                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                    // ignore: prefer_const_constructors
+                    decoration: BoxDecoration(
+                        color: Colors.blue[900],
+                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Text('(FMUSP-2021)\nPaciente sexo masculino, 35 anos, com miocardiopatia chagásica em classe funcional IV persistente, em fila de transplante cardíaco há 4 meses. Há 1 semana internou por insuficiência cardíaca descompensada em perfil hemodinâmico frio e úmido sendo necessário o uso de inotrópico. No momento encontra-se em UTI em uso de dobutamina 15 mcg/kg/min. Sobre a condição deste paciente na fila de transplante é correto afirmar que: ',
+                      style:TextStyle(color: Colors.white,fontSize: 20)
+                    ),
+                  ),
+                  const SizedBox(height: 50),
+                  SizedBox(
+                    width: 350,
+                    child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('A) A necessidade de uso de inotrópico é motivo suficiente para priorização do paciente na fila de transplante.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1868,7 +1611,7 @@ class Questoes27State extends State<Questoes27> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B)a descarga dos barorreceptores de alta pressão localizados no ventrículo esquerdo, seio carotídeo e arco aórtico.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) Deve permanecer na mesma posição na fila de transplante.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1887,7 +1630,7 @@ class Questoes27State extends State<Questoes27> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C)a liberação de arginina-vasopressina ou hormônio antidiurético pela hipófise posterior.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) Por apresentar-se em classe funcional IV persistente, o paciente já deveria ter sido priorizado na fila de transplante há 4 meses atrás.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1906,7 +1649,7 @@ class Questoes27State extends State<Questoes27> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D)a ativação das vias eferentes do sistema nervoso simpático.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) Sua posição na fila de transplante deve ser alterada para prioridade somente se necessitar uso de dispositivo de assistência circulatória mecânica.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corD ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1915,25 +1658,6 @@ class Questoes27State extends State<Questoes27> {
                         setState(() => click = true);
                         setState(() => prox = false);
                         setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E)a retenção de sódio, retenção de água e vasoconstrição periférica.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
                       }
                       
@@ -1951,7 +1675,7 @@ class Questoes27State extends State<Questoes27> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -1963,7 +1687,7 @@ class Questoes27State extends State<Questoes27> {
     );
   }
 }
-class Questoes28State extends State<Questoes28> {
+class Questoes63State extends State<Questoes63> {
   
   @override
    bool click = false;
@@ -2001,14 +1725,13 @@ class Questoes28State extends State<Questoes28> {
                   
                    Container(
                     width: 350,
-                    height: 325,
+                    height: 725,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFMG-2014)\nMulher de 62 anos, hipertensa de longa data, em uso de enalapril e hidroclorotiazida, evolui com fadiga, dispnéia aos moderados esforços e tosse noturna uma a três horas após deitar-se. Ecocardiograma evidencia hipocinesia difusa do ventrículo esquerdo e fração de ejeção de 39%. Em relação aos sintomas relatados, assinale a afirmativa ERRADA:',
+                    child: Text('(FMUSP-2021)\nPaciente de 53 anos, sexo masculino, transplante cardíaco há 10 meses por miocardiopatia isquêmica, apresentando sintomas e sinais de insuficiência cardíaca nos últimos 5 dias. Em uso de ciclosporina 100 mg 2x/d, micofenolato sódico 360 mg 2x/d, prednisona 5 mg. Nível sérico de ciclosporina mais recente de 223 mg/dL. Ecocardiograma atual com FEVE 35%, hipocinesia difusa, hipertrofia ventricular discreta, disfunção discreta de ventrículo direito. Realizada biópsia endomiocárdica que demonstrou infiltrado linfocitário multifocal com dois focos de agressão de fibras, sem sinais histológicos de rejeição mediada por anticorpos, porém, imunofluorescência para C4d positiva difusamente em capilares. Com base nos dados acima, que alternativa abrange a classificação de rejeição celular aguda e de rejeição mediada por anticorpos, segundo a ISHLT, e o tratamento mais adequado para o paciente? ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2018,7 +1741,7 @@ class Questoes28State extends State<Questoes28> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A) A congestão pulmonar é o mecanismo mais importante para o surgimento da dispnéia, principalmente pelo acúmulo de fluido intersticial ou intra-alveolar',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) 3R, pAMR0. Pulso com metilprednisolona; timoglobulina; troca de ciclosporina por tacrolimus. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2039,9 +1762,9 @@ class Questoes28State extends State<Questoes28> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B) A dispnéia torna-se mais frequente à medida que surge a falência do ventrículo direito e a regurgitação tricúspide',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) 2R, pAMR0. Pulso com metilprednisolona; timoglobulina; troca de ciclosporina por tacrolimus. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.green : Colors.blue[900],
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -2058,7 +1781,7 @@ class Questoes28State extends State<Questoes28> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C) A fadiga está associada à diminuição do débito cardíaco, mas outros fatores tais como anormalidades musculoesqueléticas e anemia devem ser considerados', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) 3R, pAMR1-I+. Pulso com metilprednisolona; timoglobulina; Rituximab.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2077,9 +1800,9 @@ class Questoes28State extends State<Questoes28> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D) A tosse noturna está relacionada ao aumento da pressão nas artérias	brônquicas e ao edema pulmonar que geram compressão e resistência das vias aéreas, respectivamente',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) 2R, pAMR1-I+. Pulso com metilprednisolona; timoglobulina; plasmaférese; imunoglobulina; Rituximab.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        backgroundColor: corD ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -2103,7 +1826,7 @@ class Questoes28State extends State<Questoes28> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -2115,7 +1838,7 @@ class Questoes28State extends State<Questoes28> {
     );
   }
 }
-class Questoes29State extends State<Questoes29> {
+class Questoes64State extends State<Questoes64> {
   
   @override
    bool click = false;
@@ -2153,14 +1876,13 @@ class Questoes29State extends State<Questoes29> {
                   
                    Container(
                     width: 350,
-                    height: 525,
+                    height: 850,
                     padding: EdgeInsets.only(left: 20, right: 20, top: 10),
                     // ignore: prefer_const_constructors
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(UFMG-2011)\nHomem de 55 anos, sabidamente portador de insuficiência cardíaca congestiva (ICC) com fração de ejeção estimada em 38%, foi hospitalizado com relato de dispnéia e edema de membros inferiores de evolução progressiva durante os últimos 20 dias. Após quatro dias de internação, houve compensação do quadro. No momento, ele se encontra assintomático, com PA= 125/80mmHg, FC= 78bpm e vai receber alta hospitalar. Níveis séricos dos íons, da uréia e da creatinina estão normais. Há cerca de três anos, faz uso regular de aspirina e sinvastatina. Dentre as opções abaixo, qual é o tratamento adicional mais adequado a ser prescrito? ',
+                    child: Text('(FMUSP-2021)\nPaciente masculino, 61 anos, diabético, hipertenso com miocardiopatia isquêmica, revascularizado há 5 anos, portador de CDI por prevenção primária, esteve internado algumas vezes por insuficiência cardíaca descompensada, necessitando uso de furosemida endovenosa apresenta-se em consulta com dispneia aos moderados para mínimos esforços, ortopneia, porém sem edemas de membros inferiores ou aumento de volume abdominal. Em uso de sacubitril/valsartana dose intermediária; carvedilol 50 mg/dia; espironolactona 25 mg/dia; furosemida 120 mg/dia; atorvastatina; aspirina e linagliptina. Ao exame físico: PA 90x60 mmHg, FC 76 bpm Estertores crepitantes bibasais, sopro sistólico mitral ++/6+, sem edemas de membros inferiores. LAB: U62 / Creat 2,0 / TFG 35 / Hb 15 / Na 138 / Hbgli 6,8 / NTproBNP 1800. ECG: ritmo sinusal, FC 78, QRS 110ms. ECO: FEVE 20%, DDVE 83, DSVE 75, AE 45, Disfunção moderada do VD PSAP 58, Disfunção diastólica importante Ergoespiro: VO2 19 Slope VE/VCO2 28. Sobre o caso acima, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2170,7 +1892,7 @@ class Questoes29State extends State<Questoes29> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A) Digoxina e furosemida; a seguir, adicionar hidralazina',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A) Os dados eletrocardiográficos e ecocardiográficos sugerem potencial boa resposta à terapia de ressincronização.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2191,7 +1913,7 @@ class Questoes29State extends State<Questoes29> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B) Digoxina; a seguir, adicionar espironolactona',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) A presença de hipertensão pulmonar pelo ecocardiograma contraindica o transplante cardíaco neste caso.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2210,9 +1932,9 @@ class Questoes29State extends State<Questoes29> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C) Inibidor da enzima conversora de angiotensina; a seguir, adicionar beta-bloqueador (carvedilol ou metoprolol)', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) Apesar da importante disfunção sistólica, não há dados suficientes para classificar este paciente com IC avançada uma vez que tem VO2 pico e Slope normais.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.green : Colors.blue[900],
+                        backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -2229,9 +1951,9 @@ class Questoes29State extends State<Questoes29> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D) Nitrato, furosemida; a seguir, adicionar beta-bloqueador (carvedilol ou metoprolol) ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) A presença de alteração da função renal indica necessidade de avaliação estrutural e proteinúria para definir indicação para transplante cardíaco isolado ou transplante duplo.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        backgroundColor: corD ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -2255,7 +1977,7 @@ class Questoes29State extends State<Questoes29> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       
@@ -2267,7 +1989,7 @@ class Questoes29State extends State<Questoes29> {
     );
   }
 }
-class Questoes30State extends State<Questoes30> {
+class Questoes65State extends State<Questoes65> {
   
   @override
    bool click = false;
@@ -2311,8 +2033,7 @@ class Questoes30State extends State<Questoes30> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(AMRIGS-2015)\nSobre a Insuficiência Cardíaca Congestiva (ICC), assinale a alternativa correta. ',
+                    child: Text('(SESA/ES-2013)\nAcerca de insuficiência cardíaca congestiva, assinale a opção correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2322,7 +2043,7 @@ class Questoes30State extends State<Questoes30> {
                     child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('A) Betabloqueadores pioram a evolução, em razão do seu efeito inotrópico negativo.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('A)	O uso de neseritide no tratamento de insuficiência cardíaca congestiva aguda tem se mostrado promissor; porém, em longo prazo, seu efeito sobre a mortalidade ainda é inferior ao uso de levosimendan. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corA ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2343,7 +2064,7 @@ class Questoes30State extends State<Questoes30> {
                   child: OutlinedButton(
                       child:Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('B) Espironolactona aumenta a sobrevida em pacientes de todas as classes funcionais.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('B) Na insuficiência cardíaca congestiva, tanto o peptídeo natriurético atrial (ANP) quanto o peptídeo natriurético cerebral (BNP) se elevam, sendo que o ANP se correlaciona melhor com o grau da insuficiência cardíaca em evolução. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corB ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2362,178 +2083,7 @@ class Questoes30State extends State<Questoes30> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('C) Inibidores da ECA deixam de ser uma opção em pacientes com creatinina >3,0 mg/dL.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corC=!corC);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('D) Em pacientes com ICC e diabetes, o carvedilol é contraindicado devido à hipoglicemia. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E) Digoxina deve ser usada objetivando uma concentração sérica de 1,5 – 2,0 ng/mL.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                  const SizedBox(height: 20),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: prox ? null : (){
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
-                          );
-                      }
-                      
-                    )),
-                ],
-              ));
-        }),)
-      ),
-    );
-  }
-}
-class Questoes31State extends State<Questoes31> {
-  
-  @override
-   bool click = false;
-   bool prox = true;
-   bool corA = false;
-   bool corB = false;
-   bool corC = false;
-   bool corD = false;
-   bool corE = false;
-   bool corProx = true;
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Questões'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 20.0),
-              alignment: Alignment.center,
-              
-              child: Column(
-                children: [
-                  
-                   Container(
-                    width: 350,
-                    height: 125,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(AMRIGS-2015)\nSão causas de insuficiência cardíaca no recém-nascido e lactente jovem:',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
-                  ),
-                  const SizedBox(height: 50),
-                  SizedBox(
-                    width: 350,
-                    child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('A) Estenose valvar pulmonar e persistência de veia cava superior esquerda.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corA ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corA=!corA);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )
-                    ),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('B) Comunicação interventricular e truncus arteriosus.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.green : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corB=!corB);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('C) Estenose valvar pulmonar e tetralogia de Fallot.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                        child: Text('C) Ocitocinas pró-inflamatórias podem ser detectadas precocemente em pacientes com insuficiência cardíaca congestiva, mesmo antes de ocorrer a ativação neuro-hormonal da doença. ', style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corC ? Colors.red : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2552,9 +2102,9 @@ class Questoes31State extends State<Questoes31> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('D) Transposição dos grandes vasos e comunicação interatrial.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('D) O aumento da variabilidade da frequência cardíaca é fator eletrocardiográfico relacionado à pior evolução clínica da insuficiência cardíaca congestiva. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        backgroundColor: corD ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
                       ),
                       onPressed: click ? null : (){
@@ -2571,178 +2121,7 @@ class Questoes31State extends State<Questoes31> {
                   child: OutlinedButton(
                       child: Align(
                         alignment: Alignment.centerLeft,
-                      child: Text('E) Anomalia de Ebstein e persistência de veia cava superior esquerda.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corE ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corE=!corE);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                  const SizedBox(height: 20),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: prox ? null : (){
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
-                          );
-                      }
-                      
-                    )),
-                ],
-              ));
-        }),)
-      ),
-    );
-  }
-}
-class Questoes32State extends State<Questoes32> {
-  
-  @override
-   bool click = false;
-   bool prox = true;
-   bool corA = false;
-   bool corB = false;
-   bool corC = false;
-   bool corD = false;
-   bool corE = false;
-   bool corProx = true;
-
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Questões'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 20.0),
-              alignment: Alignment.center,
-              
-              child: Column(
-                children: [
-                  
-                   Container(
-                    width: 350,
-                    height: 275,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text(
-                      '(AMRIGS-2015)\nSão achados da fase aguda de insuficiência cardíaca:\nI. Aumento da frequência cardíaca.\nII. Aumento da contratilidade miocárdica.\nIII. Vasoconstrição periférica seletiva.\nIV. Baixo débito cardíaco e choque.\n\nQuais estão corretas?',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
-                  ),
-                  const SizedBox(height: 50),
-                  SizedBox(
-                    width: 350,
-                    child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('A) Apenas I e II.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corA ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corA=!corA);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )
-                    ),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child:Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('B) Apenas III e IV.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corB ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corB=!corB);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text('C) Apenas I, II e III.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corC ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corC=!corC);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                   const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('D) Apenas II, III e IV.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
-                      style: OutlinedButton.styleFrom(
-                        backgroundColor: corD ? Colors.red : Colors.blue[900],
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
-                      ),
-                      onPressed: click ? null : (){
-                        setState(() => click = true);
-                        setState(() => prox = false);
-                        setState(() => corD=!corD);
-                        setState(() => corProx=!corProx);
-                      }
-                      
-                    )),
-                    const SizedBox(height: 10),
-                  SizedBox( 
-                  width: 350,
-                  child: OutlinedButton(
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                      child: Text('E) I, II, III e IV.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      child: Text('E)	A despeito de ser o parâmetro de remodelamento cardíaco mais usado na prática clínica, a fração de ejeção tem sido apontada como fraco indício de mortalidade por insuficiência cardíaca congestiva. ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor: corE ? Colors.green : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2768,7 +2147,517 @@ class Questoes32State extends State<Questoes32> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Catalogo1()),
+                                builder: (context) => Catalogo2()),
+                          );
+                      }
+                      
+                    )),
+                ],
+              ));
+        }),)
+      ),
+    );
+  }
+}
+class Questoes66State extends State<Questoes66> {
+  
+  @override
+   bool click = false;
+   bool prox = true;
+   bool corA = false;
+   bool corB = false;
+   bool corC = false;
+   bool corD = false;
+   bool corE = false;
+   bool corProx = true;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Questões'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(child:LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              padding: const EdgeInsets.only(top: 20.0),
+              alignment: Alignment.center,
+              
+              child: Column(
+                children: [
+                  
+                   Container(
+                    width: 350,
+                    height: 150,
+                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                    // ignore: prefer_const_constructors
+                    decoration: BoxDecoration(
+                        color: Colors.blue[900],
+                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Text('(SESA/ES-2013)\nAssinale a opção que apresenta situação de indicação provável de transplante em insuficiência cardíaca grave.',
+                      style:TextStyle(color: Colors.white,fontSize: 20)
+                    ),
+                  ),
+                  const SizedBox(height: 50),
+                  SizedBox(
+                    width: 350,
+                    child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('A) angina instável não tratável por cirurgia ou angioplastia com fração de ejeção menor que 25%  ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corA ? Colors.green : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corA=!corA);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )
+                    ),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('B)	hospitalizações frequentes ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corB=!corB);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('C)	arritmias ventriculares recorrentes sintomáticas ', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corC ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corC=!corC);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('D)	consumo de oxigênio (VO2) máximo menor que 10 mL/kg/min ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corD=!corD);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                    const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('E)	classe IV de NYHA persistente ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corE ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corE=!corE);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                  const SizedBox(height: 20),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: prox ? null : (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Catalogo2()),
+                          );
+                      }
+                      
+                    )),
+                ],
+              ));
+        }),)
+      ),
+    );
+  }
+}
+class Questoes67State extends State<Questoes67> {
+  
+  @override
+   bool click = false;
+   bool prox = true;
+   bool corA = false;
+   bool corB = false;
+   bool corC = false;
+   bool corD = false;
+   bool corE = false;
+   bool corProx = true;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Questões'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(child:LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              padding: const EdgeInsets.only(top: 20.0),
+              alignment: Alignment.center,
+              
+              child: Column(
+                children: [
+                  
+                   Container(
+                    width: 350,
+                    height: 150,
+                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                    // ignore: prefer_const_constructors
+                    decoration: BoxDecoration(
+                        color: Colors.blue[900],
+                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Text('(SESA/ES-2013)\nAssinale a opção que apresenta contraindicação absoluta para o transplante cardíaco em portadores de insuficiência cardíaca.',
+                      style:TextStyle(color: Colors.white,fontSize: 20)
+                    ),
+                  ),
+                  const SizedBox(height: 50),
+                  SizedBox(
+                    width: 350,
+                    child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('A)	sorologia positiva para HIV ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corA ? Colors.green : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corA=!corA);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )
+                    ),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('B)	diverticulite ativa ',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corB=!corB);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('C)	diabetes melito com lesão de órgão-alvo', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corC ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corC=!corC);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('D)	obesidade mórbida',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corD ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corD=!corD);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                    const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('E)	doença vascular cerebral grave',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corE ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corE=!corE);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                  const SizedBox(height: 20),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: prox ? null : (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Catalogo2()),
+                          );
+                      }
+                      
+                    )),
+                ],
+              ));
+        }),)
+      ),
+    );
+  }
+}
+class Questoes68State extends State<Questoes68> {
+  
+  @override
+   bool click = false;
+   bool prox = true;
+   bool corA = false;
+   bool corB = false;
+   bool corC = false;
+   bool corD = false;
+   bool corE = false;
+   bool corProx = true;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text('Questões'),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          )
+        ],
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(child:LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              padding: const EdgeInsets.only(top: 20.0),
+              alignment: Alignment.center,
+              
+              child: Column(
+                children: [
+                  
+                   Container(
+                    width: 350,
+                    height: 125,
+                    padding: EdgeInsets.only(left: 20, right: 20, top: 10),
+                    // ignore: prefer_const_constructors
+                    decoration: BoxDecoration(
+                        color: Colors.blue[900],
+                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                    child: Text('(SESA/ES-2013)\nAcerca do tratamento de insuficiência cardíaca congestiva, assinale a opção correta.',
+                      style:TextStyle(color: Colors.white,fontSize: 20)
+                    ),
+                  ),
+                  const SizedBox(height: 50),
+                  SizedBox(
+                    width: 350,
+                    child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('A)	Esplerona é um bloqueador de aldosterona bastante eficaz, porém, gera maior risco de ginecomastia.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corA ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corA=!corA);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )
+                    ),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('B)	Durante o uso de digoxina e betabloqueadores, pacientes que desenvolvem bradicardia sintomática devem suspender o uso de betabloqueadores e manter o digital.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corB ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corB=!corB);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text('C)	Os diuréticos de alça são mais eficazes em manter a insuficiência cardíaca compensada que os diuréticos tiazídicos.', style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corC ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corC=!corC);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                   const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('D)	Estudos recentes demonstram que a associação de um inibidor da ECA e um BRA é eficaz em reduzir hospitalizações, desde que não haja uso concomitante de betabloqueadores.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corD ? Colors.green : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corD=!corD);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                    const SizedBox(height: 10),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                      child: Text('E)	Os betabloqueadores cardiosseletivos foram recentemente aprovados para utilização em tratamento de insuficiência cardíaca descompensada.',style: TextStyle(color: Colors.white ,fontSize: 20),),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: corE ? Colors.red : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: click ? null : (){
+                        setState(() => click = true);
+                        setState(() => prox = false);
+                        setState(() => corE=!corE);
+                        setState(() => corProx=!corProx);
+                      }
+                      
+                    )),
+                  const SizedBox(height: 20),
+                  SizedBox( 
+                  width: 350,
+                  child: OutlinedButton(
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+                      ),
+                      onPressed: prox ? null : (){
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Catalogo2()),
                           );
                       }
                       

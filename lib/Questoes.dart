@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 import 'QuestoesPT2.dart';
+import 'Catalogo1.dart';
 
 class Questoes1 extends StatefulWidget {
   const Questoes1({Key? key}) : super(key: key);
@@ -253,7 +254,7 @@ class QuestoesState extends State<Questoes1> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -262,7 +263,7 @@ class QuestoesState extends State<Questoes1> {
                          Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes2()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -425,7 +426,7 @@ class Questoes2State extends State<Questoes2> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -434,7 +435,7 @@ class Questoes2State extends State<Questoes2> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes3()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -594,7 +595,7 @@ class Questoes3State extends State<Questoes3> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -603,7 +604,7 @@ class Questoes3State extends State<Questoes3> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes4()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -747,7 +748,7 @@ class Questoes4State extends State<Questoes4> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -756,7 +757,7 @@ class Questoes4State extends State<Questoes4> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes5()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -899,7 +900,7 @@ class Questoes5State extends State<Questoes5> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -908,7 +909,7 @@ class Questoes5State extends State<Questoes5> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes6()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1051,7 +1052,7 @@ class Questoes6State extends State<Questoes6> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1060,7 +1061,7 @@ class Questoes6State extends State<Questoes6> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes7()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1203,7 +1204,7 @@ class Questoes7State extends State<Questoes7> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1212,7 +1213,7 @@ class Questoes7State extends State<Questoes7> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes8()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1355,7 +1356,7 @@ class Questoes8State extends State<Questoes8> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1364,7 +1365,7 @@ class Questoes8State extends State<Questoes8> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes9()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1507,7 +1508,7 @@ class Questoes9State extends State<Questoes9> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1516,7 +1517,7 @@ class Questoes9State extends State<Questoes9> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes10()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1659,7 +1660,7 @@ class Questoes10State extends State<Questoes10> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1668,7 +1669,7 @@ class Questoes10State extends State<Questoes10> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes11()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1811,7 +1812,7 @@ class Questoes11State extends State<Questoes11> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1820,7 +1821,7 @@ class Questoes11State extends State<Questoes11> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes12()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -1963,7 +1964,7 @@ class Questoes12State extends State<Questoes12> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -1972,7 +1973,7 @@ class Questoes12State extends State<Questoes12> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes13()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -2115,7 +2116,7 @@ class Questoes13State extends State<Questoes13> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2124,7 +2125,7 @@ class Questoes13State extends State<Questoes13> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes14()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -2267,7 +2268,7 @@ class Questoes14State extends State<Questoes14> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2276,7 +2277,7 @@ class Questoes14State extends State<Questoes14> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes15()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -2438,7 +2439,7 @@ class Questoes15State extends State<Questoes15> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2447,7 +2448,7 @@ class Questoes15State extends State<Questoes15> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes16()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -2609,7 +2610,7 @@ class Questoes16State extends State<Questoes16> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -2618,7 +2619,7 @@ class Questoes16State extends State<Questoes16> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes17()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       

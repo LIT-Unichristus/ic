@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
+import 'Catalogo1.dart';
 
 class Questoes49 extends StatefulWidget {
   const Questoes49({Key? key}) : super(key: key);
@@ -176,7 +177,7 @@ class Questoes49State extends State<Questoes49> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -185,7 +186,7 @@ class Questoes49State extends State<Questoes49> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes50()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -346,7 +347,7 @@ class Questoes50State extends State<Questoes50> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -355,7 +356,7 @@ class Questoes50State extends State<Questoes50> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes51()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -497,7 +498,7 @@ class Questoes51State extends State<Questoes51> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -506,7 +507,7 @@ class Questoes51State extends State<Questoes51> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes52()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
@@ -667,7 +668,7 @@ class Questoes52State extends State<Questoes52> {
                   SizedBox( 
                   width: 350,
                   child: OutlinedButton(
-                      child:Text('Proxima Questão!',style: TextStyle(color: Colors.white ,fontSize: 20),),
+                      child:Text('Voltar',style: TextStyle(color: Colors.white ,fontSize: 20),),
                       style: OutlinedButton.styleFrom(
                         backgroundColor:  corProx ? Colors.grey : Colors.blue[900],
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
@@ -676,7 +677,7 @@ class Questoes52State extends State<Questoes52> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => Questoes51()),
+                                builder: (context) => Catalogo1()),
                           );
                       }
                       
