@@ -9,12 +9,7 @@ class Definicao extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Definição'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(

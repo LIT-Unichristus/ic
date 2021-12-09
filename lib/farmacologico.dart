@@ -13,7 +13,7 @@ class Farmacologico extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Diagnóstico'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -239,7 +239,7 @@ class Betabloqueador extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Betabloqueador'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(

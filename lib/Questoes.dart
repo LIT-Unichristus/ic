@@ -149,7 +149,7 @@ class QuestoesState extends State<Questoes1> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFF-2015)\n A terceira bulha é importante achado no exame clínico para diagnóstico de insuficiência cardíaca. Sua ocorrência no ciclo cardíaco se faz durante:',
+                      '(UFF-2015)\n1. A terceira bulha é importante achado no exame clínico para diagnóstico de insuficiência cardíaca. Sua ocorrência no ciclo cardíaco se faz durante:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -321,7 +321,7 @@ class Questoes2State extends State<Questoes2> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFF-2015)\nO sinal de Kussmaul é um achado causado com maior frequência por:',
+                      '(UFF-2015)\n2.O sinal de Kussmaul é um achado causado com maior frequência por:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -493,7 +493,7 @@ class Questoes3State extends State<Questoes3> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2016)\nPaciente de 65 anos, com dispneia progressiva, ortopneia e dispneia paroxística há 4 meses comparece a emergência com piora dos sintomas associada a edema de membros inferiores e crepitações à ausculta pulmonar. Ausculta cardíaca revela galope em B3. Radiografia de tórax realizada durante avaliação inicial mostra a seguinte imagem. Diante do achado radiológico exposto, qual a conduta mais adequada a ser seguida?',
+                      '(SURCE-2016)\n3. Paciente de 65 anos, com dispneia progressiva, ortopneia e dispneia paroxística há 4 meses comparece a emergência com piora dos sintomas associada a edema de membros inferiores e crepitações à ausculta pulmonar. Ausculta cardíaca revela galope em B3. Radiografia de tórax realizada durante avaliação inicial mostra a seguinte imagem. Diante do achado radiológico exposto, qual a conduta mais adequada a ser seguida?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -662,7 +662,7 @@ class Questoes4State extends State<Questoes4> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2015)\nPaciente do sexo masculino, 15 anos de idade vem se queixando de dispneia aos esforços. Na ausculta cardíaca, observam-se dois sopros sistólicos: um compatível com insuficiência mitral e outro com estenose aórtica. O eletrocardiograma revela padrão de sobrecarga ventricular esquerda e ondas T profundas e invertidas em parede anterior. O cardiologista fez uma hipótese diagnóstica e solicitou um ecocardiograma. O doppler do fluxo e do tecido da valva mitral deste paciente deve revelar:',
+                      '(SURCE-2015)\n4. Paciente do sexo masculino, 15 anos de idade vem se queixando de dispneia aos esforços. Na ausculta cardíaca, observam-se dois sopros sistólicos: um compatível com insuficiência mitral e outro com estenose aórtica. O eletrocardiograma revela padrão de sobrecarga ventricular esquerda e ondas T profundas e invertidas em parede anterior. O cardiologista fez uma hipótese diagnóstica e solicitou um ecocardiograma. O doppler do fluxo e do tecido da valva mitral deste paciente deve revelar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -814,7 +814,7 @@ class Questoes5State extends State<Questoes5> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2016)\nPaciente do sexo feminino, 65 anos, procura atendimento em pronto-socorro com queixa de dispneia a pequenos esforços. Os sintomas pioraram nos últimos dias. Ao exame físico, detecta-se presença de terceira bulha e ecocardiograma mostra fração de ejeção de 30%, com aumento das câmaras esquerdas. Sobre a terapia farmacológica a ser empregada nesse paciente, assinale a alternativa correta.',
+                      '(SURCE-2016)\n5. Paciente do sexo feminino, 65 anos, procura atendimento em pronto-socorro com queixa de dispneia a pequenos esforços. Os sintomas pioraram nos últimos dias. Ao exame físico, detecta-se presença de terceira bulha e ecocardiograma mostra fração de ejeção de 30%, com aumento das câmaras esquerdas. Sobre a terapia farmacológica a ser empregada nesse paciente, assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -966,7 +966,7 @@ class Questoes6State extends State<Questoes6> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2015)\nVocê foi convocado para realizar uma anestesia em um paciente portador de insuficiência cardíaca congestiva (ICC). O colega lhe informa que a função renal do paciente está preservada, e que o mesmo está compensado farmacologicamente. Baseado nas recomendações mais atuais para o tratamento farmacológico completo da ICC, pode-se deduzir que esse paciente está fazendo uso das seguintes classes de medicações:',
+                      '(SURCE-2015)\n6. Você foi convocado para realizar uma anestesia em um paciente portador de insuficiência cardíaca congestiva (ICC). O colega lhe informa que a função renal do paciente está preservada, e que o mesmo está compensado farmacologicamente. Baseado nas recomendações mais atuais para o tratamento farmacológico completo da ICC, pode-se deduzir que esse paciente está fazendo uso das seguintes classes de medicações:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1118,7 +1118,7 @@ class Questoes7State extends State<Questoes7> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2015)\nA síndrome de insuficiência cardíaca ocorre quando o coração é incapaz de fornecer o débito cardíaco adequado para as necessidades do organismo ou só consegue fazê-lo às custas de aumento das pressões de enchimento das câmaras cardíacas. Sobre a fisiopatologia desta síndrome, é correto afirmar:',
+                      '(SURCE-2015)\n7. A síndrome de insuficiência cardíaca ocorre quando o coração é incapaz de fornecer o débito cardíaco adequado para as necessidades do organismo ou só consegue fazê-lo às custas de aumento das pressões de enchimento das câmaras cardíacas. Sobre a fisiopatologia desta síndrome, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1270,7 +1270,7 @@ class Questoes8State extends State<Questoes8> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2015)\nHomem, 24 anos, evolui com dispneia progressiva até pequenos esforços nos últimos 3 meses. Nega dor precordial. O eletrocardiograma mostra sinais de sobrecarga ventricular esquerda e a radiografia de tórax demonstra aumento de área cardíaca. Sobre esse caso, é correto afirmar:',
+                      '(SURCE-2015)\n8. Homem, 24 anos, evolui com dispneia progressiva até pequenos esforços nos últimos 3 meses. Nega dor precordial. O eletrocardiograma mostra sinais de sobrecarga ventricular esquerda e a radiografia de tórax demonstra aumento de área cardíaca. Sobre esse caso, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1422,7 +1422,7 @@ class Questoes9State extends State<Questoes9> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(SURCE-2014)\nPaciente de 65 anos, portador de insuficiência cardíaca congestiva, comparece ao acolhimento da unidade básica de saúde com queixa de dispneia em repouso. A última avaliação clínica ocorreu há 15 dias e o paciente não apresentava sinais e/ou sintomas. Ao exame, o médico observou crepitações bilaterais em 2/3 inferiores em ambos hemitórax e ritmo irregular, não auscultado em consultas anteriores. Diante dessa situação, qual deverá ser a conduta mais adequada para o médico da atenção primária?',
+                      '(SURCE-2014)\n9. Paciente de 65 anos, portador de insuficiência cardíaca congestiva, comparece ao acolhimento da unidade básica de saúde com queixa de dispneia em repouso. A última avaliação clínica ocorreu há 15 dias e o paciente não apresentava sinais e/ou sintomas. Ao exame, o médico observou crepitações bilaterais em 2/3 inferiores em ambos hemitórax e ritmo irregular, não auscultado em consultas anteriores. Diante dessa situação, qual deverá ser a conduta mais adequada para o médico da atenção primária?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1574,7 +1574,7 @@ class Questoes10State extends State<Questoes10> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UERJ-2014)\nAs doenças crônicas não transmissíveis são consideradas um problema de saúde de natureza global, afetando países em diferentes estágios de desenvolvimento. Em relação a esse grupo de doenças no Brasil, pode-se afirmar que:',
+                      '(UERJ-2014)\n10. As doenças crônicas não transmissíveis são consideradas um problema de saúde de natureza global, afetando países em diferentes estágios de desenvolvimento. Em relação a esse grupo de doenças no Brasil, pode-se afirmar que:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1726,7 +1726,7 @@ class Questoes11State extends State<Questoes11> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UERJ-2015)\nUm paciente de 58 anos de idade, cardiopata, encontra-se em classe funcional III da NYHA (New York Heart Association). O ecocardiograma transtorácico revela uma fração de ejeção de 30% (Teicholz), e seu eletrocardiograma mostra um ritmo sinusal com duração do QRS superior a 120ms. Para o tratamento desse paciente, pode ser considerada a realização de:',
+                      '(UERJ-2015)\n11. Um paciente de 58 anos de idade, cardiopata, encontra-se em classe funcional III da NYHA (New York Heart Association). O ecocardiograma transtorácico revela uma fração de ejeção de 30% (Teicholz), e seu eletrocardiograma mostra um ritmo sinusal com duração do QRS superior a 120ms. Para o tratamento desse paciente, pode ser considerada a realização de:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1878,7 +1878,7 @@ class Questoes12State extends State<Questoes12> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UERJ-2013)\nPaciente de 52 anos tem insuficiência cardíaca congestiva, com aumento radiográfico da área cardíaca, fração de ejeção de 30% e movimento paradoxal da parede septal. Após o tratamento otimizado com furosemida, espironolactona, betabloqueador, captopril e digoxina, permanece sintomático e tem sua qualidade de vida muito prejudicada. A equipe médica opta por tentar terapia de ressincronização cardíaca, com marcapasso biventricular. As condições que devem estar presentes para que essa terapia proposta seja realmente bem indicada e tenha as melhores chances de ser benéfica são, respectivamente:',
+                      '(UERJ-2013)\n12. Paciente de 52 anos tem insuficiência cardíaca congestiva, com aumento radiográfico da área cardíaca, fração de ejeção de 30% e movimento paradoxal da parede septal. Após o tratamento otimizado com furosemida, espironolactona, betabloqueador, captopril e digoxina, permanece sintomático e tem sua qualidade de vida muito prejudicada. A equipe médica opta por tentar terapia de ressincronização cardíaca, com marcapasso biventricular. As condições que devem estar presentes para que essa terapia proposta seja realmente bem indicada e tenha as melhores chances de ser benéfica são, respectivamente:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2030,7 +2030,7 @@ class Questoes13State extends State<Questoes13> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UNESP-2016)\nA dose da digoxina, na ICC sistólica NYHAIII, Classe C, em paciente de 75 anos de idade, deve ser:',
+                      '(UNESP-2016)\n13. A dose da digoxina, na ICC sistólica NYHAIII, Classe C, em paciente de 75 anos de idade, deve ser:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2182,7 +2182,7 @@ class Questoes14State extends State<Questoes14> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UNESP-2015)\nEm relação à classificação da insuficiência cardíaca em classes funcionais pela New York Heart Association (NYHA) e em estágios de evolução e prognóstico pela American College of Cardiology/American Heart Association (ACC/AHA), é correto afirmar que:',
+                      '(UNESP-2015)\n14. Em relação à classificação da insuficiência cardíaca em classes funcionais pela New York Heart Association (NYHA) e em estágios de evolução e prognóstico pela American College of Cardiology/American Heart Association (ACC/AHA), é correto afirmar que:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2334,7 +2334,7 @@ class Questoes15State extends State<Questoes15> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UNESP-2014)\nHomem de 50 anos refere dispneia progressiva com piora há uma semana. AP: HAS há 8 anos, não controlada. Faz uso de lisinopril 10 mg/dia e furosemida 40 mg/dia. Exame físico: PA 130 x 80 mmHg, FC 110 bpm; edema de membros inferiores 3+/4+ bilateral, hepatomegalia dolorosa e ascite discreta. RX tórax: congestão pulmonar bilateral e difusa; ECG: taquicardia sinusal; Ecocardiograma: hipertrofia concêntrica do VE com fração de ejeção de 60%. Exames laboratoriais: albumina sérica 3,6 mg/dL; creatinina 2 mg/dL; ureia 110 mg/dL. Todos os exames estavam normais há 30 dias. Com o objetivo de melhorar a função renal, a conduta é:',
+                      '(UNESP-2014)\n15. Homem de 50 anos refere dispneia progressiva com piora há uma semana. AP: HAS há 8 anos, não controlada. Faz uso de lisinopril 10 mg/dia e furosemida 40 mg/dia. Exame físico: PA 130 x 80 mmHg, FC 110 bpm; edema de membros inferiores 3+/4+ bilateral, hepatomegalia dolorosa e ascite discreta. RX tórax: congestão pulmonar bilateral e difusa; ECG: taquicardia sinusal; Ecocardiograma: hipertrofia concêntrica do VE com fração de ejeção de 60%. Exames laboratoriais: albumina sérica 3,6 mg/dL; creatinina 2 mg/dL; ureia 110 mg/dL. Todos os exames estavam normais há 30 dias. Com o objetivo de melhorar a função renal, a conduta é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2505,7 +2505,7 @@ class Questoes16State extends State<Questoes16> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UNESP-2013)\nMulher de 60 anos, branca, com insuficiência cardíaca sistólica, refere dispneia ao repouso, ortopneia, edema de membros inferiores e disúria há 3 dias. Faz uso das mesmas doses de enalapril, carvedilol, espironolactona e furosemida, há 1 ano. Exame físico: PA 120 X 70 mmHg, FC 68 bpm, FR 28 mpm, MV+ com crepitações até terço médio dos pulmões, bulhas rítmicas sem sopros, edema em membros inferiores 2+/4+. A melhor conduta é:',
+                      '(UNESP-2013)\n16. Mulher de 60 anos, branca, com insuficiência cardíaca sistólica, refere dispneia ao repouso, ortopneia, edema de membros inferiores e disúria há 3 dias. Faz uso das mesmas doses de enalapril, carvedilol, espironolactona e furosemida, há 1 ano. Exame físico: PA 120 X 70 mmHg, FC 68 bpm, FR 28 mpm, MV+ com crepitações até terço médio dos pulmões, bulhas rítmicas sem sopros, edema em membros inferiores 2+/4+. A melhor conduta é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

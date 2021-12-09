@@ -146,7 +146,7 @@ class Questoes33State extends State<Questoes33> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(AMRIGS-2015)\nA Insuficiência Cardíaca (IC) em pacientes pediátricos, geralmente, é descrita como de alto ou baixo débito. Qual das seguintes condições está associada à IC de alto débito?',
+                      '(AMRIGS-2015)\n33. A Insuficiência Cardíaca (IC) em pacientes pediátricos, geralmente, é descrita como de alto ou baixo débito. Qual das seguintes condições está associada à IC de alto débito?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -316,7 +316,7 @@ class Questoes34State extends State<Questoes34> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2015)\nAnalise os seguintes sinais clínicos:\nI. Taquipneia.\nII. Taquicardia.\nIII. Hepatomegalia. \nQuais são encontrados comumente em crianças com quadro clínico de insuficiência cardíaca?',
+                    child: Text('(AMRIGS-2015)\n34. Analise os seguintes sinais clínicos:\nI. Taquipneia.\nII. Taquicardia.\nIII. Hepatomegalia. \nQuais são encontrados comumente em crianças com quadro clínico de insuficiência cardíaca?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -486,7 +486,7 @@ class Questoes35State extends State<Questoes35> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFF-2016)\n Paciente, 70 anos, é admitida com dispneia em repouso, ortopneia e dispneia paroxística noturna. Ao exame físico, apresenta edema em membros inferiores, turgência jugular patológica e crepitação em ambas as bases pulmonares. A pressão arterial é de 80 x 40 mmHg, a frequência cardíaca de 110 bpm e a respiratória de 30 irpm. Ecocardiograma à beira do leito mostra disfunção sistólica biventricular grave, com fração de ejeção de 20%. A conduta mais apropriada é prescrever, além de furosemida, o seguinte:',
+                    child: Text('(UFF-2016)\n35. Paciente, 70 anos, é admitida com dispneia em repouso, ortopneia e dispneia paroxística noturna. Ao exame físico, apresenta edema em membros inferiores, turgência jugular patológica e crepitação em ambas as bases pulmonares. A pressão arterial é de 80 x 40 mmHg, a frequência cardíaca de 110 bpm e a respiratória de 30 irpm. Ecocardiograma à beira do leito mostra disfunção sistólica biventricular grave, com fração de ejeção de 20%. A conduta mais apropriada é prescrever, além de furosemida, o seguinte:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -656,7 +656,7 @@ class Questoes36State extends State<Questoes36> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFF-2015)\nOs fármacos que reduzem a mortalidade no tratamento da insuficiência cardíaca sistólica são:',
+                    child: Text('(UFF-2015)\n36. Os fármacos que reduzem a mortalidade no tratamento da insuficiência cardíaca sistólica são:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -826,7 +826,7 @@ class Questoes37State extends State<Questoes37> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFF-2015)\nO grupo que apresenta características clínicas para o diagnóstico de insuficiência cardíaca com fração de ejeção normal (ICFEN) é constituído por:',
+                    child: Text('(UFF-2015)\n37. O grupo que apresenta características clínicas para o diagnóstico de insuficiência cardíaca com fração de ejeção normal (ICFEN) é constituído por:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -996,7 +996,7 @@ class Questoes38State extends State<Questoes38> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFF-2013)\nHomem de 56 anos é internado com suspeita de ascite, de instalação insidiosa. Ele não tem outras queixas clínicas, nega comorbidades prévias e não faz uso de medicação regular. Ao exame físico, está lúcido, levemente hipocorado, com mucosas hidratadas e turgência jugular patológica a 45 graus. O ritmo cardíaco é regular, em dois tempos, e sem sopros. A ausculta pulmonar é normal. O abdômen está globoso, indolor, peristáltico e com macicez móvel de decúbito; não se palpam visceromegalias, mas o exame está prejudicado pela possível ascite. Há edema frio e simétrico em membros inferiores, sem sinais flogísticos, até a altura dos joelhos. Os pulsos periféricos são simétricos e de amplitude preservada. A pressão arterial é de 114 x 70 mmHg, a frequência cardíaca de 98 bpm e  respiratória de 20 irpm. O médico que o atende,para firmar um diagnóstico, solicita o seguinte procedimento complementar:',
+                    child: Text('(UFF-2013)\n38. Homem de 56 anos é internado com suspeita de ascite, de instalação insidiosa. Ele não tem outras queixas clínicas, nega comorbidades prévias e não faz uso de medicação regular. Ao exame físico, está lúcido, levemente hipocorado, com mucosas hidratadas e turgência jugular patológica a 45 graus. O ritmo cardíaco é regular, em dois tempos, e sem sopros. A ausculta pulmonar é normal. O abdômen está globoso, indolor, peristáltico e com macicez móvel de decúbito; não se palpam visceromegalias, mas o exame está prejudicado pela possível ascite. Há edema frio e simétrico em membros inferiores, sem sinais flogísticos, até a altura dos joelhos. Os pulsos periféricos são simétricos e de amplitude preservada. A pressão arterial é de 114 x 70 mmHg, a frequência cardíaca de 98 bpm e  respiratória de 20 irpm. O médico que o atende,para firmar um diagnóstico, solicita o seguinte procedimento complementar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1166,7 +1166,7 @@ class Questoes39State extends State<Questoes39> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(PUCRS-2015)\nNos pacientes com insuficiência cardíaca crônica de etiologia hipertensiva, quais são os fatores precipitantes de descompensação cardíaca mais frequentes?',
+                    child: Text('(PUCRS-2015)\n39. Nos pacientes com insuficiência cardíaca crônica de etiologia hipertensiva, quais são os fatores precipitantes de descompensação cardíaca mais frequentes?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1336,7 +1336,7 @@ class Questoes40State extends State<Questoes40> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(REVALIDA-2015)\nUm homem de 70 anos de idade é atendido no Ambulatório de Cardiologia com queixa de dispneia aos grandes esforços há um mês, com progressão para os médios esforços. Trata-se de paciente hipertenso, em tratamento irregular com clortalidona (25 mg/dia), tabagista há 30 anos (20 cigarros/dia). Ao exame físico, estava orientado, hipocorado (++/4+), hidratado. A ausculta cardíaca apresenta-se com ritmo cardíaco regular, hiperfonese em B2, sem sopros; ausculta pulmonar com sibilos esparsos e estertores crepitantes em bases. Pressão arterial = 170 x 90 mmHg, frequência cardíaca = 85 bpm e IMC = 32 kg/m². Eletrocardiogramas anteriores demonstravam sobrecarga atrial esquerda. O ecocardiograma atual evidencia parede posterior do ventrículo esquerdo de 14 mm (VR < 11 mm), septo interventricular de 14 mm (VR < 11 mm), fração de ejeção de 65% (VR > 58%). A radiografia de tórax demonstra área cardíaca normal, com inversão de trama vascular. Quais são, respectivamente, a hipótese diagnóstica mais provável e a conduta apropriada a ser estabelecida nesse caso?',
+                    child: Text('(REVALIDA-2015)\n40. Um homem de 70 anos de idade é atendido no Ambulatório de Cardiologia com queixa de dispneia aos grandes esforços há um mês, com progressão para os médios esforços. Trata-se de paciente hipertenso, em tratamento irregular com clortalidona (25 mg/dia), tabagista há 30 anos (20 cigarros/dia). Ao exame físico, estava orientado, hipocorado (++/4+), hidratado. A ausculta cardíaca apresenta-se com ritmo cardíaco regular, hiperfonese em B2, sem sopros; ausculta pulmonar com sibilos esparsos e estertores crepitantes em bases. Pressão arterial = 170 x 90 mmHg, frequência cardíaca = 85 bpm e IMC = 32 kg/m². Eletrocardiogramas anteriores demonstravam sobrecarga atrial esquerda. O ecocardiograma atual evidencia parede posterior do ventrículo esquerdo de 14 mm (VR < 11 mm), septo interventricular de 14 mm (VR < 11 mm), fração de ejeção de 65% (VR > 58%). A radiografia de tórax demonstra área cardíaca normal, com inversão de trama vascular. Quais são, respectivamente, a hipótese diagnóstica mais provável e a conduta apropriada a ser estabelecida nesse caso?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1487,7 +1487,7 @@ class Questoes41State extends State<Questoes41> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FMUSP-2017)\nHomem 67 anos de idade procura pronto-socorro por piora da dispneia e ortopneia. Tem antecedente de hipertensão arterial e miocardiopatia isquêmica (infarto agudo com revascularização há três anos). Há dois anos apresenta quadro de dispneia aos moderados esforços e edema de membros inferiores, que melhoraram após início do tratamento. Faz uso de enalapril e carvedilol em doses máximas, espironolactona e AAS. Hoje de madrugada acordou subitamente “angustiado”, com melhora parcial após “tomar ar fresco ” próxima à janela. Ao exame clínico: regular estado geral, descorado 1+/4+ e taquipneico, PA = 130x70mmHg, FC = 90bpm, FR = 28ipm, saturação O2 96% em ar ambiente; murmúrios vesiculares presentes com estertores finos em bases bilateralmente; bulhas cardíacas arrítmicas normofonéticas com sopro sistólico em foco mitral e presença de B4. Hepatimetria de 15 cm na linha hemiclavicular; membros inferiores com edema depressível 2+/4+. O restante do exame clínico está sem alterações. Exames iniciais mostraram: Hb = 12mg/dL, leucócitos = 8.000/mm3, segmentados = 60%, bastões = 1%, Na+ = 132 mEq/L, K+ = 5,0 mEq/L, creatinina = 1,2 mg/dL, uréia = 80mg/dL, DHL = 600 U/L. O eletrocardiograma e a radiografia de tórax estão a seguir. O paciente foi internado. Além das medicações que o paciente já utilizava e de dieta hipossódica, é fundamental prescrever ao paciente:',
+                    child: Text('(FMUSP-2017)\n41. Homem 67 anos de idade procura pronto-socorro por piora da dispneia e ortopneia. Tem antecedente de hipertensão arterial e miocardiopatia isquêmica (infarto agudo com revascularização há três anos). Há dois anos apresenta quadro de dispneia aos moderados esforços e edema de membros inferiores, que melhoraram após início do tratamento. Faz uso de enalapril e carvedilol em doses máximas, espironolactona e AAS. Hoje de madrugada acordou subitamente “angustiado”, com melhora parcial após “tomar ar fresco ” próxima à janela. Ao exame clínico: regular estado geral, descorado 1+/4+ e taquipneico, PA = 130x70mmHg, FC = 90bpm, FR = 28ipm, saturação O2 96% em ar ambiente; murmúrios vesiculares presentes com estertores finos em bases bilateralmente; bulhas cardíacas arrítmicas normofonéticas com sopro sistólico em foco mitral e presença de B4. Hepatimetria de 15 cm na linha hemiclavicular; membros inferiores com edema depressível 2+/4+. O restante do exame clínico está sem alterações. Exames iniciais mostraram: Hb = 12mg/dL, leucócitos = 8.000/mm3, segmentados = 60%, bastões = 1%, Na+ = 132 mEq/L, K+ = 5,0 mEq/L, creatinina = 1,2 mg/dL, uréia = 80mg/dL, DHL = 600 U/L. O eletrocardiograma e a radiografia de tórax estão a seguir. O paciente foi internado. Além das medicações que o paciente já utilizava e de dieta hipossódica, é fundamental prescrever ao paciente:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1670,7 +1670,7 @@ class Questoes42State extends State<Questoes42> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UNICAMP-2017)\nSobre balão intra-aórtico é correto afirmar:',
+                    child: Text('(UNICAMP-2017)\n42. Sobre balão intra-aórtico é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1821,7 +1821,7 @@ class Questoes43State extends State<Questoes43> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UNICAMP-2018)\nHomem, 71ª, refere tosse não produtiva há 2 meses. Antecedentes pessoais: hipertensão arterial, diabete melito e artrite reumatóide há vários anos. Medicações: anlodipina 10mg/dia, enalapril 20mgdia e sinvastatina 40mg/dia. Exame físico: FC: 93bpm, FR=28 irpm, PA=158 x 84mmHg; Pulmões: murmúrio vesicular presente e simétrico, estertores crepitantes nas bases e sibilos esparsos; Coração: bulhas hipofonéticas em dois tempos e sopro sistólico +/4+ em foco mitral; Membros: Contratura em flexão de cotovelos e joelhos, diminuição da amplitude da extensão dos punhos, sem evidência de artrite. Radiograma de tórax abaixo. OBSERVA-SE NA ÁREA DESTACADA:',
+                    child: Text('(UNICAMP-2018)\n43. Homem, 71ª, refere tosse não produtiva há 2 meses. Antecedentes pessoais: hipertensão arterial, diabete melito e artrite reumatóide há vários anos. Medicações: anlodipina 10mg/dia, enalapril 20mgdia e sinvastatina 40mg/dia. Exame físico: FC: 93bpm, FR=28 irpm, PA=158 x 84mmHg; Pulmões: murmúrio vesicular presente e simétrico, estertores crepitantes nas bases e sibilos esparsos; Coração: bulhas hipofonéticas em dois tempos e sopro sistólico +/4+ em foco mitral; Membros: Contratura em flexão de cotovelos e joelhos, diminuição da amplitude da extensão dos punhos, sem evidência de artrite. Radiograma de tórax abaixo. OBSERVA-SE NA ÁREA DESTACADA:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1988,7 +1988,7 @@ class Questoes44State extends State<Questoes44> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UNICAMP-2018)\nMulher, 54 anos, com antecedente de esclerose sistêmica em uso de metotrexate, apresenta dispneia progressiva há 5 meses, agora aos mínimos esforços, além de edema progressivo em membros inferiores, sem tosse ou chiado. Nunca fumou, nega hipertensão e infarto do miocárdio. Ao exame, a ausculta pulmonar é normal e há edema de membros inferiores ++/4 até joelhos. Seu ecocardiograma transtorácico atual revela insuficiência mitral leve, fração de ejeção do ventrículo esquerdo 55%, e pressão estimada de artéria pulmonar 52mmHg. Realizou cintilografia pulmonar de ventilação/perfusão que resultou normal. ECG evidencia fibrilação atrial e não há anormalidades no parênquima pulmonar na radiografia de tórax. Para a confirmação da causa da dispneia da paciente, deve-se solicitar:',
+                    child: Text('(UNICAMP-2018)\n44. Mulher, 54 anos, com antecedente de esclerose sistêmica em uso de metotrexate, apresenta dispneia progressiva há 5 meses, agora aos mínimos esforços, além de edema progressivo em membros inferiores, sem tosse ou chiado. Nunca fumou, nega hipertensão e infarto do miocárdio. Ao exame, a ausculta pulmonar é normal e há edema de membros inferiores ++/4 até joelhos. Seu ecocardiograma transtorácico atual revela insuficiência mitral leve, fração de ejeção do ventrículo esquerdo 55%, e pressão estimada de artéria pulmonar 52mmHg. Realizou cintilografia pulmonar de ventilação/perfusão que resultou normal. ECG evidencia fibrilação atrial e não há anormalidades no parênquima pulmonar na radiografia de tórax. Para a confirmação da causa da dispneia da paciente, deve-se solicitar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2139,7 +2139,7 @@ class Questoes45State extends State<Questoes45> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFG-HC-2019)\nEm pacientes com insuficiência cardíaca com fração de ejeção reduzida, a melhor combinação terapêutica para reduzir a mortalidade é:',
+                    child: Text('(UFG-HC-2019)\n45. Em pacientes com insuficiência cardíaca com fração de ejeção reduzida, a melhor combinação terapêutica para reduzir a mortalidade é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2290,7 +2290,7 @@ class Questoes46State extends State<Questoes46> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UNESP-2015)\nPaciente portador de miocardiopatia chagásica com insuficiência cardíaca classe III (NYHA) apresenta-se com FC 92 bpm, PA 130 x 80 mmHg, crepitações nas bases pulmonares, estase jugular, fígado a 4 cm do rebordo costal e edema leve e simétrico de membros inferiores. Após o início do tratamento com enalapril, digoxina e furosemida, os níveis de creatinina saltaram de 1,8 mg/dL para 3,0 mg/dL e o potássio de 4,6 para 5,8 mEq/L. Nessa condição, a próxima associação de fármacos mais adequada é:',
+                    child: Text('(UNESP-2015)\n46. Paciente portador de miocardiopatia chagásica com insuficiência cardíaca classe III (NYHA) apresenta-se com FC 92 bpm, PA 130 x 80 mmHg, crepitações nas bases pulmonares, estase jugular, fígado a 4 cm do rebordo costal e edema leve e simétrico de membros inferiores. Após o início do tratamento com enalapril, digoxina e furosemida, os níveis de creatinina saltaram de 1,8 mg/dL para 3,0 mg/dL e o potássio de 4,6 para 5,8 mEq/L. Nessa condição, a próxima associação de fármacos mais adequada é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2441,7 +2441,7 @@ class Questoes47State extends State<Questoes47> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFRJ-2018)\nHomem com cardiomiopatia dilatada de etiologia isquêmica é internado com dispneia, derrame pleural bilateral, turgência jugular patológica, edema de membros inferiores, hipotensão arterial (PA = 70 x 40mmHg) e enchimento capilar lentificado. De acordo com o perfil hemodinâmico apresentado pelo paciente, a droga mais indicada para ser iniciada neste caso é:',
+                    child: Text('(UFRJ-2018)\n47. Homem com cardiomiopatia dilatada de etiologia isquêmica é internado com dispneia, derrame pleural bilateral, turgência jugular patológica, edema de membros inferiores, hipotensão arterial (PA = 70 x 40mmHg) e enchimento capilar lentificado. De acordo com o perfil hemodinâmico apresentado pelo paciente, a droga mais indicada para ser iniciada neste caso é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2592,7 +2592,7 @@ class Questoes48State extends State<Questoes48> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2015)\nSobre as afirmações abaixo, assinale a correta.',
+                    child: Text('(AMRIGS-2015)\n48. Sobre as afirmações abaixo, assinale a correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

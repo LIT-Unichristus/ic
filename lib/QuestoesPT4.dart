@@ -72,7 +72,7 @@ class Questoes49State extends State<Questoes49> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFPR-2012)\nComo opções de medicamentos para tratamento da hipertensão arterial, existem situações chamadas de primeira escolha, seja preferencial de determinada classe de droga, seja de contraindicação para seu uso. Levando em consideração essa afirmativa, assinale a alternativa correta.',
+                    child: Text('(UFPR-2012)\n49. omo opções de medicamentos para tratamento da hipertensão arterial, existem situações chamadas de primeira escolha, seja preferencial de determinada classe de droga, seja de contraindicação para seu uso. Levando em consideração essa afirmativa, assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -242,7 +242,7 @@ class Questoes50State extends State<Questoes50> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2015)\nPaciente com história de Diabetes Melito	 e hipertensão	vem à consulta queixando-se de dispneia aos médios esforços, palpitação e dor pré-cordial aos grandes esforços que alivia com o uso de nitrato. Ao exame físico, tem pressão arterial 110/80 mmHg, sem edema de membros inferiores ou outro sinal de retenção hídrica. É solicitado um ecocardiograma que demonstra uma fração de ejeção de 45%. No manejo inicial desse paciente, está indicada a prescrição de:',
+                    child: Text('(AMRIGS-2015)\n50. Paciente com história de Diabetes Melito	 e hipertensão	vem à consulta queixando-se de dispneia aos médios esforços, palpitação e dor pré-cordial aos grandes esforços que alivia com o uso de nitrato. Ao exame físico, tem pressão arterial 110/80 mmHg, sem edema de membros inferiores ou outro sinal de retenção hídrica. É solicitado um ecocardiograma que demonstra uma fração de ejeção de 45%. No manejo inicial desse paciente, está indicada a prescrição de:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -412,7 +412,7 @@ class Questoes51State extends State<Questoes51> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(SURCE-2016)\nPaciente do sexo feminino, 25 anos, procura ambulatório de cardiologia queixando-se de dispneia a pequenos esforços. Ao exame físico, observa-se turgência jugular (++/4). AC- RCR, B3, sopro sistólico (+/4) em foco mitral. Ausculta de crepitações nas bases pulmonares, fígado palpável a 5 cm do rebordo costal direito e edema de membros inferiores (+++/4). Em relação ao quadro acima, assinale a alternativa correta.',
+                    child: Text('(SURCE-2016)\n51. Paciente do sexo feminino, 25 anos, procura ambulatório de cardiologia queixando-se de dispneia a pequenos esforços. Ao exame físico, observa-se turgência jugular (++/4). AC- RCR, B3, sopro sistólico (+/4) em foco mitral. Ausculta de crepitações nas bases pulmonares, fígado palpável a 5 cm do rebordo costal direito e edema de membros inferiores (+++/4). Em relação ao quadro acima, assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -563,7 +563,7 @@ class Questoes52State extends State<Questoes52> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2015)\nA complicação mais frequente das endocardites	infecciosas agudas que acometem as válvulas cardíacas é:',
+                    child: Text('(AMRIGS-2015)\n52. A complicação mais frequente das endocardites	infecciosas agudas que acometem as válvulas cardíacas é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

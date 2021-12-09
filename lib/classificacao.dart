@@ -10,7 +10,7 @@ class Classificacao extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Classificação'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -210,7 +210,7 @@ class Fracao extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Fração'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(

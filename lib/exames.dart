@@ -11,9 +11,7 @@ class Exames extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.blue[900],
           title: const Text('Exames'),
-          actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
-          ],
+          actions: [],
           centerTitle: true,
         ),
         body: SafeArea(
@@ -243,12 +241,7 @@ class ECG extends StatelessWidget{
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('ECG'),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -366,10 +359,6 @@ class ECG extends StatelessWidget{
           backgroundColor: Colors.blue[900],
         title: const Text('Radiografia de Torax'),
         actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
         ),
@@ -442,10 +431,6 @@ class RadVenEsq extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Sobrecarga Ventricular Esquerda'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
@@ -478,10 +463,6 @@ class RadAtEsq extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Sobrecarga Atrial Esquerda'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
@@ -515,10 +496,6 @@ class RadIsFib extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Sinais de Isquemia ou Fibrose'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
@@ -552,10 +529,6 @@ class RadDisCond extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Disturbios de Condução'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
@@ -589,10 +562,6 @@ class RaioCard extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Cardiomegalia'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
@@ -626,10 +595,6 @@ class RaioCongestPul extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Congestão Pulmonar'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
@@ -663,10 +628,6 @@ class EcocardioExame extends StatelessWidget{
         backgroundColor: Colors.blue[900] ,
         title: const Text("Ecocardiograma"),
         actions: [
-          IconButton(
-            onPressed: (){},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
       ),
@@ -700,10 +661,6 @@ class LabExame extends StatelessWidget{
         backgroundColor: Colors.blue[900] ,
         title: const Text("Laboratoriais"),
         actions: [
-          IconButton(
-            onPressed: (){},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
       ),
@@ -737,10 +694,6 @@ class ResMag extends StatelessWidget{
         backgroundColor: Colors.blue[900] ,
         title: const Text("Laboratoriais"),
         actions: [
-          IconButton(
-            onPressed: (){},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
       ),
@@ -774,10 +727,6 @@ class Biomarcadores extends StatelessWidget{
         backgroundColor: Colors.blue[900] ,
         title: const Text("Laboratoriais"),
         actions: [
-          IconButton(
-            onPressed: (){},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
       ),

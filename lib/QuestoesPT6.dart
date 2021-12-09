@@ -144,7 +144,7 @@ class Questoes69State extends State<Questoes69> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFPR-2015)\nSobre a avaliação clínica de pacientes com insuficiência cardíaca, assinale a alternativa correta.',
+                    child: Text('(UFPR-2015)\n69. Sobre a avaliação clínica de pacientes com insuficiência cardíaca, assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -314,7 +314,7 @@ class Questoes70State extends State<Questoes70> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFPR-2015)\nCom relação ao tratamento da insuficiência cardíaca aguda, assinale a alternativa correta.',
+                    child: Text('(UFPR-2015)\n70. Com relação ao tratamento da insuficiência cardíaca aguda, assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -484,7 +484,7 @@ class Questoes71State extends State<Questoes71> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFPR-2015)\nCom relação ao tratamento da insuficiência cardíaca, assinale a alternativa correta.',
+                    child: Text('(UFPR-2015)\n71. Com relação ao tratamento da insuficiência cardíaca, assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -654,7 +654,7 @@ class Questoes72State extends State<Questoes72> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFPR-2015)\nNo tratamento da insuficiência cardíaca, é indicação do uso de varfarina:',
+                    child: Text('(UFPR-2015)\n72. No tratamento da insuficiência cardíaca, é indicação do uso de varfarina:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -824,7 +824,7 @@ class Questoes73State extends State<Questoes73> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FESO-2019)\n Sobre a insuficiência cardíaca podemos afirmar, EXCETO:',
+                    child: Text('(FESO-2019)\n73. Sobre a insuficiência cardíaca podemos afirmar, EXCETO:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -994,7 +994,7 @@ class Questoes74State extends State<Questoes74> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FESO-2020)\n São causas de insuficiência cardíaca com fração de ejeção preservada:',
+                    child: Text('(FESO-2020)\n74. São causas de insuficiência cardíaca com fração de ejeção preservada:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1164,7 +1164,7 @@ class Questoes75State extends State<Questoes75> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FJG-2019)\nPaciente masculino de 45 anos de idade, masculino, deu entrada no pronto-socorro queixando-se de dispneia progressiva com início há 1 (uma) semana. Relatou história de febre e sintomas gripais há cerca de 15 dias. Apresentava no exame físico PA 85 x 45 mmHg, turgência de jugular, bulhas cardíacas hipofonéticas e ausculta pulmonar sem ruídos adventícios (Tríade de Beck). O diagnóstico mais provável é:',
+                    child: Text('(FJG-2019)\n75. Paciente masculino de 45 anos de idade, masculino, deu entrada no pronto-socorro queixando-se de dispneia progressiva com início há 1 (uma) semana. Relatou história de febre e sintomas gripais há cerca de 15 dias. Apresentava no exame físico PA 85 x 45 mmHg, turgência de jugular, bulhas cardíacas hipofonéticas e ausculta pulmonar sem ruídos adventícios (Tríade de Beck). O diagnóstico mais provável é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1315,7 +1315,7 @@ class Questoes76State extends State<Questoes76> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FMC-2019)\n Qual das afirmativas é correta em relação à histórica e ao exame físico em pacientes com insuficiência cardíaca?',
+                    child: Text('(FMC-2019)\n76. Qual das afirmativas é correta em relação à histórica e ao exame físico em pacientes com insuficiência cardíaca?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1485,7 +1485,7 @@ class Questoes77State extends State<Questoes77> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(HCE-2018)\nNas opções a seguir, assinale àquela em que todos os fatores são capazes de precipitar descompensação aguda em pacientes com insuficiência cardíaca crônica:',
+                    child: Text('(HCE-2018)\n77. Nas opções a seguir, assinale àquela em que todos os fatores são capazes de precipitar descompensação aguda em pacientes com insuficiência cardíaca crônica:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1655,7 +1655,7 @@ class Questoes78State extends State<Questoes78> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(SES-RJ-2019)\nAo examinar um paciente com insuficiência cardíaca congestiva, notam-se ondas V gigantes no pulso venoso jugular. Esse achado se deve à insuficiência:',
+                    child: Text('(SES-RJ-2019)\n78. Ao examinar um paciente com insuficiência cardíaca congestiva, notam-se ondas V gigantes no pulso venoso jugular. Esse achado se deve à insuficiência:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1806,7 +1806,7 @@ class Questoes79State extends State<Questoes79> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFF-2018)\nPaciente com insuficiência cardíaca e fração de ejeção reduzida é submetido à hemicolectomia esquerda devido a um adenocarcinoma. No segundo dia de pós-operatório, apresenta vômitos alimentares e distensão abdominal. O exame físico mostra paciente hipocorado 1+/4+, mucosas hidratadas, crepitações em bases pulmonares, edema periférico 2+/4+ e distensão abdominal moderada, com fezes em ampola retal e ausência de descompressão dolorosa. PA = 90 x 60 mmHg, FC = 90 bpm e FR 20 = irpm. Houve diurese de 1200 ml nas últimas 24h. Exames laboratoriais mostram hemoglobina = 8,5 g/dl, leucometria = 12000 cél/mm3 (5% bastões e 70% neutrófilos), plaquetas = 500 mil/mm3, ureia = 190 mg/dl, creatinina = 4,8 mg/dl, sódio = 128 mEq/L e potássio = 6,5 mEq/L. Das opções abaixo, a conduta inicial mais apropriada é:',
+                    child: Text('(UFF-2018)\n79. Paciente com insuficiência cardíaca e fração de ejeção reduzida é submetido à hemicolectomia esquerda devido a um adenocarcinoma. No segundo dia de pós-operatório, apresenta vômitos alimentares e distensão abdominal. O exame físico mostra paciente hipocorado 1+/4+, mucosas hidratadas, crepitações em bases pulmonares, edema periférico 2+/4+ e distensão abdominal moderada, com fezes em ampola retal e ausência de descompressão dolorosa. PA = 90 x 60 mmHg, FC = 90 bpm e FR 20 = irpm. Houve diurese de 1200 ml nas últimas 24h. Exames laboratoriais mostram hemoglobina = 8,5 g/dl, leucometria = 12000 cél/mm3 (5% bastões e 70% neutrófilos), plaquetas = 500 mil/mm3, ureia = 190 mg/dl, creatinina = 4,8 mg/dl, sódio = 128 mEq/L e potássio = 6,5 mEq/L. Das opções abaixo, a conduta inicial mais apropriada é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1976,7 +1976,7 @@ class Questoes80State extends State<Questoes80> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFF-2018)\nPaciente com insuficiência cardíaca e fração de ejeção reduzida é submetido à hemicolectomia esquerda devido a um adenocarcinoma. No segundo dia de pós-operatório, apresenta vômitos alimentares e distensão abdominal. O exame físico mostra paciente hipocorado 1+/4+, mucosas hidratadas, crepitações em bases pulmonares, edema periférico 2+/4+ e distensão abdominal moderada, com fezes em ampola retal e ausência de descompressão dolorosa. PA = 90 x 60 mmHg, FC = 90 bpm e FR 20 = irpm. Houve diurese de 1200 ml nas últimas 24h. Exames laboratoriais mostram hemoglobina = 8,5 g/dl, leucometria = 12000 cél/mm3 (5% bastões e 70% neutrófilos), plaquetas = 500 mil/mm3, ureia = 190 mg/dl, creatinina = 4,8 mg/dl, sódio = 128 mEq/L e potássio = 6,5 mEq/L. Em relação aos distúrbios hidroeletrolíticos, assinale a afirmativa correta.',
+                    child: Text('(UFF-2018)\n80. Paciente com insuficiência cardíaca e fração de ejeção reduzida é submetido à hemicolectomia esquerda devido a um adenocarcinoma. No segundo dia de pós-operatório, apresenta vômitos alimentares e distensão abdominal. O exame físico mostra paciente hipocorado 1+/4+, mucosas hidratadas, crepitações em bases pulmonares, edema periférico 2+/4+ e distensão abdominal moderada, com fezes em ampola retal e ausência de descompressão dolorosa. PA = 90 x 60 mmHg, FC = 90 bpm e FR 20 = irpm. Houve diurese de 1200 ml nas últimas 24h. Exames laboratoriais mostram hemoglobina = 8,5 g/dl, leucometria = 12000 cél/mm3 (5% bastões e 70% neutrófilos), plaquetas = 500 mil/mm3, ureia = 190 mg/dl, creatinina = 4,8 mg/dl, sódio = 128 mEq/L e potássio = 6,5 mEq/L. Em relação aos distúrbios hidroeletrolíticos, assinale a afirmativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2146,7 +2146,7 @@ class Questoes81State extends State<Questoes81> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFRJ-2019)\nMulher, 78 anos, com diabetes mellitus e insuficiência cardíaca. Fração de ejeção preservada, adequadamente tratada em classe funcional II. É admitida na emergência com história de dispneia súbita e dor torácica em repouso, iniciadas há 6 horas. Considerando o seu Eletrocardiograma (ECG) pode-se afirmar que:',
+                    child: Text('(UFRJ-2019)\n81. Mulher, 78 anos, com diabetes mellitus e insuficiência cardíaca. Fração de ejeção preservada, adequadamente tratada em classe funcional II. É admitida na emergência com história de dispneia súbita e dor torácica em repouso, iniciadas há 6 horas. Considerando o seu Eletrocardiograma (ECG) pode-se afirmar que:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2313,7 +2313,7 @@ class Questoes82State extends State<Questoes82> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(HMTJ-2019)\nHomem de 44 anos muda-se para Juiz de Fora, natural de Lassance, Minas Gerais. Relata cansaço a pequenos esforços nos últimos 6 meses. Exame físico com sinais de insuficiência cardíaca. ECG com ritmo sinusal, bloqueio de ramo direito e bloqueio divisional ântero-superior esquerdo, além de sinais de sobrecargas das câmaras esquerdas. Todas as afirmativas a seguir, sobre esse caso, são verdadeiras, exceto: ',
+                    child: Text('(HMTJ-2019)\n82. Homem de 44 anos muda-se para Juiz de Fora, natural de Lassance, Minas Gerais. Relata cansaço a pequenos esforços nos últimos 6 meses. Exame físico com sinais de insuficiência cardíaca. ECG com ritmo sinusal, bloqueio de ramo direito e bloqueio divisional ântero-superior esquerdo, além de sinais de sobrecargas das câmaras esquerdas. Todas as afirmativas a seguir, sobre esse caso, são verdadeiras, exceto: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2464,7 +2464,7 @@ class Questoes83State extends State<Questoes83> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(CESUPA-2020)\nRodolfo, 59 anos, hipertenso e dislipidêmico, teve infarto agudo do miocárdio em parede anterior há 3 anos. Na ocasião, foi submetido a implante de stent que ocluiu após 6 meses. Evoluiu com insuficiência cardíaca. Há cerca de 15 dias, suspendeu a medicação por conta própria, devido problemas financeiros. Atualmente, apresenta dispneia em repouso e edema de membros inferiores. ECG: ritmo sinusal, com QS em parede anterior extensa, Ecocardiograma com FE: 35%. Baseado nos dados apresentados, em qual estágio de doença se encontra este paciente (considerandose a classificação da Insuficiência Cardíaca Congestiva baseada na progressão da doença) e qual o melhor tratamento para o caso? ',
+                    child: Text('(CESUPA-2020)\n83. Rodolfo, 59 anos, hipertenso e dislipidêmico, teve infarto agudo do miocárdio em parede anterior há 3 anos. Na ocasião, foi submetido a implante de stent que ocluiu após 6 meses. Evoluiu com insuficiência cardíaca. Há cerca de 15 dias, suspendeu a medicação por conta própria, devido problemas financeiros. Atualmente, apresenta dispneia em repouso e edema de membros inferiores. ECG: ritmo sinusal, com QS em parede anterior extensa, Ecocardiograma com FE: 35%. Baseado nos dados apresentados, em qual estágio de doença se encontra este paciente (considerandose a classificação da Insuficiência Cardíaca Congestiva baseada na progressão da doença) e qual o melhor tratamento para o caso? ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2615,7 +2615,7 @@ class Questoes84State extends State<Questoes84> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(CESUPA-2020)\nA insuficiência cardíaca (IC) é a terceira causa de internação no Brasil em pessoas com mais de 60 anos. Além disso, após seu diagnóstico, cerca de 50% dos pacientes morrem em até 5 anos. Apesar do desenvolvimento de métodos diagnósticos, acesso a medicações e procedimentos, devemos implementar práticas não farmacológicas para evitar o avanço da doença. Com relação ao tratamento não farmacológico da IC, podemos afirmar que: ',
+                    child: Text('(CESUPA-2020)\n84. A insuficiência cardíaca (IC) é a terceira causa de internação no Brasil em pessoas com mais de 60 anos. Além disso, após seu diagnóstico, cerca de 50% dos pacientes morrem em até 5 anos. Apesar do desenvolvimento de métodos diagnósticos, acesso a medicações e procedimentos, devemos implementar práticas não farmacológicas para evitar o avanço da doença. Com relação ao tratamento não farmacológico da IC, podemos afirmar que: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

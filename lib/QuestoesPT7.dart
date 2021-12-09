@@ -157,7 +157,7 @@ class Questoes85State extends State<Questoes85> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nA opção que contém SOMENTE agentes bloqueadores beta adrenérgicos que têm indicação classe I para pacientes com insuficiência cardíaca e disfunção sistólica importante do ventrículo esquerdo é:  ',
+                    child: Text('(UEPA-2018)\n85. A opção que contém SOMENTE agentes bloqueadores beta adrenérgicos que têm indicação classe I para pacientes com insuficiência cardíaca e disfunção sistólica importante do ventrículo esquerdo é:  ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -327,7 +327,7 @@ class Questoes86State extends State<Questoes86> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nSobre o uso de Inibidores da Enzima Conversora de Angiotensina (IECA) e de Bloqueadores dos Receptores da Angiotensina (BRA) na insuficiência cardíaca com disfunção sistólica importante do ventrículo esquerdo, é correto afirmar que: ',
+                    child: Text('(UEPA-2018)\n86. Sobre o uso de Inibidores da Enzima Conversora de Angiotensina (IECA) e de Bloqueadores dos Receptores da Angiotensina (BRA) na insuficiência cardíaca com disfunção sistólica importante do ventrículo esquerdo, é correto afirmar que: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -497,7 +497,7 @@ class Questoes87State extends State<Questoes87> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nEm um paciente com insuficiência cardíaca por miocardiopatia hipertrófica (hipertrofia septal assimétrica), em ritmo sinusal, está CONTRAINDICADO, entre as opções a seguir: ',
+                    child: Text('(UEPA-2018)\n87. Em um paciente com insuficiência cardíaca por miocardiopatia hipertrófica (hipertrofia septal assimétrica), em ritmo sinusal, está CONTRAINDICADO, entre as opções a seguir: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -648,7 +648,7 @@ class Questoes88State extends State<Questoes88> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nEm um paciente com insuficiência cardíaca por miocardiopatia dilatada, em fibrilação atrial, é mais adequado para o controle da frequência cardíaca: ',
+                    child: Text('(UEPA-2018)\n88. Em um paciente com insuficiência cardíaca por miocardiopatia dilatada, em fibrilação atrial, é mais adequado para o controle da frequência cardíaca: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -818,7 +818,7 @@ class Questoes89State extends State<Questoes89> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nEm um paciente com insuficiência cardíaca por estenose mitral grave, NÃO está entre as prováveis intervenções terapêutica favoráveis: ',
+                    child: Text('(UEPA-2018)\n89. Em um paciente com insuficiência cardíaca por estenose mitral grave, NÃO está entre as prováveis intervenções terapêutica favoráveis: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -988,7 +988,7 @@ class Questoes90State extends State<Questoes90> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nA opção que contém o melhor perfil de paciente com insuficiência cardíaca para receber terapia de ressincronização miocárdica (marcapasso multissítio) é:',
+                    child: Text('(UEPA-2018)\n90. A opção que contém o melhor perfil de paciente com insuficiência cardíaca para receber terapia de ressincronização miocárdica (marcapasso multissítio) é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1158,7 +1158,7 @@ class Questoes91State extends State<Questoes91> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nSegundo as atuais Diretrizes Brasileiras de Insuficiência Cardíaca, o uso da dosagem do BNP (peptídeo natriurético do tipo B) em paciente com insuficiência cardíaca:',
+                    child: Text('(UEPA-2018)\n91. Segundo as atuais Diretrizes Brasileiras de Insuficiência Cardíaca, o uso da dosagem do BNP (peptídeo natriurético do tipo B) em paciente com insuficiência cardíaca:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1328,7 +1328,7 @@ class Questoes92State extends State<Questoes92> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nDas opções a seguir, aquela que está indicada para pacientes com insuficiência cardíaca com disfunção sistólica importante do ventrículo esquerdo, mesmo assintomáticos, é: ',
+                    child: Text('(UEPA-2018)\n92. Das opções a seguir, aquela que está indicada para pacientes com insuficiência cardíaca com disfunção sistólica importante do ventrículo esquerdo, mesmo assintomáticos, é: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1498,7 +1498,7 @@ class Questoes93State extends State<Questoes93> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nEm um paciente com insuficiência aórtica importante são achados indicativos de cirurgia de troca valvar, independente da presença de sintomas, EXCETO: ',
+                    child: Text('(UEPA-2018)\n93. m um paciente com insuficiência aórtica importante são achados indicativos de cirurgia de troca valvar, independente da presença de sintomas, EXCETO: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1668,7 +1668,7 @@ class Questoes94State extends State<Questoes94> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nA ivabradina foi recentemente associada ao arsenal terapêutico da insuficiência cardíaca, exercendo seu efeito clínico por atuação no:',
+                    child: Text('(UEPA-2018)\n94. A ivabradina foi recentemente associada ao arsenal terapêutico da insuficiência cardíaca, exercendo seu efeito clínico por atuação no:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1838,7 +1838,7 @@ class Questoes95State extends State<Questoes95> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nEm um paciente com insuficiência cardíaca, a situação em que a digoxina está adequadamente indicada é: ',
+                    child: Text('(UEPA-2018)\n95. Em um paciente com insuficiência cardíaca, a situação em que a digoxina está adequadamente indicada é: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2008,7 +2008,7 @@ class Questoes96State extends State<Questoes96> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UEPA-2018)\nAtualmente, um paciente de 85 anos de idade, com DPOC grave, apresentando ainda sintomas de insuficiência cardíaca por estenose aórtica grave, teria melhor relação risco efetividade corrigindo a patologia aórtica por meio de: ',
+                    child: Text('(UEPA-2018)\n96. Atualmente, um paciente de 85 anos de idade, com DPOC grave, apresentando ainda sintomas de insuficiência cardíaca por estenose aórtica grave, teria melhor relação risco efetividade corrigindo a patologia aórtica por meio de: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2178,7 +2178,7 @@ class Questoes97State extends State<Questoes97> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(CEREMBA-2021)\nIndique a provável causa da Síndrome de Insuficiência Cardíaca, ICC.',
+                    child: Text('(CEREMBA-2021)\n97. Indique a provável causa da Síndrome de Insuficiência Cardíaca, ICC.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2329,7 +2329,7 @@ class Questoes98State extends State<Questoes98> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(CEREMBA-2021)\nIdentifique como estará a análise da deformação miocárdica (“strain”) da região apical e septal, respectivamente, ao Ecocardiograma transtorácico. ',
+                    child: Text('(CEREMBA-2021)\n98. Identifique como estará a análise da deformação miocárdica (“strain”) da região apical e septal, respectivamente, ao Ecocardiograma transtorácico. ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2480,7 +2480,7 @@ class Questoes99State extends State<Questoes99> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(CEREMBA-2021)\nIndique o tratamento de escolha para melhorar os sintomas do paciente. ',
+                    child: Text('(CEREMBA-2021)\n99. Indique o tratamento de escolha para melhorar os sintomas do paciente. ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2631,7 +2631,7 @@ class Questoes100State extends State<Questoes100> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFG-2015)\nA abordagem dos pacientes com insuficiência cardíaca descompensada na sala de emergência é realizada inicialmente com a determinação do perfil hemodinâmico. Do ponto de vista do perfil hemodinâmico,',
+                    child: Text('(UFG-2015)\n100. A abordagem dos pacientes com insuficiência cardíaca descompensada na sala de emergência é realizada inicialmente com a determinação do perfil hemodinâmico. Do ponto de vista do perfil hemodinâmico,',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2782,7 +2782,7 @@ class Questoes101State extends State<Questoes101> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFG-2015)\nO envelhecimento da população tem sido acompanhado do surgimento de multimorbidades. Dentre as doenças pulmonares, os pacientes portadores de DPOC apresentam uma grande prevalência de doenças cardiovasculares associadas, o que traz uma grande preocupação na prescrição de medicamentos. Qual das drogas a seguir apresenta a opção recomendada para tratamento de insuficiência cardíaca congestiva em pacientes com DPOC?',
+                    child: Text('(UFG-2015)\n101. O envelhecimento da população tem sido acompanhado do surgimento de multimorbidades. Dentre as doenças pulmonares, os pacientes portadores de DPOC apresentam uma grande prevalência de doenças cardiovasculares associadas, o que traz uma grande preocupação na prescrição de medicamentos. Qual das drogas a seguir apresenta a opção recomendada para tratamento de insuficiência cardíaca congestiva em pacientes com DPOC?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2933,7 +2933,7 @@ class Questoes102State extends State<Questoes102> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UFPB-2019)\nEm relação à insuficiência Cardíaca (IC), assinale a alternativa ERRADA: ',
+                    child: Text('(UFPB-2019)\n102. Em relação à insuficiência Cardíaca (IC), assinale a alternativa ERRADA: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

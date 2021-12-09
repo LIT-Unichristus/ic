@@ -144,7 +144,7 @@ class Questoes53State extends State<Questoes53> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UERJ-2018)\nHomem jovem procura cardiologista relatando quadro compatível com insuficiência cardíaca congestiva, além de passado de episódio de morte súbita abortada por taquicardia ventricular sustentada, vindo em uso de carvedilol e amiodarona, desde então. Seu exame físico mostra turgência jugular patológica, crepitações bibasais, sopro sistólico em foco mitral, ritmo cardíaco em quatro tempos (B3 e B4) e edema dos membros inferiores. Seu eletrocardiograma mostra extrassístoles ventriculares esparsas, hipertrofia atrial esquerda e alterações inespecíficas da repolarização ventricular. A telerradiografia de tórax revela sinais de hipertensão venocapilar pulmonar e aumento de átrio e ventrículo esquerdos. Seus exames laboratoriais são normais, exceto por hiponatremia (Na+ = 130mEq/L). É realizado ecocardiograma transtorácico, que revela trabeculações no ventrículo esquerdo (VE), predominantes nas regiões lateral e apical, associadas à dilatação e disfunção sistólica de VE, com dilatação do anel valvar mitral e regurgitação transvalvar mitral moderada. Tais achados sugerem o diagnóstico de:',
+                    child: Text('(UERJ-2018)\n53. Homem jovem procura cardiologista relatando quadro compatível com insuficiência cardíaca congestiva, além de passado de episódio de morte súbita abortada por taquicardia ventricular sustentada, vindo em uso de carvedilol e amiodarona, desde então. Seu exame físico mostra turgência jugular patológica, crepitações bibasais, sopro sistólico em foco mitral, ritmo cardíaco em quatro tempos (B3 e B4) e edema dos membros inferiores. Seu eletrocardiograma mostra extrassístoles ventriculares esparsas, hipertrofia atrial esquerda e alterações inespecíficas da repolarização ventricular. A telerradiografia de tórax revela sinais de hipertensão venocapilar pulmonar e aumento de átrio e ventrículo esquerdos. Seus exames laboratoriais são normais, exceto por hiponatremia (Na+ = 130mEq/L). É realizado ecocardiograma transtorácico, que revela trabeculações no ventrículo esquerdo (VE), predominantes nas regiões lateral e apical, associadas à dilatação e disfunção sistólica de VE, com dilatação do anel valvar mitral e regurgitação transvalvar mitral moderada. Tais achados sugerem o diagnóstico de:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -296,7 +296,7 @@ class Questoes54State extends State<Questoes54> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UERJ-2018)\nPaciente de 48 anos segue em acompanhamento no ambulatório de cardiologia, em função de insuficiência cardíaca (IC) com fração de ejeção reduzida decorrente de cardiopatia isquêmica em fase dilatada. Vítima de infarto extenso ocorrido dois anos antes, para o qual não foi possível a realização de intervenção coronária percutânea ou trombólise (contraindicada à época), se mantém com queixas compatíveis com IC em classe funcional III da NYHA, a despeito de excelente adesão ao tratamento com ácido acetilsalicílico, enalapril, carvedilol, espironolactona, furosemida e atorvastatina, esquema que se encontra otimizado em doses. Ao exame, verifica-se PA = 110 x 80mmHg, FC = 68bpm, presença de 3ª bulha de VE, turgência jugular patológica e estertores em bases pulmonares. Seu eletrocardiograma revela padrão de bloqueio de ramo direito de 3º grau, com duração do QRS de 124ms; o ecocardiograma mostra fração de ejeção de 28% e extensa área de acinesia na parede anterior do VE. A estratégia terapêutica para reduzir a taxa de mortalidade esperada para esse paciente é:',
+                    child: Text('(UERJ-2018)\n54. Paciente de 48 anos segue em acompanhamento no ambulatório de cardiologia, em função de insuficiência cardíaca (IC) com fração de ejeção reduzida decorrente de cardiopatia isquêmica em fase dilatada. Vítima de infarto extenso ocorrido dois anos antes, para o qual não foi possível a realização de intervenção coronária percutânea ou trombólise (contraindicada à época), se mantém com queixas compatíveis com IC em classe funcional III da NYHA, a despeito de excelente adesão ao tratamento com ácido acetilsalicílico, enalapril, carvedilol, espironolactona, furosemida e atorvastatina, esquema que se encontra otimizado em doses. Ao exame, verifica-se PA = 110 x 80mmHg, FC = 68bpm, presença de 3ª bulha de VE, turgência jugular patológica e estertores em bases pulmonares. Seu eletrocardiograma revela padrão de bloqueio de ramo direito de 3º grau, com duração do QRS de 124ms; o ecocardiograma mostra fração de ejeção de 28% e extensa área de acinesia na parede anterior do VE. A estratégia terapêutica para reduzir a taxa de mortalidade esperada para esse paciente é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -447,7 +447,7 @@ class Questoes55State extends State<Questoes55> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UERJ-2018)\nImigrante de 54 anos, proveniente da África equatorial, apresenta insuficiência cardíaca biventricular. Seu ecocardiograma revela espessamento e obliteração dos ápices ventriculares, espessamento das valvas atrioventriculares e aumento biatrial, sugerindo endomiocardiofibrose. Considerando essa hipótese diagnóstica, o paciente pode ter passado por uma longa fase de:',
+                    child: Text('(UERJ-2018)\n55. Imigrante de 54 anos, proveniente da África equatorial, apresenta insuficiência cardíaca biventricular. Seu ecocardiograma revela espessamento e obliteração dos ápices ventriculares, espessamento das valvas atrioventriculares e aumento biatrial, sugerindo endomiocardiofibrose. Considerando essa hipótese diagnóstica, o paciente pode ter passado por uma longa fase de:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -598,7 +598,7 @@ class Questoes56State extends State<Questoes56> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UERJ-2018)\nPaciente de 55 anos, tabagista, em tratamento irregular para hipertensão arterial sistêmica e hipercolesterolemia, encontra-se internado no décimo dia após um infarto do miocárdio anterior extenso. Na admissão hospitalar, não estando disponível estratégias de intervenção coronária percutânea, foi procedida terapia trombolítica (rtPA), mas sem critérios de reperfusão. O paciente evoluiu com sinais e sintomas compatíveis com insuficiência ventricular esquerda (classe III da NYHA), recebendo tratamento indicado. Ele continua se sentindo levemente dispneico, com estertores crepitantes em bases pulmonares e infrequentes extrassístoles ventriculares identificáveis no monitor cardíaco. Um ecocardiograma transtorácico revela que a fração de ejeção de VE é de 38%. Entre as intervenções terapêuticas consideradas no caso, a única INCAPAZ de melhorar a taxa de mortalidade do paciente é:',
+                    child: Text('(UERJ-2018)\n56. Paciente de 55 anos, tabagista, em tratamento irregular para hipertensão arterial sistêmica e hipercolesterolemia, encontra-se internado no décimo dia após um infarto do miocárdio anterior extenso. Na admissão hospitalar, não estando disponível estratégias de intervenção coronária percutânea, foi procedida terapia trombolítica (rtPA), mas sem critérios de reperfusão. O paciente evoluiu com sinais e sintomas compatíveis com insuficiência ventricular esquerda (classe III da NYHA), recebendo tratamento indicado. Ele continua se sentindo levemente dispneico, com estertores crepitantes em bases pulmonares e infrequentes extrassístoles ventriculares identificáveis no monitor cardíaco. Um ecocardiograma transtorácico revela que a fração de ejeção de VE é de 38%. Entre as intervenções terapêuticas consideradas no caso, a única INCAPAZ de melhorar a taxa de mortalidade do paciente é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -749,7 +749,7 @@ class Questoes57State extends State<Questoes57> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(UERJ-2018)\nIdosa de 60 anos é submetida à toracocentese diagnóstica para avaliar quadro de derrame pleural. Um resultado laboratorial obtido da análise do líquido pleural que seria virtualmente diagnóstico da condição correlacionada é:',
+                    child: Text('(UERJ-2018)\n57. Idosa de 60 anos é submetida à toracocentese diagnóstica para avaliar quadro de derrame pleural. Um resultado laboratorial obtido da análise do líquido pleural que seria virtualmente diagnóstico da condição correlacionada é:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -900,7 +900,7 @@ class Questoes58State extends State<Questoes58> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2016)\n Analise as seguintes assertivas em relação aos achados da ressonância magnética na avaliação de pacientes com insuficiência cardíaca:\nI.	O realce tardio com gadolínio pode ocorrer em pacientes com diagnóstico clínico de miocardiopatia dilatada. \nII.	 A presença de infiltração gordurosa é um achado específico de displasia arritmogênica do ventrículo direito. \nIII.	 O realce tardio com gadolínio indica pior prognóstico em pacientes com miocardiopatia hipertrófica.\n Quais estão corretas?',
+                    child: Text('(AMRIGS-2016)\n58. Analise as seguintes assertivas em relação aos achados da ressonância magnética na avaliação de pacientes com insuficiência cardíaca:\nI.	O realce tardio com gadolínio pode ocorrer em pacientes com diagnóstico clínico de miocardiopatia dilatada. \nII.	 A presença de infiltração gordurosa é um achado específico de displasia arritmogênica do ventrículo direito. \nIII.	 O realce tardio com gadolínio indica pior prognóstico em pacientes com miocardiopatia hipertrófica.\n Quais estão corretas?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1070,7 +1070,7 @@ class Questoes59State extends State<Questoes59> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2016)\nEm um paciente que apresenta Infarto Agudo do Miocárdio (IAM) complicado com insuficiência mitral aguda por ruptura de músculo papilar, com sinais clínicos de insuficiência cardíaca e hipotensão, qual a melhor associação de terapias para a otimização da sua condição clínica até que possa ser levado à cirurgia cardíaca?',
+                    child: Text('(AMRIGS-2016)\n59. Em um paciente que apresenta Infarto Agudo do Miocárdio (IAM) complicado com insuficiência mitral aguda por ruptura de músculo papilar, com sinais clínicos de insuficiência cardíaca e hipotensão, qual a melhor associação de terapias para a otimização da sua condição clínica até que possa ser levado à cirurgia cardíaca?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1240,7 +1240,7 @@ class Questoes60State extends State<Questoes60> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2016)\nSobre o tratamento da insuficiência cardíaca, é correto afirmar que:',
+                    child: Text('(AMRIGS-2016)\n60. Sobre o tratamento da insuficiência cardíaca, é correto afirmar que:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1410,7 +1410,7 @@ class Questoes61State extends State<Questoes61> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(AMRIGS-2016)\nQuanto à Insuficiência Cardíaca (ICC), assinale a alternativa correta.',
+                    child: Text('(AMRIGS-2016)\n61. Quanto à Insuficiência Cardíaca (ICC), assinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1580,7 +1580,7 @@ class Questoes62State extends State<Questoes62> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FMUSP-2021)\nPaciente sexo masculino, 35 anos, com miocardiopatia chagásica em classe funcional IV persistente, em fila de transplante cardíaco há 4 meses. Há 1 semana internou por insuficiência cardíaca descompensada em perfil hemodinâmico frio e úmido sendo necessário o uso de inotrópico. No momento encontra-se em UTI em uso de dobutamina 15 mcg/kg/min. Sobre a condição deste paciente na fila de transplante é correto afirmar que: ',
+                    child: Text('(FMUSP-2021)\n62.Paciente sexo masculino, 35 anos, com miocardiopatia chagásica em classe funcional IV persistente, em fila de transplante cardíaco há 4 meses. Há 1 semana internou por insuficiência cardíaca descompensada em perfil hemodinâmico frio e úmido sendo necessário o uso de inotrópico. No momento encontra-se em UTI em uso de dobutamina 15 mcg/kg/min. Sobre a condição deste paciente na fila de transplante é correto afirmar que: ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1731,7 +1731,7 @@ class Questoes63State extends State<Questoes63> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FMUSP-2021)\nPaciente de 53 anos, sexo masculino, transplante cardíaco há 10 meses por miocardiopatia isquêmica, apresentando sintomas e sinais de insuficiência cardíaca nos últimos 5 dias. Em uso de ciclosporina 100 mg 2x/d, micofenolato sódico 360 mg 2x/d, prednisona 5 mg. Nível sérico de ciclosporina mais recente de 223 mg/dL. Ecocardiograma atual com FEVE 35%, hipocinesia difusa, hipertrofia ventricular discreta, disfunção discreta de ventrículo direito. Realizada biópsia endomiocárdica que demonstrou infiltrado linfocitário multifocal com dois focos de agressão de fibras, sem sinais histológicos de rejeição mediada por anticorpos, porém, imunofluorescência para C4d positiva difusamente em capilares. Com base nos dados acima, que alternativa abrange a classificação de rejeição celular aguda e de rejeição mediada por anticorpos, segundo a ISHLT, e o tratamento mais adequado para o paciente? ',
+                    child: Text('(FMUSP-2021)\n63. Paciente de 53 anos, sexo masculino, transplante cardíaco há 10 meses por miocardiopatia isquêmica, apresentando sintomas e sinais de insuficiência cardíaca nos últimos 5 dias. Em uso de ciclosporina 100 mg 2x/d, micofenolato sódico 360 mg 2x/d, prednisona 5 mg. Nível sérico de ciclosporina mais recente de 223 mg/dL. Ecocardiograma atual com FEVE 35%, hipocinesia difusa, hipertrofia ventricular discreta, disfunção discreta de ventrículo direito. Realizada biópsia endomiocárdica que demonstrou infiltrado linfocitário multifocal com dois focos de agressão de fibras, sem sinais histológicos de rejeição mediada por anticorpos, porém, imunofluorescência para C4d positiva difusamente em capilares. Com base nos dados acima, que alternativa abrange a classificação de rejeição celular aguda e de rejeição mediada por anticorpos, segundo a ISHLT, e o tratamento mais adequado para o paciente? ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1882,7 +1882,7 @@ class Questoes64State extends State<Questoes64> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(FMUSP-2021)\nPaciente masculino, 61 anos, diabético, hipertenso com miocardiopatia isquêmica, revascularizado há 5 anos, portador de CDI por prevenção primária, esteve internado algumas vezes por insuficiência cardíaca descompensada, necessitando uso de furosemida endovenosa apresenta-se em consulta com dispneia aos moderados para mínimos esforços, ortopneia, porém sem edemas de membros inferiores ou aumento de volume abdominal. Em uso de sacubitril/valsartana dose intermediária; carvedilol 50 mg/dia; espironolactona 25 mg/dia; furosemida 120 mg/dia; atorvastatina; aspirina e linagliptina. Ao exame físico: PA 90x60 mmHg, FC 76 bpm Estertores crepitantes bibasais, sopro sistólico mitral ++/6+, sem edemas de membros inferiores. LAB: U62 / Creat 2,0 / TFG 35 / Hb 15 / Na 138 / Hbgli 6,8 / NTproBNP 1800. ECG: ritmo sinusal, FC 78, QRS 110ms. ECO: FEVE 20%, DDVE 83, DSVE 75, AE 45, Disfunção moderada do VD PSAP 58, Disfunção diastólica importante Ergoespiro: VO2 19 Slope VE/VCO2 28. Sobre o caso acima, é correto afirmar:',
+                    child: Text('(FMUSP-2021)\n64. Paciente masculino, 61 anos, diabético, hipertenso com miocardiopatia isquêmica, revascularizado há 5 anos, portador de CDI por prevenção primária, esteve internado algumas vezes por insuficiência cardíaca descompensada, necessitando uso de furosemida endovenosa apresenta-se em consulta com dispneia aos moderados para mínimos esforços, ortopneia, porém sem edemas de membros inferiores ou aumento de volume abdominal. Em uso de sacubitril/valsartana dose intermediária; carvedilol 50 mg/dia; espironolactona 25 mg/dia; furosemida 120 mg/dia; atorvastatina; aspirina e linagliptina. Ao exame físico: PA 90x60 mmHg, FC 76 bpm Estertores crepitantes bibasais, sopro sistólico mitral ++/6+, sem edemas de membros inferiores. LAB: U62 / Creat 2,0 / TFG 35 / Hb 15 / Na 138 / Hbgli 6,8 / NTproBNP 1800. ECG: ritmo sinusal, FC 78, QRS 110ms. ECO: FEVE 20%, DDVE 83, DSVE 75, AE 45, Disfunção moderada do VD PSAP 58, Disfunção diastólica importante Ergoespiro: VO2 19 Slope VE/VCO2 28. Sobre o caso acima, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2033,7 +2033,7 @@ class Questoes65State extends State<Questoes65> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(SESA/ES-2013)\nAcerca de insuficiência cardíaca congestiva, assinale a opção correta.',
+                    child: Text('(SESA/ES-2013)\n65. Acerca de insuficiência cardíaca congestiva, assinale a opção correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2203,7 +2203,7 @@ class Questoes66State extends State<Questoes66> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(SESA/ES-2013)\nAssinale a opção que apresenta situação de indicação provável de transplante em insuficiência cardíaca grave.',
+                    child: Text('(SESA/ES-2013)\n66. Assinale a opção que apresenta situação de indicação provável de transplante em insuficiência cardíaca grave.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2373,7 +2373,7 @@ class Questoes67State extends State<Questoes67> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(SESA/ES-2013)\nAssinale a opção que apresenta contraindicação absoluta para o transplante cardíaco em portadores de insuficiência cardíaca.',
+                    child: Text('(SESA/ES-2013)\n67. Assinale a opção que apresenta contraindicação absoluta para o transplante cardíaco em portadores de insuficiência cardíaca.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2543,7 +2543,7 @@ class Questoes68State extends State<Questoes68> {
                     decoration: BoxDecoration(
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('(SESA/ES-2013)\nAcerca do tratamento de insuficiência cardíaca congestiva, assinale a opção correta.',
+                    child: Text('(SESA/ES-2013)\n68. Acerca do tratamento de insuficiência cardíaca congestiva, assinale a opção correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

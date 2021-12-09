@@ -13,9 +13,7 @@ class Etiologia extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Etiologia'),
-        actions: [
-          IconButton(onPressed: (){}, icon: const Icon(Icons.search))
-        ],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -174,9 +172,7 @@ Widget build(BuildContext context) {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Etiologia'),
-        actions: [
-          IconButton(onPressed: (){}, icon: const Icon(Icons.search))
-        ],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -277,9 +273,7 @@ Widget build(BuildContext context) {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Etiologia'),
-        actions: [
-          IconButton(onPressed: (){}, icon: const Icon(Icons.search))
-        ],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(

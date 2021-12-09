@@ -145,7 +145,7 @@ class Questoes17State extends State<Questoes17> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UNESP-2013)\nHomem de 60 anos, com antecedente de insuficiência cardíaca de etiologia hipertensiva, é admitido no pronto-socorro com mal-estar geral, extremidades frias e dispneia. Exame físico: FR 35 mpm; PA 70 x 40 mmHg; FC 115 bpm; SatO2 85% em ar ambiente; crepitações pulmonares finas até metade do tórax bilateralmente e edema +/4+ em membros inferiores. ECG: ritmo sinusal, com sobrecarga de câmaras cardíacas esquerdas. A conduta inicial é iniciar:',
+                      '(UNESP-2013)\n17. Homem de 60 anos, com antecedente de insuficiência cardíaca de etiologia hipertensiva, é admitido no pronto-socorro com mal-estar geral, extremidades frias e dispneia. Exame físico: FR 35 mpm; PA 70 x 40 mmHg; FC 115 bpm; SatO2 85% em ar ambiente; crepitações pulmonares finas até metade do tórax bilateralmente e edema +/4+ em membros inferiores. ECG: ritmo sinusal, com sobrecarga de câmaras cardíacas esquerdas. A conduta inicial é iniciar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -317,7 +317,7 @@ class Questoes18State extends State<Questoes18> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UNICAMP-2016)\nHomem de 65 anos tem hipertensão arterial sistêmica e dislipidemia há dez anos. Queixa-se de inchaço nas pernas e falta de ar, que chegou aos mínimos esforços na última semana, tendo que dormir sentado. Exame físico: Agitado, extremidades frias, FR= 32ir/min, FC= 120bat/min, PA= 90/50 mmHg, turgência da jugular, ausculta cardíaca com 3ª bulha, estertores crepitantes até campos médios de ambos os pulmões, fígado palpável a 6cm do rebordo costal direito e edema de membros inferiores até joelhos. Qual o diagnóstico e o que deve ser feito?',
+                      '(UNICAMP-2016)\n18. Homem de 65 anos tem hipertensão arterial sistêmica e dislipidemia há dez anos. Queixa-se de inchaço nas pernas e falta de ar, que chegou aos mínimos esforços na última semana, tendo que dormir sentado. Exame físico: Agitado, extremidades frias, FR= 32ir/min, FC= 120bat/min, PA= 90/50 mmHg, turgência da jugular, ausculta cardíaca com 3ª bulha, estertores crepitantes até campos médios de ambos os pulmões, fígado palpável a 6cm do rebordo costal direito e edema de membros inferiores até joelhos. Qual o diagnóstico e o que deve ser feito?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -469,7 +469,7 @@ class Questoes19State extends State<Questoes19> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2016)\nEm relação ao tratamento da insuficiência cardíaca com fração de ejeção reduzida em populações especiais e nos pacientes que permanecem com sintomas, considere as afirmativas abaixo:\n1.A combinação de hidralazina com nitrato é recomendada em associação com betabloqueadores em pacientes afro-americanos com classe NYHA II a IV.\n2.A combinação de hidralazina com nitrato pode ser utilizada em associação à terapia com betabloqueadores e inibidores da enzima da conversão da angiotensina nos pacientes que permanecem com sintomas.\n3.Nos pacientes com sintomas persistentes, pode ser utilizada a terapia tripla com inibidores da enzima de conversão da angiotensina, bloqueadores dos receptores da angiotensina e antagonistas da aldosterona.\n\nAssinale a alternativa correta.',
+                      '(UFPR-2016)\n19. Em relação ao tratamento da insuficiência cardíaca com fração de ejeção reduzida em populações especiais e nos pacientes que permanecem com sintomas, considere as afirmativas abaixo:\n1.A combinação de hidralazina com nitrato é recomendada em associação com betabloqueadores em pacientes afro-americanos com classe NYHA II a IV.\n2.A combinação de hidralazina com nitrato pode ser utilizada em associação à terapia com betabloqueadores e inibidores da enzima da conversão da angiotensina nos pacientes que permanecem com sintomas.\n3.Nos pacientes com sintomas persistentes, pode ser utilizada a terapia tripla com inibidores da enzima de conversão da angiotensina, bloqueadores dos receptores da angiotensina e antagonistas da aldosterona.\n\nAssinale a alternativa correta.',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -640,7 +640,7 @@ class Questoes20State extends State<Questoes20> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2015)\nCom relação ao tratamento da insuficiência cardíaca, identifique afirmativas abaixo como verdadeiras (V) ou falsas (F):\n( ) A associação de IECA (inibidor da enzima de conversão do angiotensinogênio), BRA (bloqueador do receptor de angiotensina) e antagonista de aldosterona é indicada especialmente nos casos com insuficiência renal crônica.\n( ) O tratamento otimizado deve incluir betabloqueadores, iECA (inibidor da enzima de conversão do angiotensinogênio) ou antagonistas dos receptores da angiotensina, desde que não haja contraindicações.\n( ) Os antagonistas de aldosterona devem ser usados criteriosamente, pelo seu risco de causar hipocalemia.\n( ) A digoxina é indicada para pacientes com disfunção sintomática do ventrículo esquerdo e com fibrilação atrial.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo:',
+                      '(UFPR-2015)\n20. Com relação ao tratamento da insuficiência cardíaca, identifique afirmativas abaixo como verdadeiras (V) ou falsas (F):\n( ) A associação de IECA (inibidor da enzima de conversão do angiotensinogênio), BRA (bloqueador do receptor de angiotensina) e antagonista de aldosterona é indicada especialmente nos casos com insuficiência renal crônica.\n( ) O tratamento otimizado deve incluir betabloqueadores, iECA (inibidor da enzima de conversão do angiotensinogênio) ou antagonistas dos receptores da angiotensina, desde que não haja contraindicações.\n( ) Os antagonistas de aldosterona devem ser usados criteriosamente, pelo seu risco de causar hipocalemia.\n( ) A digoxina é indicada para pacientes com disfunção sintomática do ventrículo esquerdo e com fibrilação atrial.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -811,7 +811,7 @@ class Questoes21State extends State<Questoes21> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2015)\nPaciente do sexo masculino, com 58 anos de idade, iniciou há quatro dias com dispneia e palpitação durante atividades físicas habituais. É diabético em uso de metformina após o jantar. Realizou RX de tórax, cujo resultado mostrou aumento da área cardíaca. Foi aventada hipótese diagnóstica de insuficiência cardíaca. Qual a classe funcional desse paciente pela classificação da New York Heart Association (NYHA)?',
+                      '(UFPR-2015)\n21. Paciente do sexo masculino, com 58 anos de idade, iniciou há quatro dias com dispneia e palpitação durante atividades físicas habituais. É diabético em uso de metformina após o jantar. Realizou RX de tórax, cujo resultado mostrou aumento da área cardíaca. Foi aventada hipótese diagnóstica de insuficiência cardíaca. Qual a classe funcional desse paciente pela classificação da New York Heart Association (NYHA)?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -982,7 +982,7 @@ class Questoes22State extends State<Questoes22> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2014)\nEm relação à fisiopatologia da insuficiência cardíaca (IC), identifique como verdadeiras (V) ou falsas (F) as seguintes afirmativas:\n( ) A fração de ejeção (FE) é a medida mais utilizada para estimar a função sistólica do ventrículo esquerdo (VE) e é obtida pela fórmula: FE = (Dimensão diastólica do VE – Dimensão sistólica do VE) / Dimensão diastólica do VE.\n( ) Pode haver casos de IC com FE preservada, como na cardiopatia hipertensiva, amiloidose e fibrose isquêmica.\n( ) A pré-carga caracteriza-se pela pressão ou volume diastólicos finais, que são indicadores indiretos do comprimento diastólico final da fibra.\n( ) A medida mais precisa da pós-carga é o estresse parietal sistólico.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo:',
+                      '(UFPR-2014)\n22. Em relação à fisiopatologia da insuficiência cardíaca (IC), identifique como verdadeiras (V) ou falsas (F) as seguintes afirmativas:\n( ) A fração de ejeção (FE) é a medida mais utilizada para estimar a função sistólica do ventrículo esquerdo (VE) e é obtida pela fórmula: FE = (Dimensão diastólica do VE – Dimensão sistólica do VE) / Dimensão diastólica do VE.\n( ) Pode haver casos de IC com FE preservada, como na cardiopatia hipertensiva, amiloidose e fibrose isquêmica.\n( ) A pré-carga caracteriza-se pela pressão ou volume diastólicos finais, que são indicadores indiretos do comprimento diastólico final da fibra.\n( ) A medida mais precisa da pós-carga é o estresse parietal sistólico.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1153,7 +1153,7 @@ class Questoes23State extends State<Questoes23> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2014)\nA insuficiência cardíaca é um grande problema mundial que afeta mais de 20 milhões de indivíduos. Sua prevalência global na população adulta dos países desenvolvidos é de 2%. Com relação ao tratamento da insuficiência cardíaca crônica com fração de ejeção abaixo de 40%, é correto afirmar:',
+                      '(UFPR-2014)\n23. A insuficiência cardíaca é um grande problema mundial que afeta mais de 20 milhões de indivíduos. Sua prevalência global na população adulta dos países desenvolvidos é de 2%. Com relação ao tratamento da insuficiência cardíaca crônica com fração de ejeção abaixo de 40%, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1324,7 +1324,7 @@ class Questoes24State extends State<Questoes24> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2013)\nPaciente evolui com insuficiência cardíaca após infarto agudo do miocárdio. Seu ECG revela ondas Q e supradesnível de segmento ST em V4, V5 e V6. Em relação ao seu ecocardiograma, é correto afirmar:',
+                      '(UFPR-2013)\n24. Paciente evolui com insuficiência cardíaca após infarto agudo do miocárdio. Seu ECG revela ondas Q e supradesnível de segmento ST em V4, V5 e V6. Em relação ao seu ecocardiograma, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1495,7 +1495,7 @@ class Questoes25State extends State<Questoes25> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2013)\nSobre a insuficiência cardíaca crônica, é correto afirmar:',
+                      '(UFPR-2013)\n25. Sobre a insuficiência cardíaca crônica, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1666,7 +1666,7 @@ class Questoes26State extends State<Questoes26> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2013)\nEm relação ao tratamento farmacológico da insuficiência cardíaca, é correto afirmar:',
+                      '(UFPR-2013)\n26. Em relação ao tratamento farmacológico da insuficiência cardíaca, é correto afirmar:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -1837,7 +1837,7 @@ class Questoes27State extends State<Questoes27> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFPR-2012)\nA insuficiência cardíaca cursa com a diminuição do débito cardíaco, que leva à ativação dos sistemas neuro-hormonais. NÃO se relaciona com a fisiopatologia da insuficiência cardíaca:',
+                      '(UFPR-2012)\n27. A insuficiência cardíaca cursa com a diminuição do débito cardíaco, que leva à ativação dos sistemas neuro-hormonais. NÃO se relaciona com a fisiopatologia da insuficiência cardíaca:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2008,7 +2008,7 @@ class Questoes28State extends State<Questoes28> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFMG-2014)\nMulher de 62 anos, hipertensa de longa data, em uso de enalapril e hidroclorotiazida, evolui com fadiga, dispnéia aos moderados esforços e tosse noturna uma a três horas após deitar-se. Ecocardiograma evidencia hipocinesia difusa do ventrículo esquerdo e fração de ejeção de 39%. Em relação aos sintomas relatados, assinale a afirmativa ERRADA:',
+                      '(UFMG-2014)\n28. Mulher de 62 anos, hipertensa de longa data, em uso de enalapril e hidroclorotiazida, evolui com fadiga, dispnéia aos moderados esforços e tosse noturna uma a três horas após deitar-se. Ecocardiograma evidencia hipocinesia difusa do ventrículo esquerdo e fração de ejeção de 39%. Em relação aos sintomas relatados, assinale a afirmativa ERRADA:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2160,7 +2160,7 @@ class Questoes29State extends State<Questoes29> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(UFMG-2011)\nHomem de 55 anos, sabidamente portador de insuficiência cardíaca congestiva (ICC) com fração de ejeção estimada em 38%, foi hospitalizado com relato de dispnéia e edema de membros inferiores de evolução progressiva durante os últimos 20 dias. Após quatro dias de internação, houve compensação do quadro. No momento, ele se encontra assintomático, com PA= 125/80mmHg, FC= 78bpm e vai receber alta hospitalar. Níveis séricos dos íons, da uréia e da creatinina estão normais. Há cerca de três anos, faz uso regular de aspirina e sinvastatina. Dentre as opções abaixo, qual é o tratamento adicional mais adequado a ser prescrito? ',
+                      '(UFMG-2011)\n29. Homem de 55 anos, sabidamente portador de insuficiência cardíaca congestiva (ICC) com fração de ejeção estimada em 38%, foi hospitalizado com relato de dispnéia e edema de membros inferiores de evolução progressiva durante os últimos 20 dias. Após quatro dias de internação, houve compensação do quadro. No momento, ele se encontra assintomático, com PA= 125/80mmHg, FC= 78bpm e vai receber alta hospitalar. Níveis séricos dos íons, da uréia e da creatinina estão normais. Há cerca de três anos, faz uso regular de aspirina e sinvastatina. Dentre as opções abaixo, qual é o tratamento adicional mais adequado a ser prescrito? ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2312,7 +2312,7 @@ class Questoes30State extends State<Questoes30> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(AMRIGS-2015)\nSobre a Insuficiência Cardíaca Congestiva (ICC), assinale a alternativa correta. ',
+                      '(AMRIGS-2015)\n30. Sobre a Insuficiência Cardíaca Congestiva (ICC), assinale a alternativa correta. ',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2483,7 +2483,7 @@ class Questoes31State extends State<Questoes31> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(AMRIGS-2015)\nSão causas de insuficiência cardíaca no recém-nascido e lactente jovem:',
+                      '(AMRIGS-2015)\n31. São causas de insuficiência cardíaca no recém-nascido e lactente jovem:',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),
@@ -2654,7 +2654,7 @@ class Questoes32State extends State<Questoes32> {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      '(AMRIGS-2015)\nSão achados da fase aguda de insuficiência cardíaca:\nI. Aumento da frequência cardíaca.\nII. Aumento da contratilidade miocárdica.\nIII. Vasoconstrição periférica seletiva.\nIV. Baixo débito cardíaco e choque.\n\nQuais estão corretas?',
+                      '(AMRIGS-2015)\n32. São achados da fase aguda de insuficiência cardíaca:\nI. Aumento da frequência cardíaca.\nII. Aumento da contratilidade miocárdica.\nIII. Vasoconstrição periférica seletiva.\nIV. Baixo débito cardíaco e choque.\n\nQuais estão corretas?',
                       style:TextStyle(color: Colors.white,fontSize: 20)
                     ),
                   ),

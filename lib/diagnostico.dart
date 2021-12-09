@@ -13,7 +13,7 @@ class Diagnostico extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Diagnóstico'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -97,11 +97,10 @@ class Diagnostico extends StatelessWidget {
                         backgroundColor:
                             MaterialStateProperty.all(Colors.blue[900])),
                     onPressed: () {
-                            Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ExFisico()),
-                          );
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ExFisico()),
+                      );
                     },
                     child: const Text(
                       "Exame Físico",
@@ -175,7 +174,7 @@ class Sintomas extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Sintomas'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -207,7 +206,7 @@ class Algoritmo extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Algoritmo'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -239,7 +238,7 @@ class Peptideos extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Peptideos'),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
@@ -262,8 +261,8 @@ class Peptideos extends StatelessWidget {
   }
 }
 
-class ExFisico extends StatelessWidget{
-  const ExFisico ({Key? key}) : super(key: key);
+class ExFisico extends StatelessWidget {
+  const ExFisico({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -271,133 +270,130 @@ class ExFisico extends StatelessWidget{
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text("Exame Físico"),
-        actions: [
-          IconButton(onPressed: (){}, icon: const Icon(Icons.search))
-        ],
+        actions: [],
         centerTitle: true,
       ),
       body: SafeArea(
-        child: SingleChildScrollView(child: LayoutBuilder(
-          builder: (BuildContext context, BoxConstraints constraints){
-            return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 60.0),
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                color: Colors.white
-              ),
-              child: Column(children: [
-                SizedBox(
-                  width: 350,
-                  child: TextButton(
-                    onPressed: (){
-                       Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => MaisEsp()),
-                          );
-                    },
-                    child: const Text("Sinais Mais Específicos",
-                    style: TextStyle(
-                      fontSize: 20,
-                      color:Colors.white,
-                      decoration: TextDecoration.none),
-                      ),
-                      style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                  ),
-                ),
-                const SizedBox(height: 10),
-                SizedBox(
-                  width: 350,
-                  child: TextButton(
-                    onPressed: (){
-                       Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => MenosEsp()),
-                          );
-                    },
-                    child: const Text("Sinais Mais Específicos",
-                    style: TextStyle(
-                      fontSize: 20,
-                      color:Colors.white,
-                      decoration: TextDecoration.none),
-                      ),
-                      style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                  ),
-                ),
-              ],),
-            );
-          },
-        ),),
-      ),
-    );
-  }
-}
-
-class MaisEsp extends StatelessWidget{
-  const MaisEsp ({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-          title: const Text('Sinais Mais Específicos'),
-          actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
-          ],
-          centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child: LayoutBuilder(
-          builder: (BuildContext context, BoxConstraints constraints){
-            return Container(
-              width: MediaQuery.of(context).size.width,
+        child: SingleChildScrollView(
+          child: LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+              return Container(
+                width: MediaQuery.of(context).size.width,
+                padding: const EdgeInsets.only(top: 60.0),
                 alignment: Alignment.center,
-                decoration:  new BoxDecoration (
-                color: Colors.blue[900]
-            ),
-                child: Column(children: [
-                  ListTile(
-                   title: const Text("Pressão Venosa Jugular Elevada", style: TextStyle(color: Colors.white ,fontSize: 20),),
-                   ),
-                  ListTile(
-                    title: const Text("Refluxo Hepatojugular", style: TextStyle(color: Colors.white ,fontSize: 20),),
-                   ),
-                  ListTile(
-                     leading: TextButton(onPressed: () => TercBulha(),
-                          child: const Text(
-                          "Terceira Bulha Cardiaca",
+                decoration: BoxDecoration(color: Colors.white),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      width: 350,
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => MaisEsp()),
+                          );
+                        },
+                        child: const Text(
+                          "Sinais Mais Específicos",
                           style: TextStyle(
                               fontSize: 20,
-                              
-                             fontWeight: FontWeight.bold,
                               color: Colors.white,
                               decoration: TextDecoration.none),
                         ),
                         style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900],),
-                            padding: MaterialStateProperty.all(EdgeInsets.zero)
-                            ),)
+                                MaterialStateProperty.all(Colors.blue[900])),
                       ),
-                ListTile(
-                   title: const Text("Impulso Apical Desviado Para A Esquerda", style: TextStyle(color: Colors.white ,fontSize: 20),),
-                   ),
-
-                ]
-                )
-                );
-}
-        )
-        )
-      )
+                    ),
+                    const SizedBox(height: 10),
+                    SizedBox(
+                      width: 350,
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => MenosEsp()),
+                          );
+                        },
+                        child: const Text(
+                          "Sinais Mais Específicos",
+                          style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.white,
+                              decoration: TextDecoration.none),
+                        ),
+                        style: ButtonStyle(
+                            backgroundColor:
+                                MaterialStateProperty.all(Colors.blue[900])),
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+        ),
+      ),
     );
+  }
+}
+
+class MaisEsp extends StatelessWidget {
+  const MaisEsp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blue[900],
+          title: const Text('Sinais Mais Específicos'),
+          actions: [],
+          centerTitle: true,
+        ),
+        body: SafeArea(child: SingleChildScrollView(child: LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
+              width: MediaQuery.of(context).size.width,
+              alignment: Alignment.center,
+              decoration: new BoxDecoration(color: Colors.blue[900]),
+              child: Column(children: [
+                ListTile(
+                  title: const Text(
+                    "Pressão Venosa Jugular Elevada",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                ),
+                ListTile(
+                  title: const Text(
+                    "Refluxo Hepatojugular",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                ),
+                ListTile(
+                    leading: TextButton(
+                  onPressed: () => TercBulha(),
+                  child: const Text(
+                    "Terceira Bulha Cardiaca",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        decoration: TextDecoration.none),
+                  ),
+                  style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(
+                        Colors.blue[900],
+                      ),
+                      padding: MaterialStateProperty.all(EdgeInsets.zero)),
+                )),
+                ListTile(
+                  title: const Text(
+                    "Impulso Apical Desviado Para A Esquerda",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                ),
+              ]));
+        }))));
   }
 }
 
@@ -410,89 +406,84 @@ TercBulha() async {
   }
 }
 
-class MenosEsp extends StatelessWidget{
-  const MenosEsp ({Key? key}) : super(key: key);
+class MenosEsp extends StatelessWidget {
+  const MenosEsp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
+        appBar: AppBar(
+          backgroundColor: Colors.blue[900],
           title: const Text('Sinais Menos Específicos'),
-          actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
-          ],
+          actions: [],
           centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(child: LayoutBuilder(
-          builder: (BuildContext context, BoxConstraints constraints){
-            return Container(
+        ),
+        body: SafeArea(child: SingleChildScrollView(child: LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+          return Container(
               width: MediaQuery.of(context).size.width,
-                alignment: Alignment.center,
-                decoration:  new BoxDecoration (
-                color: Colors.blue[900]
-            ),
-                child: Column(children: [
-                  ListTile(
-                     leading: TextButton(onPressed: () => TercBulha(),
-                          child: const Text(
-                          "Creptações Pulmonares",
-                          style: TextStyle(
-                              fontSize: 20,
-                              
-                             fontWeight: FontWeight.bold,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900],),
-                            padding: MaterialStateProperty.all(EdgeInsets.zero)
-                            ),)
-                      ),
-                  ListTile(
-                   title: const Text("Taquicardia", style: TextStyle(color: Colors.white ,fontSize: 20),),
-                   ),
-                  ListTile(
-                    title: const Text("Hepatomegalia E Ascite", style: TextStyle(color: Colors.white ,fontSize: 20),),
-                   ),
-                  
+              alignment: Alignment.center,
+              decoration: new BoxDecoration(color: Colors.blue[900]),
+              child: Column(children: [
                 ListTile(
-                   title: const Text("Extremidades Frias", style: TextStyle(color: Colors.white ,fontSize: 20),),
-                   ),
-                    ListTile(
-                     leading: TextButton(onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Edema()),
-                          );
-                        },
-                          child: const Text(
-                          "Edema Periférico",
-                          style: TextStyle(
-                              fontSize: 20,
-                              
-                             fontWeight: FontWeight.bold,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900],),
-                            padding: MaterialStateProperty.all(EdgeInsets.zero)
-                            ),)
+                    leading: TextButton(
+                  onPressed: () => TercBulha(),
+                  child: const Text(
+                    "Creptações Pulmonares",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        decoration: TextDecoration.none),
+                  ),
+                  style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(
+                        Colors.blue[900],
                       ),
-
-                ]
-                )
-                );
-}
-        )
-        )
-      )
-    );
+                      padding: MaterialStateProperty.all(EdgeInsets.zero)),
+                )),
+                ListTile(
+                  title: const Text(
+                    "Taquicardia",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                ),
+                ListTile(
+                  title: const Text(
+                    "Hepatomegalia E Ascite",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                ),
+                ListTile(
+                  title: const Text(
+                    "Extremidades Frias",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                ),
+                ListTile(
+                    leading: TextButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Edema()),
+                    );
+                  },
+                  child: const Text(
+                    "Edema Periférico",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        decoration: TextDecoration.none),
+                  ),
+                  style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(
+                        Colors.blue[900],
+                      ),
+                      padding: MaterialStateProperty.all(EdgeInsets.zero)),
+                )),
+              ]));
+        }))));
   }
 }
 
@@ -505,39 +496,38 @@ CrepPul() async {
   }
 }
 
-class Edema extends StatelessWidget{
-  const Edema ({Key? key}) : super(key:key);
+class Edema extends StatelessWidget {
+  const Edema({Key? key}) : super(key: key);
 
-  @override 
+  @override
   Widget build(BuildContext context) {
-        return Scaffold(
-          appBar: AppBar(
-            backgroundColor: Colors.blue[900],
-            title: const Text('Edema Periférico'),
-           actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
-        ],
-        centerTitle: true,
+    return Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blue[900],
+          title: const Text('Edema Periférico'),
+          actions: [
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.search),
+            )
+          ],
+          centerTitle: true,
+        ),
+        body: SafeArea(
+          child: LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+              return Container(
+                decoration: BoxDecoration(color: Colors.white),
+                child: PhotoView(
+                  imageProvider: AssetImage(
+                    'assets/images/Pé.jpg',
+                  ),
+                  backgroundDecoration: BoxDecoration(color: Colors.white),
+                ),
+              );
+            },
           ),
-          body: SafeArea(
-            child: LayoutBuilder(
-              builder: (BuildContext context, BoxConstraints constraints){
-                return Container(
-              decoration: BoxDecoration(
-                color: Colors.white
-              ),
-              child:PhotoView(
-               imageProvider: AssetImage('assets/images/Pé.jpg' ,) ,
-               backgroundDecoration:  BoxDecoration(color: Colors.white),
-),
-                );
-              },
-            ),
-
-          ) //   <--- image
+        ) //   <--- image
         );
-    }
+  }
 }

@@ -12,9 +12,7 @@ class Prognostico extends StatelessWidget{
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
           title: const Text('Prognóstico'),
-          actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
-          ],
+          actions: [],
           centerTitle: true,
       ),
       body: SafeArea(
@@ -91,9 +89,7 @@ class AvFuncional extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
           title: const Text('Prognóstico'),
-          actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
-          ],
+          actions: [],
           centerTitle: true,
       ),
       body: SafeArea(
@@ -413,9 +409,7 @@ class EsPrognosticos extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
           title: const Text('Prognóstico'),
-          actions: [
-            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
-          ],
+          actions: [],
           centerTitle: true,
       ),
       body: SafeArea(
@@ -519,10 +513,6 @@ class HeartFailureScore extends StatelessWidget{
             backgroundColor: Colors.blue[900],
             title: const Text('Edema Periférico'),
            actions: [
-           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          )
         ],
         centerTitle: true,
           ),
