@@ -144,6 +144,7 @@ class Tratamento extends StatelessWidget {
                     ),
                     child: const Text(
                       "Terapia de Ressincronização Cardíaca",
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.white,
