@@ -167,6 +167,7 @@ class Questoes33State extends State<Questoes33> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )
@@ -187,6 +188,9 @@ class Questoes33State extends State<Questoes33> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -206,6 +210,9 @@ class Questoes33State extends State<Questoes33> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -225,6 +232,9 @@ class Questoes33State extends State<Questoes33> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -244,6 +254,9 @@ class Questoes33State extends State<Questoes33> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -337,6 +350,9 @@ class Questoes34State extends State<Questoes34> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corE=!corE;
+                                  });
                       }
                       
                     )
@@ -357,6 +373,9 @@ class Questoes34State extends State<Questoes34> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corE=!corE;
+                                  });
                       }
                       
                     )),
@@ -376,6 +395,9 @@ class Questoes34State extends State<Questoes34> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corE=!corE;
+                                  });
                       }
                       
                     )),
@@ -395,6 +417,9 @@ class Questoes34State extends State<Questoes34> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corE=!corE;
+                                  });
                       }
                       
                     )),
@@ -414,6 +439,7 @@ class Questoes34State extends State<Questoes34> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -507,6 +533,7 @@ class Questoes35State extends State<Questoes35> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )
@@ -527,6 +554,9 @@ class Questoes35State extends State<Questoes35> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -546,6 +576,9 @@ class Questoes35State extends State<Questoes35> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -565,6 +598,9 @@ class Questoes35State extends State<Questoes35> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -584,6 +620,9 @@ class Questoes35State extends State<Questoes35> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -677,6 +716,9 @@ class Questoes36State extends State<Questoes36> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )
@@ -697,6 +739,7 @@ class Questoes36State extends State<Questoes36> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -716,6 +759,9 @@ class Questoes36State extends State<Questoes36> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -735,6 +781,9 @@ class Questoes36State extends State<Questoes36> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -754,6 +803,9 @@ class Questoes36State extends State<Questoes36> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -847,6 +899,9 @@ class Questoes37State extends State<Questoes37> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )
@@ -867,6 +922,9 @@ class Questoes37State extends State<Questoes37> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -886,6 +944,7 @@ class Questoes37State extends State<Questoes37> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -905,6 +964,9 @@ class Questoes37State extends State<Questoes37> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -924,6 +986,11 @@ class Questoes37State extends State<Questoes37> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
+                        
+                        
                       }
                       
                     )),
@@ -1017,6 +1084,9 @@ class Questoes38State extends State<Questoes38> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )
@@ -1037,6 +1107,9 @@ class Questoes38State extends State<Questoes38> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -1056,6 +1129,8 @@ class Questoes38State extends State<Questoes38> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        
+                        
                       }
                       
                     )),
@@ -1075,6 +1150,9 @@ class Questoes38State extends State<Questoes38> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -1094,6 +1172,9 @@ class Questoes38State extends State<Questoes38> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -1187,6 +1268,7 @@ class Questoes39State extends State<Questoes39> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )
@@ -1207,6 +1289,9 @@ class Questoes39State extends State<Questoes39> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -1226,6 +1311,9 @@ class Questoes39State extends State<Questoes39> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -1245,6 +1333,9 @@ class Questoes39State extends State<Questoes39> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -1264,6 +1355,9 @@ class Questoes39State extends State<Questoes39> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -1357,6 +1451,9 @@ class Questoes40State extends State<Questoes40> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )
@@ -1377,6 +1474,7 @@ class Questoes40State extends State<Questoes40> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -1396,6 +1494,9 @@ class Questoes40State extends State<Questoes40> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -1415,6 +1516,10 @@ class Questoes40State extends State<Questoes40> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
+
                       }
                       
                     )),
@@ -1540,6 +1645,9 @@ class Questoes41State extends State<Questoes41> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )
@@ -1560,6 +1668,9 @@ class Questoes41State extends State<Questoes41> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -1579,6 +1690,7 @@ class Questoes41State extends State<Questoes41> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -1598,6 +1710,9 @@ class Questoes41State extends State<Questoes41> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),                  
@@ -1691,6 +1806,9 @@ class Questoes42State extends State<Questoes42> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )
@@ -1711,6 +1829,9 @@ class Questoes42State extends State<Questoes42> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )),
@@ -1730,6 +1851,9 @@ class Questoes42State extends State<Questoes42> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )),
@@ -1749,6 +1873,7 @@ class Questoes42State extends State<Questoes42> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -1858,6 +1983,9 @@ class Questoes43State extends State<Questoes43> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )
@@ -1878,6 +2006,9 @@ class Questoes43State extends State<Questoes43> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -1897,6 +2028,7 @@ class Questoes43State extends State<Questoes43> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -1916,6 +2048,9 @@ class Questoes43State extends State<Questoes43> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),                  
@@ -2009,6 +2144,9 @@ class Questoes44State extends State<Questoes44> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )
@@ -2029,6 +2167,7 @@ class Questoes44State extends State<Questoes44> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -2048,6 +2187,9 @@ class Questoes44State extends State<Questoes44> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -2067,6 +2209,9 @@ class Questoes44State extends State<Questoes44> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -2160,6 +2305,9 @@ class Questoes45State extends State<Questoes45> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )
@@ -2180,6 +2328,9 @@ class Questoes45State extends State<Questoes45> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -2199,6 +2350,7 @@ class Questoes45State extends State<Questoes45> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -2218,6 +2370,9 @@ class Questoes45State extends State<Questoes45> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corC=!corC;
+                                  });
                       }
                       
                     )),
@@ -2311,6 +2466,7 @@ class Questoes46State extends State<Questoes46> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )
@@ -2331,6 +2487,9 @@ class Questoes46State extends State<Questoes46> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -2350,6 +2509,9 @@ class Questoes46State extends State<Questoes46> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -2369,6 +2531,9 @@ class Questoes46State extends State<Questoes46> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corA=!corA;
+                                  });
                       }
                       
                     )),
@@ -2462,6 +2627,9 @@ class Questoes47State extends State<Questoes47> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )
@@ -2482,6 +2650,7 @@ class Questoes47State extends State<Questoes47> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -2501,6 +2670,9 @@ class Questoes47State extends State<Questoes47> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -2520,6 +2692,9 @@ class Questoes47State extends State<Questoes47> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corB=!corB;
+                                  });
                       }
                       
                     )),
@@ -2613,6 +2788,9 @@ class Questoes48State extends State<Questoes48> {
                         setState(() => prox = false);
                         setState(() => corA=!corA);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )
@@ -2633,6 +2811,9 @@ class Questoes48State extends State<Questoes48> {
                         setState(() => prox = false);
                         setState(() => corB=!corB);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )),
@@ -2652,6 +2833,9 @@ class Questoes48State extends State<Questoes48> {
                         setState(() => prox = false);
                         setState(() => corC=!corC);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )),
@@ -2671,6 +2855,7 @@ class Questoes48State extends State<Questoes48> {
                         setState(() => prox = false);
                         setState(() => corD=!corD);
                         setState(() => corProx=!corProx);
+                        
                       }
                       
                     )),
@@ -2690,6 +2875,9 @@ class Questoes48State extends State<Questoes48> {
                         setState(() => prox = false);
                         setState(() => corE=!corE);
                         setState(() => corProx=!corProx);
+                        setState(() {
+                                   corD=!corD;
+                                  });
                       }
                       
                     )),
