@@ -184,12 +184,17 @@ class Sintomas extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
             ),
-            child: PhotoView(
-              imageProvider: AssetImage(
-                'assets/images/sintomas.jpg',
-              ),
-              backgroundDecoration: BoxDecoration(color: Colors.white),
-            ),
+            child:  Center(
+                      child: Container(
+                        child: Image.asset(
+                            'assets/images/sintomas.jpg',
+                            fit: BoxFit.cover
+                        ),
+                      )
+                  ),
+            
+            
+            
           );
         }),
       ),
@@ -316,7 +321,7 @@ class ExFisico extends StatelessWidget {
                           );
                         },
                         child: const Text(
-                          "Sinais Mais Específicos",
+                          "Sinais Menos Específicos",
                           style: TextStyle(
                               fontSize: 20,
                               color: Colors.white,
@@ -357,11 +362,19 @@ class MaisEsp extends StatelessWidget {
               alignment: Alignment.center,
               decoration: new BoxDecoration(color: Colors.blue[900]),
               child: Column(children: [
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
                 ListTile(
                   title: const Text(
                     "Pressão Venosa Jugular Elevada",
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
+                ),
+                Container(
+                  color: Colors.white,
+                  height: 10,
                 ),
                 ListTile(
                   title: const Text(
@@ -369,23 +382,36 @@ class MaisEsp extends StatelessWidget {
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                 ),
-                ListTile(
-                    leading: TextButton(
-                  onPressed: () => TercBulha(),
-                  child: const Text(
-                    "Terceira Bulha Cardiaca",
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                        decoration: TextDecoration.none),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: Colors.black)
                   ),
-                  style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(
-                        Colors.blue[900],
-                      ),
-                      padding: MaterialStateProperty.all(EdgeInsets.zero)),
-                )),
+                  child: ListTile(
+                      leading: TextButton(
+                    onPressed: () => TercBulha(),
+                    child: const Text(
+                      "Terceira Bulha Cardiaca",
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          decoration: TextDecoration.none),
+                    ),
+                    style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all(
+                          Colors.blue[900],
+                        ),
+                        padding: MaterialStateProperty.all(EdgeInsets.zero)),
+                  )),
+                ),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
                 ListTile(
                   title: const Text(
                     "Impulso Apical Desviado Para A Esquerda",
@@ -425,28 +451,45 @@ class MenosEsp extends StatelessWidget {
               alignment: Alignment.center,
               decoration: new BoxDecoration(color: Colors.blue[900]),
               child: Column(children: [
-                ListTile(
-                    leading: TextButton(
-                  onPressed: () => TercBulha(),
-                  child: const Text(
-                    "Creptações Pulmonares",
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                        decoration: TextDecoration.none),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: Colors.black)
                   ),
-                  style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(
-                        Colors.blue[900],
-                      ),
-                      padding: MaterialStateProperty.all(EdgeInsets.zero)),
-                )),
+                  child: ListTile(
+                      leading: TextButton(
+                    onPressed: () => TercBulha(),
+                    child: const Text(
+                      "Creptações Pulmonares",
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          decoration: TextDecoration.none),
+                    ),
+                    style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all(
+                          Colors.blue[900],
+                        ),
+                        padding: MaterialStateProperty.all(EdgeInsets.zero)),
+                  )),
+                ),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
                 ListTile(
                   title: const Text(
                     "Taquicardia",
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
+                ),
+                Container(
+                  color: Colors.white,
+                  height: 10,
                 ),
                 ListTile(
                   title: const Text(
@@ -454,34 +497,47 @@ class MenosEsp extends StatelessWidget {
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                 ),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
                 ListTile(
                   title: const Text(
                     "Extremidades Frias",
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                 ),
-                ListTile(
-                    leading: TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Edema()),
-                    );
-                  },
-                  child: const Text(
-                    "Edema Periférico",
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                        decoration: TextDecoration.none),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: Colors.black)
                   ),
-                  style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(
-                        Colors.blue[900],
-                      ),
-                      padding: MaterialStateProperty.all(EdgeInsets.zero)),
-                )),
+                  child: ListTile(
+                      leading: TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Edema()),
+                      );
+                    },
+                    child: const Text(
+                      "Edema Periférico",
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          decoration: TextDecoration.none),
+                    ),
+                    style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all(
+                          Colors.blue[900],
+                        ),
+                        padding: MaterialStateProperty.all(EdgeInsets.zero)),
+                  )),
+                ),
               ]));
         }))));
   }

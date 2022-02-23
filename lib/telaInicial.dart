@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:insuficiencia_cardiaca/Questao.dart';
-import 'Tratamento.dart';
-import 'Exames.dart';
-import 'Classificacao.dart';
-import 'Diagnostico.dart';
-import 'Etiologia.dart';
+import 'package:insuficiencia_cardiaca/classificacao.dart';
+import 'package:insuficiencia_cardiaca/etiologia.dart';
+import 'package:insuficiencia_cardiaca/exames.dart';
+import 'package:insuficiencia_cardiaca/tratamento.dart';
+import 'diagnostico.dart';
 import 'prognostico.dart';
 import 'Questoes.dart';
 import 'package:photo_view/photo_view.dart';
