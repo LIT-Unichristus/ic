@@ -51,32 +51,12 @@ class Tratamento extends StatelessWidget {
                     style: ButtonStyle(
                         backgroundColor:
                             MaterialStateProperty.all(Colors.blue[900])),
-                    onPressed: () => showDialog<String>(
-                      context: context,
-                      builder: (context) => AlertDialog(
-                        title: const Text(
-                          'Farmacológico ICFER',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.black,
-                          ),
-                        ),
-                        content: const Text(
-                          '- IC sintomática apesar da terapêutica otimizada, FEVE ≤ 35%, ritmo sinusal, morfologia de BRE, duração do QRS a partir de 130ms.\n\n- IC sintomática apesar da terapêutica otimizada, FEVE ≤ 35%, ritmo sinusal, morfologia de BRD, duração do QRS > 160ms.\n\n- ICFEr com indicação de estimulação ventricular devido a bloqueio atrioventricular avançado\n\n- IC sintomática apesar da terapêutica otimizada, NYHA III ou IV, FEVE ≤ 35%, em ritmo de fibrilação atrial, com QRS > 130ms e morfologia de BRE.\n\n- IC sintomática, FEVE ≤ 35%, que já possuam marcapasso definitivo ou CDI e evoluam com piora clínica, apesar da terapêutica otimizada, e alta taxa de estímulos no ventriculo direito.',
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.black,
-                          ),
-                        ),
-                        actions: <Widget>[
-                          TextButton(
-                            onPressed: () => Navigator.pop(context, 'OK'),
-                            child: const Text('OK'),
-                          ),
-                        ],
-                      ),
-                    ),
+                    onPressed: (){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Farmacologico()),
+                      );
+                    },
                     child: const Text(
                       "Farmacológico ICFER",
                       style: TextStyle(
@@ -96,7 +76,7 @@ class Tratamento extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Farmacologico()),
+                        MaterialPageRoute(builder: (context) => FarmacologicoICFER(imagem: "assets/images/farmacologico.jpg")),
                       );
                     },
                     child: const Text(

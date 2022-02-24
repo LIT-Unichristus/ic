@@ -26,7 +26,7 @@ class _TelaInicialState extends State<TelaInicial> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue[900],
-          title: const Text('IC'),
+          title: const Text('SIMPLIC'),
           actions: [],
           centerTitle: true,
         ),
@@ -210,6 +210,10 @@ class _TelaInicialState extends State<TelaInicial> {
                             backgroundColor:
                                 MaterialStateProperty.all(Colors.blue[900])),
                       )),
+
+                      SizedBox(
+                  height: 30.0,
+                ),
                 ],
               ));
         }))));
