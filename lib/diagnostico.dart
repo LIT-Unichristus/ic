@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 class Diagnostico extends StatelessWidget {
   const Diagnostico({Key? key}) : super(key: key);
@@ -184,17 +185,11 @@ class Sintomas extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
             ),
-            child:  Center(
-                      child: Container(
-                        child: Image.asset(
-                            'assets/images/sintomas.jpg',
-                            fit: BoxFit.cover
-                        ),
-                      )
-                  ),
-            
-            
-            
+            child: Center(
+                child: Container(
+              child:
+                  Image.asset('assets/images/sintomas.jpg', fit: BoxFit.cover),
+            )),
           );
         }),
       ),
@@ -343,9 +338,12 @@ class ExFisico extends StatelessWidget {
   }
 }
 
-class MaisEsp extends StatelessWidget {
-  const MaisEsp({Key? key}) : super(key: key);
+class MaisEsp extends StatefulWidget {
+  @override
+  State<MaisEsp> createState() => _MaisEspState();
+}
 
+class _MaisEspState extends State<MaisEsp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -388,11 +386,15 @@ class MaisEsp extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    border: Border.all(width: 2, color: Colors.black)
-                  ),
+                      border: Border.all(width: 2, color: Colors.black)),
                   child: ListTile(
                       leading: TextButton(
-                    onPressed: () => TercBulha(),
+                    onPressed: () async {
+                      final player = AudioCache();
+                      player.play("terceiraBulhaCardiacaAudio.mpeg");
+                      
+                      //int result = await player.play("assets/images/creptacoesPulmonaresAudio.mpeg");
+                    },
                     child: const Text(
                       "Terceira Bulha Cardiaca",
                       style: TextStyle(
@@ -457,11 +459,13 @@ class MenosEsp extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    border: Border.all(width: 2, color: Colors.black)
-                  ),
+                      border: Border.all(width: 2, color: Colors.black)),
                   child: ListTile(
                       leading: TextButton(
-                    onPressed: () => TercBulha(),
+                    onPressed: (){
+                      final player = AudioCache();
+                      player.play("creptacoesPulmonaresAudio.mpeg");
+                    },
                     child: const Text(
                       "Creptações Pulmonares",
                       style: TextStyle(
@@ -513,8 +517,7 @@ class MenosEsp extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    border: Border.all(width: 2, color: Colors.black)
-                  ),
+                      border: Border.all(width: 2, color: Colors.black)),
                   child: ListTile(
                       leading: TextButton(
                     onPressed: () {

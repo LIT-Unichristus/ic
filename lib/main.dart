@@ -1,8 +1,7 @@
-// 
-
 import 'package:insuficiencia_cardiaca/telaInicial.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:flutter/material.dart';
+
 void main() {
   runApp(MyApp());
 }
