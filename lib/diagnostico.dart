@@ -185,11 +185,12 @@ class Sintomas extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
             ),
-            child: Center(
-                child: Container(
-              child:
-                  Image.asset('assets/images/sintomas.jpg', fit: BoxFit.cover),
-            )),
+            child: PhotoView(
+              imageProvider: AssetImage(
+                'assets/images/sintomas.jpg',
+              ),
+              backgroundDecoration: BoxDecoration(color: Colors.white),
+            ),
           );
         }),
       ),
@@ -392,7 +393,7 @@ class _MaisEspState extends State<MaisEsp> {
                     onPressed: () async {
                       final player = AudioCache();
                       player.play("terceiraBulhaCardiacaAudio.mpeg");
-                      
+
                       //int result = await player.play("assets/images/creptacoesPulmonaresAudio.mpeg");
                     },
                     child: const Text(
@@ -462,7 +463,7 @@ class MenosEsp extends StatelessWidget {
                       border: Border.all(width: 2, color: Colors.black)),
                   child: ListTile(
                       leading: TextButton(
-                    onPressed: (){
+                    onPressed: () {
                       final player = AudioCache();
                       player.play("creptacoesPulmonaresAudio.mpeg");
                     },
