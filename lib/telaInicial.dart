@@ -5,13 +5,12 @@ import 'package:insuficiencia_cardiaca/Questao.dart';
 import 'package:insuficiencia_cardiaca/classificacao.dart';
 import 'package:insuficiencia_cardiaca/etiologia.dart';
 import 'package:insuficiencia_cardiaca/exames.dart';
+import 'package:insuficiencia_cardiaca/scr/theme_helper.dart';
 import 'package:insuficiencia_cardiaca/tratamento.dart';
 import 'diagnostico.dart';
 import 'prognostico.dart';
 import 'Questoes.dart';
 import 'package:photo_view/photo_view.dart';
-
-
 
 class TelaInicial extends StatefulWidget {
   const TelaInicial({Key? key}) : super(key: key);
@@ -24,199 +23,134 @@ class _TelaInicialState extends State<TelaInicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: const Text('SIMPLIC'),
-          actions: [],
-          centerTitle: true,
-        ),
-        body: SafeArea(child: SingleChildScrollView(child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              color: Colors.white,
-              padding: const EdgeInsets.only(top: 60.0),
-              alignment: Alignment.center,
+      body: Stack(
+        children: [
+          ThemeHelper().planoDeFundo(),
+          Center(
+            child: SingleChildScrollView(
               child: Column(
                 children: [
+                  Row(children: [
+                    FlatButton(
+                        onPressed: () => Navigator.of(context).pop(),
+                        child: Icon(
+                          Icons.arrow_circle_left,
+                          color: Colors.white,
+                          size: 35.0,
+                        )),
+                    Text("                      "),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
+                      child: Text(
+                        "SIMPLIC",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          fontSize: 40.0,
+                        ),
+                      ),
+                    )
+                  ]),
                   SizedBox(
-                      width: 350,
-                      child: TextButton(
+                    height: 30.0,
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Definicao()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Definicao()));
                         },
-                        child: const Text(
-                          "Definição",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Definição")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Diagnostico()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Diagnostico()));
                         },
-                        child: const Text(
-                          "Diagnóstico",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Diagnóstico")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Classificacao()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Classificacao()));
                         },
-                        child: const Text(
-                          "Classificação",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Classificação")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Etiologia()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Etiologia()));
                         },
-                        child: const Text(
-                          "Etiologia",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Etiologia")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Exames()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Exames()));
                         },
-                        child: const Text(
-                          "Exames",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Exames")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Prognostico()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Prognostico()));
                         },
-                        child: const Text(
-                          "Prognóstico",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Prognóstico")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Tratamento()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Tratamento()));
                         },
-                        child: const Text(
-                          "Tratamento",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-                  const SizedBox(height: 10),
-                  SizedBox(
-                      width: 350,
-                      child: TextButton(
+                        child: ThemeHelper().button("Tratamento")),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10.0),
+                    child: FlatButton(
                         onPressed: () {
                           Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => Questao()),
-                          );
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Questao()));
                         },
-                        child: const Text(
-                          "Questões",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      )),
-
-                      SizedBox(
-                  height: 30.0,
-                ),
+                        child: ThemeHelper().button("Questões")),
+                  ),
                 ],
-              ));
-        }))));
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
@@ -232,16 +166,14 @@ class Definicao extends StatelessWidget {
         actions: [],
         centerTitle: true,
       ),
-      body: SafeArea(
-        child: SingleChildScrollView(child:LayoutBuilder(
+      body: SafeArea(child: SingleChildScrollView(
+        child: LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
           return Container(
               width: MediaQuery.of(context).size.width,
               padding: const EdgeInsets.only(top: 60.0),
               alignment: Alignment.center,
-              decoration: BoxDecoration(
-                color: Colors.white
-              ),
+              decoration: BoxDecoration(color: Colors.white),
               child: Column(
                 children: [
                   Container(
@@ -253,15 +185,13 @@ class Definicao extends StatelessWidget {
                         color: Colors.blue[900],
                         borderRadius: BorderRadius.all(Radius.circular(10.0))),
                     child: Text(
-                      'Síndrome clínica complexa, na qual o coração é incapaz de bombear o sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento (Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, 2018).',
-                      style:TextStyle(color: Colors.white,fontSize: 20)
-                    ),
+                        'Síndrome clínica complexa, na qual o coração é incapaz de bombear o sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento (Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, 2018).',
+                        style: TextStyle(color: Colors.white, fontSize: 20)),
                   ),
                 ],
               ));
-        }),)
-      ),
+        }),
+      )),
     );
   }
 }
-
