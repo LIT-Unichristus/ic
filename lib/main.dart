@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (context) => TelaInicial()));
-                        },
+                        }, 
                         child: ThemeHelper().button("ENTRAR")),
                   ),
                 ],

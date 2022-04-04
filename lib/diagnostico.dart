@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:insuficiencia_cardiaca/scr/theme_helper.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:audioplayers/audioplayers.dart';
@@ -11,157 +12,123 @@ class Diagnostico extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Diagnóstico'),
-        actions: [],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-          child: LayoutBuilder(builder: (BuildContext, BoxConstraints) {
-        return SingleChildScrollView(
-          child: Container(
-            width: MediaQuery.of(context).size.width,
-            color: Colors.white,
-            padding: const EdgeInsets.only(top: 60),
-            alignment: Alignment.center,
+      body: Stack(
+        children: [
+          ThemeHelper().planoDeFundo(),
+          SingleChildScrollView(
             child: Column(
               children: [
                 SizedBox(
-                  width: 350,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.blue[900])),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Sintomas()),
-                      );
-                    },
-                    child: const Text(
-                      "Sintomas",
-                      style: TextStyle(
-                        fontSize: 20,
+                  height: 30,
+                ),
+                Row(children: [
+                  FlatButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: Icon(
+                        Icons.arrow_circle_left,
                         color: Colors.white,
-                        decoration: TextDecoration.none,
+                        size: 35.0,
+                      )),
+                  Text("    "),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 10),
+                    child: Text(
+                      "SIMPLIC",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 40.0,
                       ),
                     ),
-                  ),
-                ),
+                  )
+                ]),
                 SizedBox(
-                  width: 350,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.blue[900])),
-                    onPressed: () => showDialog<String>(
-                      context: context,
-                      builder: (context) => AlertDialog(
-                        title: const Text(
-                          'Ecocardiograma',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.black,
+                  height: 30.0,
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Sintomas()));
+                      },
+                      child: ThemeHelper().button("Sintomas")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        showDialog<String>(
+                          context: context,
+                          builder: (context) => AlertDialog(
+                            title: const Text(
+                              'Ecocardiograma',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: 18,
+                                color: Colors.black,
+                              ),
+                            ),
+                            content: const Text(
+                              'Recomendação: Ecocardiografia na avaliação inicial de todos os pacientes com suspeita de IC para avaliar estrutura e função cardíaca, para planejar tratamento e para estratificação prognóstica\n\nClassificação: I\n\nNível de Evidência: C',
+                              style: TextStyle(
+                                fontSize: 18,
+                                color: Colors.black,
+                              ),
+                            ),
+                            actions: <Widget>[
+                              TextButton(
+                                onPressed: () => Navigator.pop(context, 'OK'),
+                                child: const Text('OK'),
+                              ),
+                            ],
                           ),
-                        ),
-                        content: const Text(
-                          'Recomendação: Ecocardiografia na avaliação inicial de todos os pacientes com suspeita de IC para avaliar estrutura e função cardíaca, para planejar tratamento e para estratificação prognóstica\n\nClassificação: I\n\nNível de Evidência: C',
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.black,
-                          ),
-                        ),
-                        actions: <Widget>[
-                          TextButton(
-                            onPressed: () => Navigator.pop(context, 'OK'),
-                            child: const Text('OK'),
-                          ),
-                        ],
-                      ),
-                    ),
-                    child: const Text(
-                      "Ecocardiograma",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white,
-                        decoration: TextDecoration.none,
-                      ),
-                    ),
-                  ),
+                        );
+                      },
+                      child: ThemeHelper().button("Ecocardiograma")),
                 ),
-                SizedBox(
-                  width: 350,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.blue[900])),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => ExFisico()),
-                      );
-                    },
-                    child: const Text(
-                      "Exame Físico",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white,
-                        decoration: TextDecoration.none,
-                      ),
-                    ),
-                  ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ExFisico()));
+                      },
+                      child: ThemeHelper().button("Exame Físico")),
                 ),
-                SizedBox(
-                  width: 350,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.blue[900])),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Algoritmo()),
-                      );
-                    },
-                    child: const Text(
-                      "Algoritmo",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white,
-                        decoration: TextDecoration.none,
-                      ),
-                    ),
-                  ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Algoritmo()));
+                      },
+                      child: ThemeHelper().button("Algoritmo")),
                 ),
-                SizedBox(
-                  width: 350,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.blue[900])),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Peptideos()),
-                      );
-                    },
-                    child: const Text(
-                      "Peptídeos Natriuréticos",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white,
-                        decoration: TextDecoration.none,
-                      ),
-                    ),
-                  ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Peptideos()));
+                      },
+                      child: ThemeHelper().button("Peptídeos Natriuréticos")),
                 ),
               ],
             ),
           ),
-        );
-      })),
+        ],
+      ),
     );
   }
 }
@@ -171,29 +138,93 @@ class Sintomas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Sintomas'),
-        actions: [],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
-            ),
-            child: PhotoView(
-              imageProvider: AssetImage(
-                'assets/images/sintomas.jpg',
+    return Stack(
+      children: [
+        ThemeHelper().planoDeFundo(),
+        Scaffold(
+          resizeToAvoidBottomInset: false,
+          backgroundColor: Colors.transparent,
+          body: SafeArea(
+              child: Stack(children: <Widget>[
+            SingleChildScrollView(
+              child: Container(
+                margin: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 10.0),
+                alignment: FractionalOffset.center,
+                child: Column(
+                  children: [
+                    Row(children: [
+                      FlatButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: Icon(
+                            Icons.arrow_circle_left,
+                            color: Colors.white,
+                            size: 35.0,
+                          )),
+                      Text("    "),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 10),
+                        child: Text(
+                          "SIMPLIC",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 40.0,
+                          ),
+                        ),
+                      )
+                    ]),
+                    Container(
+                      decoration: BoxDecoration(
+                          borderRadius:
+                              new BorderRadius.all(const Radius.circular(25.0)),
+                          color: Colors.blue[900]),
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: MediaQuery.of(context).size.width * 0.02,
+                          ),
+                          Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                    borderRadius: new BorderRadius.all(
+                                        const Radius.circular(25.0)),
+                                    color: Colors.white),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(15.50),
+                                  child: Column(
+                                    children: [
+                                      Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          InteractiveViewer(
+                                            panEnabled: false,
+                                            child: Image.asset(
+                                                'assets/images/sintomas.jpg'),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              backgroundDecoration: BoxDecoration(color: Colors.white),
-            ),
-          );
-        }),
-      ),
+            )
+          ])),
+        )
+      ],
     );
   }
 }
@@ -203,29 +234,93 @@ class Algoritmo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Algoritmo'),
-        actions: [],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
-            ),
-            child: PhotoView(
-              imageProvider: AssetImage(
-                'assets/images/algoritmo.jpg',
+    return Stack(
+      children: [
+        ThemeHelper().planoDeFundo(),
+        Scaffold(
+          resizeToAvoidBottomInset: false,
+          backgroundColor: Colors.transparent,
+          body: SafeArea(
+              child: Stack(children: <Widget>[
+            SingleChildScrollView(
+              child: Container(
+                margin: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 10.0),
+                alignment: FractionalOffset.center,
+                child: Column(
+                  children: [
+                    Row(children: [
+                      FlatButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: Icon(
+                            Icons.arrow_circle_left,
+                            color: Colors.white,
+                            size: 35.0,
+                          )),
+                      Text("    "),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 10),
+                        child: Text(
+                          "SIMPLIC",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 40.0,
+                          ),
+                        ),
+                      )
+                    ]),
+                    Container(
+                      decoration: BoxDecoration(
+                          borderRadius:
+                              new BorderRadius.all(const Radius.circular(25.0)),
+                          color: Colors.blue[900]),
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: MediaQuery.of(context).size.width * 0.02,
+                          ),
+                          Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                    borderRadius: new BorderRadius.all(
+                                        const Radius.circular(25.0)),
+                                    color: Colors.white),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(15.50),
+                                  child: Column(
+                                    children: [
+                                      Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          InteractiveViewer(
+                                            panEnabled: false,
+                                            child: Image.asset(
+                                                'assets/images/algoritmo.jpg'),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              backgroundDecoration: BoxDecoration(color: Colors.white),
-            ),
-          );
-        }),
-      ),
+            )
+          ])),
+        )
+      ],
     );
   }
 }
@@ -235,194 +330,417 @@ class Peptideos extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Peptideos'),
-        actions: [],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-            decoration: BoxDecoration(
-              color: Colors.white,
-            ),
-            child: PhotoView(
-              imageProvider: AssetImage(
-                'assets/images/peptideos.jpg',
-              ),
-              backgroundDecoration: BoxDecoration(color: Colors.white),
-            ),
-          );
-        }),
-      ),
-    );
-  }
-}
-
-class ExFisico extends StatelessWidget {
-  const ExFisico({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text("Exame Físico"),
-        actions: [],
-        centerTitle: true,
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(
-          child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-              return Container(
-                width: MediaQuery.of(context).size.width,
-                padding: const EdgeInsets.only(top: 60.0),
-                alignment: Alignment.center,
-                decoration: BoxDecoration(color: Colors.white),
+    return Stack(
+      children: [
+        ThemeHelper().planoDeFundo(),
+        Scaffold(
+          resizeToAvoidBottomInset: false,
+          backgroundColor: Colors.transparent,
+          body: SafeArea(
+              child: Stack(children: <Widget>[
+            SingleChildScrollView(
+              child: Container(
+                margin: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 10.0),
+                alignment: FractionalOffset.center,
                 child: Column(
                   children: [
-                    SizedBox(
-                      width: 350,
-                      child: TextButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => MaisEsp()),
-                          );
-                        },
-                        child: const Text(
-                          "Sinais Mais Específicos",
+                    Row(children: [
+                      FlatButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: Icon(
+                            Icons.arrow_circle_left,
+                            color: Colors.white,
+                            size: 35.0,
+                          )),
+                      Text("    "),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 10),
+                        child: Text(
+                          "SIMPLIC",
+                          textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 40.0,
+                          ),
                         ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    SizedBox(
-                      width: 350,
-                      child: TextButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => MenosEsp()),
-                          );
-                        },
-                        child: const Text(
-                          "Sinais Menos Específicos",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                              decoration: TextDecoration.none),
-                        ),
-                        style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.all(Colors.blue[900])),
+                      )
+                    ]),
+                    Container(
+                      decoration: BoxDecoration(
+                          borderRadius:
+                              new BorderRadius.all(const Radius.circular(25.0)),
+                          color: Colors.blue[900]),
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: MediaQuery.of(context).size.width * 0.02,
+                          ),
+                          Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                    borderRadius: new BorderRadius.all(
+                                        const Radius.circular(25.0)),
+                                    color: Colors.white),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(15.50),
+                                  child: Column(
+                                    children: [
+                                      Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          InteractiveViewer(
+                                            panEnabled: false,
+                                            child: Image.asset(
+                                                'assets/images/peptideos.jpg'),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
                       ),
                     ),
                   ],
                 ),
-              );
-            },
-          ),
-        ),
-      ),
+              ),
+            )
+          ])),
+        )
+      ],
     );
   }
 }
 
-class MaisEsp extends StatefulWidget {
+class ExFisico extends StatefulWidget {
   @override
-  State<MaisEsp> createState() => _MaisEspState();
+  State<ExFisico> createState() => _ExFisicoState();
 }
 
-class _MaisEspState extends State<MaisEsp> {
+class _ExFisicoState extends State<ExFisico> {
+    bool _customTileExpanded01 = false;
+
+    bool _customTileExpanded02 = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: const Text('Sinais Mais Específicos'),
-          actions: [],
-          centerTitle: true,
-        ),
-        body: SafeArea(child: SingleChildScrollView(child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              alignment: Alignment.center,
-              decoration: new BoxDecoration(color: Colors.blue[900]),
-              child: Column(children: [
-                Container(
-                  color: Colors.white,
-                  height: 10,
+      body: Stack(
+        children: [
+          ThemeHelper().planoDeFundo(),
+          SingleChildScrollView(
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 30,
                 ),
-                ListTile(
-                  title: const Text(
-                    "Pressão Venosa Jugular Elevada",
-                    style: TextStyle(color: Colors.white, fontSize: 20),
-                  ),
-                ),
-                Container(
-                  color: Colors.white,
-                  height: 10,
-                ),
-                ListTile(
-                  title: const Text(
-                    "Refluxo Hepatojugular",
-                    style: TextStyle(color: Colors.white, fontSize: 20),
-                  ),
-                ),
-                Container(
-                  color: Colors.white,
-                  height: 10,
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                      border: Border.all(width: 2, color: Colors.black)),
-                  child: ListTile(
-                      leading: TextButton(
-                    onPressed: () async {
-                      final player = AudioCache();
-                      player.play("terceiraBulhaCardiacaAudio.mpeg");
-
-                      //int result = await player.play("assets/images/creptacoesPulmonaresAudio.mpeg");
-                    },
-                    child: const Text(
-                      "Terceira Bulha Cardiaca",
+                Row(children: [
+                  FlatButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: Icon(
+                        Icons.arrow_circle_left,
+                        color: Colors.white,
+                        size: 35.0,
+                      )),
+                  Text("    "),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 10),
+                    child: Text(
+                      "SIMPLIC",
+                      textAlign: TextAlign.center,
                       style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          decoration: TextDecoration.none),
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 40.0,
+                      ),
                     ),
-                    style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all(
-                          Colors.blue[900],
-                        ),
-                        padding: MaterialStateProperty.all(EdgeInsets.zero)),
-                  )),
+                  )
+                ]),
+                SizedBox(
+                  height: 30.0,
                 ),
+
                 Container(
-                  color: Colors.white,
-                  height: 10,
-                ),
-                ListTile(
-                  title: const Text(
-                    "Impulso Apical Desviado Para A Esquerda",
-                    style: TextStyle(color: Colors.white, fontSize: 20),
-                  ),
-                ),
-              ]));
-        }))));
+                                    width: MediaQuery.of(context).size.width * 0.9,
+                                    decoration: BoxDecoration(
+                                        border: Border.all(color: const Color(0xFF28324E)),
+                                        borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
+                                        color: Colors.white
+                                    ),
+                                    child: Theme(
+                                      data: ThemeData().copyWith(dividerColor: Colors.transparent),
+                                      child: ExpansionTile(
+                                        onExpansionChanged: (bool expanded) {
+                                          setState(() => _customTileExpanded01 = expanded);
+                                        },
+                                        //leading: new Icon(Icons.check_box),
+                                        //headerBackgroundColor: Colors.teal,
+                                        backgroundColor: Colors.transparent,
+                                        title: getAppBorderButton02("       Sinais Mais Específicos", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.white,Color(0xFF828282)),
+                                        children: <Widget>[
+                                          Container(
+                                            child: new Align(
+                                              alignment: Alignment.bottomLeft,
+                                              child: new Padding(
+                                                  padding: EdgeInsets.all(15.50),
+                                                  child: Column(
+                                                    children: [
+
+                                                      new GestureDetector(
+                                                        onTap: () {
+
+                                                         
+                                                        },
+                                                        child:new Align(
+                                                          alignment: Alignment.bottomLeft,
+                                                          child: new Padding(
+                                                            padding: EdgeInsets.all(5.50),
+                                                            child: getAppBorderButton(
+                                                                "Pressão Venosa Jugular Elevada", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      new GestureDetector(
+                                                        onTap: () {
+
+
+                                                        },
+                                                        child:new Align(
+                                                          alignment: Alignment.bottomLeft,
+                                                          child: new Padding(
+                                                            padding: EdgeInsets.all(5.50),
+                                                            child: getAppBorderButton(
+                                                                "Refluxo Hepatojugular", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
+                                                          ),
+                                                        ),
+                                                      ),
+
+                                                      Stack(
+                                                        children: [
+                                                          new GestureDetector(
+                                                            onTap: () {
+
+                                                              final player = AudioCache();
+                                                              player.play("terceiraBulhaCardiacaAudio.mpeg");
+
+                                                            },
+                                                            child:new Align(
+                                                              alignment: Alignment.bottomLeft,
+                                                              child: new Padding(
+                                                                padding: EdgeInsets.all(5.50),
+                                                                child: getAppBorderButton(
+                                                                    "Terceira Bulha Cardiaca", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blueGrey,Colors.white),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                          Padding(
+                                                            padding: EdgeInsets.symmetric(vertical: 18.0, horizontal: 18.0),
+                                                            child: Icon(Icons.volume_up ,color: Colors.white,),
+                                                            )
+
+                                                          
+
+                                                        ],
+                                                      ),
+
+
+                                                      new GestureDetector(
+                                                        onTap: () {
+
+
+                                                        },
+                                                        child:new Align(
+                                                          alignment: Alignment.bottomLeft,
+                                                          child: new Padding(
+                                                            padding: EdgeInsets.all(5.50),
+                                                            child: getAppBorderButton(
+                                                                "Impulso Apical Desviado Para A Esquerda", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
+                                                          ),
+                                                        ),
+                                                      ),
+
+                                                    ],
+                                                  )
+                                              ),
+                                            ),
+
+                                          ),
+
+
+
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+
+                                  SizedBox(height: MediaQuery.of(context).size.width * 0.03,),
+                          
+                          Container(
+                                    width: MediaQuery.of(context).size.width * 0.9,
+                                    decoration: BoxDecoration(
+                                        border: Border.all(color: const Color(0xFF28324E)),
+                                        borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
+                                        color: Colors.white
+                                    ),
+                                    child: Theme(
+                                      data: ThemeData().copyWith(dividerColor: Colors.transparent),
+                                      child: ExpansionTile(
+                                        onExpansionChanged: (bool expanded) {
+                                          setState(() => _customTileExpanded01 = expanded);
+                                        },
+                                        //leading: new Icon(Icons.check_box),
+                                        //headerBackgroundColor: Colors.teal,
+                                        backgroundColor: Colors.transparent,
+                                        title: getAppBorderButton02("       Sinais Menos Específicos", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.white,Color(0xFF828282)),
+                                        children: <Widget>[
+                                          Container(
+                                            child: new Align(
+                                              alignment: Alignment.bottomLeft,
+                                              child: new Padding(
+                                                  padding: EdgeInsets.all(15.50),
+                                                  child: Column(
+                                                    children: [
+
+                                                       Stack(
+                                                        children: [
+                                                          new GestureDetector(
+                                                            onTap: () {
+
+                                                              final player = AudioCache();
+                                                              player.play("creptacoesPulmonaresAudio.mpeg");
+
+                                                            },
+                                                            child:new Align(
+                                                              alignment: Alignment.bottomLeft,
+                                                              child: new Padding(
+                                                                padding: EdgeInsets.all(5.50),
+                                                                child: getAppBorderButton(
+                                                                    "Creptações Pulmonares", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blueGrey,Colors.white),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                          Padding(
+                                                            padding: EdgeInsets.symmetric(vertical: 18.0, horizontal: 18.0),
+                                                            child: Icon(Icons.volume_up ,color: Colors.white,),
+                                                            )
+
+                                                          
+
+                                                        ],
+                                                      ),
+
+                                                      
+                                                      new GestureDetector(
+                                                        onTap: () {
+
+
+                                                        },
+                                                        child:new Align(
+                                                          alignment: Alignment.bottomLeft,
+                                                          child: new Padding(
+                                                            padding: EdgeInsets.all(5.50),
+                                                            child: getAppBorderButton(
+                                                                "Taquicardia", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
+                                                          ),
+                                                        ),
+                                                      ),
+
+                                                      new GestureDetector(
+                                                        onTap: () {
+
+                                                         
+                                                        },
+                                                        child:new Align(
+                                                          alignment: Alignment.bottomLeft,
+                                                          child: new Padding(
+                                                            padding: EdgeInsets.all(5.50),
+                                                            child: getAppBorderButton(
+                                                                "Hepatomegalia E Ascite", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
+                                                          ),
+                                                        ),
+                                                      ),
+
+                                                     
+
+
+                                                      new GestureDetector(
+                                                        onTap: () {
+
+
+                                                        },
+                                                        child:new Align(
+                                                          alignment: Alignment.bottomLeft,
+                                                          child: new Padding(
+                                                            padding: EdgeInsets.all(5.50),
+                                                            child: getAppBorderButton(
+                                                                "Extremidades Frias", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
+                                                          ),
+                                                        ),
+                                                      ),
+
+                                                      Stack(
+                                                        children: [
+                                                          new GestureDetector(
+                                                            onTap: () {
+
+                                                        Navigator.push(
+                                                                context,
+                                                                MaterialPageRoute(builder: (context) => Edema()),
+                                                              );
+
+                                                            },
+                                                            child:new Align(
+                                                              alignment: Alignment.bottomLeft,
+                                                              child: new Padding(
+                                                                padding: EdgeInsets.all(5.50),
+                                                                child: getAppBorderButton(
+                                                                    "Edema Periférico", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blueGrey,Colors.white),
+                                                              ),
+                                                            ),
+                                                          ),
+                                                          Padding(
+                                                            padding: EdgeInsets.symmetric(vertical: 18.0, horizontal: 18.0),
+                                                            child: Icon(Icons.insert_photo ,color: Colors.white,),
+                                                            )
+
+                                                          
+
+                                                        ],
+                                                      ),
+
+                                                    ],
+                                                  )
+                                              ),
+                                            ),
+
+                                          ),
+
+
+
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+
+                
+                
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+    
   }
 }
 
@@ -561,33 +879,94 @@ class Edema extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: const Text('Edema Periférico'),
-          actions: [
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(Icons.search),
-            )
-          ],
-          centerTitle: true,
-        ),
-        body: SafeArea(
-          child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-              return Container(
-                decoration: BoxDecoration(color: Colors.white),
-                child: PhotoView(
-                  imageProvider: AssetImage(
-                    'assets/images/Pé.jpg',
-                  ),
-                  backgroundDecoration: BoxDecoration(color: Colors.white),
+    return Stack(
+      children: [
+        ThemeHelper().planoDeFundo(),
+        Scaffold(
+          resizeToAvoidBottomInset: false,
+          backgroundColor: Colors.transparent,
+          body: SafeArea(
+              child: Stack(children: <Widget>[
+            SingleChildScrollView(
+              child: Container(
+                margin: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 10.0),
+                alignment: FractionalOffset.center,
+                child: Column(
+                  children: [
+                    Row(children: [
+                      FlatButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: Icon(
+                            Icons.arrow_circle_left,
+                            color: Colors.white,
+                            size: 35.0,
+                          )),
+                      Text("    "),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 10),
+                        child: Text(
+                          "SIMPLIC",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 40.0,
+                          ),
+                        ),
+                      )
+                    ]),
+                    Container(
+                      decoration: BoxDecoration(
+                          borderRadius:
+                              new BorderRadius.all(const Radius.circular(25.0)),
+                          color:Colors.blue[900]),
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: MediaQuery.of(context).size.width * 0.02,
+                          ),
+                          Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                    borderRadius: new BorderRadius.all(
+                                        const Radius.circular(25.0)),
+                                    color: Colors.white),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(15.50),
+                                  child: Column(
+                                    children: [
+                                      Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.center,
+                                        children: [
+                                          InteractiveViewer(
+                                            panEnabled: false,
+                                            child: Image.asset(
+                                                'assets/images/Pé.jpg'),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
-              );
-            },
-          ),
-        ) //   <--- image
-        );
+              ),
+            )
+          ])),
+        )
+      ],
+    );
+  
   }
 }

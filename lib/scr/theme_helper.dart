@@ -10,7 +10,7 @@ class ThemeHelper {
     );
   }
 
-  Container button([String text = '']) {
+  Container button([String text = '', bool colorButton = false]) {
     return Container(
         height: 54,
         width: 250,
@@ -19,7 +19,61 @@ class ThemeHelper {
         child: Center(
             child: Text(
           text,
-          style: TextStyle(color: Colors.blue[900], fontSize: 20.0),
+          style: TextStyle(color: colorButton ? Color.fromARGB(255, 223, 9, 19) : Colors.blue[900], fontSize: 20.0),
         )));
   }
 }
+
+Widget getAppBorderButton02(String buttonLabel, EdgeInsets margin, Color buttonColor, Color textColor) {
+  var loginBtn = new Container(
+    margin: margin,
+    padding: EdgeInsets.all(8.0),
+    alignment: Alignment.center,
+
+    decoration: new BoxDecoration(
+      borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
+      color: buttonColor,
+    ),
+    child: new Text(
+      buttonLabel,
+      textAlign: TextAlign.center,
+      style: new TextStyle(
+        color: textColor,
+
+        fontSize: 18.0,
+        fontWeight: FontWeight.bold,
+        letterSpacing: 0.3,
+      ),
+    ),
+  );
+  return loginBtn;
+}
+
+
+Widget getAppBorderButton(String buttonLabel, EdgeInsets margin, Color buttonColor, Color textColor) {
+  var loginBtn = new Container(
+    height: 50,
+    margin: margin,
+    padding: EdgeInsets.all(8.0),
+    alignment: Alignment.center,
+
+    decoration: new BoxDecoration(
+      border: Border.all(color: const Color(0xFF28324E)),
+      borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
+      color: buttonColor,
+    ),
+    child: new Text(
+      buttonLabel,
+      textAlign: TextAlign.center,
+      style: new TextStyle(
+        color: textColor,
+
+        fontSize: 15.0,
+        fontWeight: FontWeight.bold,
+        letterSpacing: 0.3,
+      ),
+    ),
+  );
+  return loginBtn;
+}
+

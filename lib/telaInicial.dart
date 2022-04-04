@@ -26,126 +26,127 @@ class _TelaInicialState extends State<TelaInicial> {
       body: Stack(
         children: [
           ThemeHelper().planoDeFundo(),
-          Center(
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  Row(children: [
-                    FlatButton(
-                        onPressed: () => Navigator.of(context).pop(),
-                        child: Icon(
-                          Icons.arrow_circle_left,
-                          color: Colors.white,
-                          size: 35.0,
-                        )),
-                    Text("                      "),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 10, horizontal: 10),
-                      child: Text(
-                        "SIMPLIC",
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          fontSize: 40.0,
-                        ),
+          SingleChildScrollView(
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 30,
+                ),
+                Row(children: [
+                  FlatButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: Icon(
+                        Icons.arrow_circle_left,
+                        color: Colors.white,
+                        size: 35.0,
+                      )),
+                  Text("    "),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 10),
+                    child: Text(
+                      "SIMPLIC",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 40.0,
                       ),
-                    )
-                  ]),
-                  SizedBox(
-                    height: 30.0,
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Definicao()));
-                        },
-                        child: ThemeHelper().button("Definição")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Diagnostico()));
-                        },
-                        child: ThemeHelper().button("Diagnóstico")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Classificacao()));
-                        },
-                        child: ThemeHelper().button("Classificação")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Etiologia()));
-                        },
-                        child: ThemeHelper().button("Etiologia")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Exames()));
-                        },
-                        child: ThemeHelper().button("Exames")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Prognostico()));
-                        },
-                        child: ThemeHelper().button("Prognóstico")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Tratamento()));
-                        },
-                        child: ThemeHelper().button("Tratamento")),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10.0),
-                    child: FlatButton(
-                        onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Questao()));
-                        },
-                        child: ThemeHelper().button("Questões")),
-                  ),
-                ],
-              ),
+                    ),
+                  )
+                ]),
+                SizedBox(
+                  height: 30.0,
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Definicao()));
+                      },
+                      child: ThemeHelper().button("Definição")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Diagnostico()));
+                      },
+                      child: ThemeHelper().button("Diagnóstico")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Classificacao()));
+                      },
+                      child: ThemeHelper().button("Classificação")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Etiologia()));
+                      },
+                      child: ThemeHelper().button("Etiologia")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Exames()));
+                      },
+                      child: ThemeHelper().button("Exames")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Prognostico()));
+                      },
+                      child: ThemeHelper().button("Prognóstico")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Tratamento()));
+                      },
+                      child: ThemeHelper().button("Tratamento")),
+                ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
+                  child: FlatButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Questao()));
+                      },
+                      child: ThemeHelper().button("Questões")),
+                ),
+              ],
             ),
           ),
         ],
@@ -160,38 +161,69 @@ class Definicao extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.blue[900],
-        title: const Text('Definição'),
-        actions: [],
-        centerTitle: true,
-      ),
-      body: SafeArea(child: SingleChildScrollView(
-        child: LayoutBuilder(
-            builder: (BuildContext context, BoxConstraints constraints) {
-          return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.only(top: 60.0),
-              alignment: Alignment.center,
-              decoration: BoxDecoration(color: Colors.white),
-              child: Column(
-                children: [
-                  Container(
-                    width: 350,
-                    height: 300,
-                    padding: EdgeInsets.only(left: 20, right: 20, top: 40),
-                    // ignore: prefer_const_constructors
-                    decoration: BoxDecoration(
-                        color: Colors.blue[900],
-                        borderRadius: BorderRadius.all(Radius.circular(10.0))),
+      body: Stack(
+        children: [
+          ThemeHelper().planoDeFundo(),
+          SingleChildScrollView(
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 30,
+                ),
+                Row(children: [
+                  FlatButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: Icon(
+                        Icons.arrow_circle_left,
+                        color: Colors.white,
+                        size: 35.0,
+                      )),
+                  Text("    "),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 10),
                     child: Text(
-                        'Síndrome clínica complexa, na qual o coração é incapaz de bombear o sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento (Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, 2018).',
-                        style: TextStyle(color: Colors.white, fontSize: 20)),
+                      "SIMPLIC",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 40.0,
+                      ),
+                    ),
+                  )
+                ]),
+                SizedBox(
+                  height: 30.0,
+                ),
+
+                Container(
+                  width: 350,
+                  height: 300,
+                  decoration: BoxDecoration(
+                      color: Colors.blue[900],
+                      borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                  child: Center(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        children: [
+                          Text("Definição\n", style: TextStyle(color: Colors.white, fontSize: 25),),
+                          Text(
+                              'Síndrome clínica complexa, na qual o coração é incapaz de bombear o sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento (Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda, 2018).',
+                              style: TextStyle(color: Colors.white, fontSize: 20)),
+                        ],
+                      ),
+                    ),
                   ),
-                ],
-              ));
-        }),
-      )),
+
+                )
+                
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
