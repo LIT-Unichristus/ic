@@ -1,4 +1,5 @@
 // ignore_for_file: file_names
+import 'package:flutter/services.dart';
 import 'package:insuficiencia_cardiaca/scr/theme_helper.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:flutter/material.dart';
@@ -285,9 +286,13 @@ class ECG extends StatelessWidget {
   }
 }
 
-class RadTorax extends StatelessWidget {
-  const RadTorax({Key? key}) : super(key: key);
+class RadTorax extends StatefulWidget {
+  @override
+  State<RadTorax> createState() => _RadToraxState();
+}
 
+class _RadToraxState extends State<RadTorax> {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -364,8 +369,31 @@ class RadTorax extends StatelessWidget {
   }
 }
 
-class RadVenEsq extends StatelessWidget {
-  const RadVenEsq({Key? key}) : super(key: key);
+class RadVenEsq extends StatefulWidget {
+  @override
+  State<RadVenEsq> createState() => _RadVenEsqState();
+}
+
+class _RadVenEsqState extends State<RadVenEsq> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -460,8 +488,31 @@ class RadVenEsq extends StatelessWidget {
   }
 }
 
-class RadAtEsq extends StatelessWidget {
-  const RadAtEsq({Key? key}) : super(key: key);
+class RadAtEsq extends StatefulWidget {
+  @override
+  State<RadAtEsq> createState() => _RadAtEsqState();
+}
+
+class _RadAtEsqState extends State<RadAtEsq> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -556,8 +607,31 @@ class RadAtEsq extends StatelessWidget {
   }
 }
 
-class RadIsFib extends StatelessWidget {
-  const RadIsFib({Key? key}) : super(key: key);
+class RadIsFib extends StatefulWidget {
+  @override
+  State<RadIsFib> createState() => _RadIsFibState();
+}
+
+class _RadIsFibState extends State<RadIsFib> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -652,8 +726,31 @@ class RadIsFib extends StatelessWidget {
   }
 }
 
-class RadDisCond extends StatelessWidget {
-  const RadDisCond({Key? key}) : super(key: key);
+class RadDisCond extends StatefulWidget {
+  @override
+  State<RadDisCond> createState() => _RadDisCondState();
+}
+
+class _RadDisCondState extends State<RadDisCond> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -748,8 +845,31 @@ class RadDisCond extends StatelessWidget {
   }
 }
 
-class RaioCard extends StatelessWidget {
-  const RaioCard({Key? key}) : super(key: key);
+class RaioCard extends StatefulWidget {
+  @override
+  State<RaioCard> createState() => _RaioCardState();
+}
+
+class _RaioCardState extends State<RaioCard> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -844,8 +964,31 @@ class RaioCard extends StatelessWidget {
   }
 }
 
-class RaioCongestPul extends StatelessWidget {
-  const RaioCongestPul({Key? key}) : super(key: key);
+class RaioCongestPul extends StatefulWidget {
+  @override
+  State<RaioCongestPul> createState() => _RaioCongestPulState();
+}
+
+class _RaioCongestPulState extends State<RaioCongestPul> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -940,8 +1083,31 @@ class RaioCongestPul extends StatelessWidget {
   }
 }
 
-class EcocardioExame extends StatelessWidget {
-  const EcocardioExame({Key? key}) : super(key: key);
+class EcocardioExame extends StatefulWidget {
+  @override
+  State<EcocardioExame> createState() => _EcocardioExameState();
+}
+
+class _EcocardioExameState extends State<EcocardioExame> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -1036,8 +1202,31 @@ class EcocardioExame extends StatelessWidget {
   }
 }
 
-class LabExame extends StatelessWidget {
-  const LabExame({Key? key}) : super(key: key);
+class LabExame extends StatefulWidget {
+  @override
+  State<LabExame> createState() => _LabExameState();
+}
+
+class _LabExameState extends State<LabExame> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -1132,8 +1321,31 @@ class LabExame extends StatelessWidget {
   }
 }
 
-class ResMag extends StatelessWidget {
-  const ResMag({Key? key}) : super(key: key);
+class ResMag extends StatefulWidget {
+  @override
+  State<ResMag> createState() => _ResMagState();
+}
+
+class _ResMagState extends State<ResMag> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -1228,8 +1440,31 @@ class ResMag extends StatelessWidget {
   }
 }
 
-class Biomarcadores extends StatelessWidget {
-  const Biomarcadores({Key? key}) : super(key: key);
+class Biomarcadores extends StatefulWidget {
+  @override
+  State<Biomarcadores> createState() => _BiomarcadoresState();
+}
+
+class _BiomarcadoresState extends State<Biomarcadores> {
+  @override
+  void initState(){
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose(){
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {

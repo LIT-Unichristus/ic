@@ -137,7 +137,7 @@ class _EtiologiaState extends State<Etiologia> {
 
 
                 Container(
-                                    width: MediaQuery.of(context).size.width * 0.65,
+                                    width: 280,
                                     decoration: BoxDecoration(
                                         border: Border.all(color: const Color(0xFF28324E)),
                                         borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
@@ -246,7 +246,7 @@ class _EtiologiaState extends State<Etiologia> {
 
 
                 Container(
-                                    width: MediaQuery.of(context).size.width * 0.65,
+                                    width: 280,
                                     decoration: BoxDecoration(
                                         border: Border.all(color: const Color(0xFF28324E)),
                                         borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
@@ -609,7 +609,7 @@ Widget build(BuildContext context) {
                 ),
 
                 Container(
-                                    width: MediaQuery.of(context).size.width * 0.65,
+                                    width: 280,
                                     decoration: BoxDecoration(
                                         border: Border.all(color: const Color(0xFF28324E)),
                                         borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
@@ -823,7 +823,7 @@ Widget build(BuildContext context) {
 
 
                 Container(
-                                    width: MediaQuery.of(context).size.width * 0.65,
+                                    width: 280,
                                     decoration: BoxDecoration(
                                         border: Border.all(color: const Color(0xFF28324E)),
                                         borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
@@ -900,7 +900,7 @@ Widget build(BuildContext context) {
                                   SizedBox(height: MediaQuery.of(context).size.width * 0.03,),
 
                             Container(
-                                    width: MediaQuery.of(context).size.width * 0.65,
+                                    width: 280,
                                     decoration: BoxDecoration(
                                         border: Border.all(color: const Color(0xFF28324E)),
                                         borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
@@ -976,7 +976,7 @@ Widget build(BuildContext context) {
 
                                   SizedBox(height: MediaQuery.of(context).size.width * 0.03,),
 Container(
-                                    width: MediaQuery.of(context).size.width * 0.65,
+                                    width: 280,
                                     decoration: BoxDecoration(
                                         border: Border.all(color: const Color(0xFF28324E)),
                                         borderRadius: new BorderRadius.all(const Radius.circular(25.0)),

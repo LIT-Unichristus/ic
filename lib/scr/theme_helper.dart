@@ -1,5 +1,9 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+AudioPlayer player = AudioPlayer();  //add this
+AudioCache cache = new AudioCache(); 
 
 class ThemeHelper {
   Container planoDeFundo() {
@@ -13,7 +17,7 @@ class ThemeHelper {
   Container button([String text = '', bool colorButton = false]) {
     return Container(
         height: 54,
-        width: 250,
+        width: 280,
         decoration: BoxDecoration(
             color: Colors.white, borderRadius: BorderRadius.circular(20.0)),
         child: Center(
@@ -22,6 +26,7 @@ class ThemeHelper {
           style: TextStyle(color: colorButton ? Color.fromARGB(255, 223, 9, 19) : Colors.blue[900], fontSize: 20.0),
         )));
   }
+  
 }
 
 Widget getAppBorderButton02(String buttonLabel, EdgeInsets margin, Color buttonColor, Color textColor) {

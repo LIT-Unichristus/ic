@@ -1,13 +1,24 @@
+import 'dart:async';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:insuficiencia_cardiaca/scr/theme_helper.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:audioplayers/audioplayers.dart';
 
-class Diagnostico extends StatelessWidget {
-  const Diagnostico({Key? key}) : super(key: key);
+
+class Diagnostico extends StatefulWidget {
+  
+
+  @override
+  State<Diagnostico> createState() => _DiagnosticoState();
+}
+
+class _DiagnosticoState extends State<Diagnostico> {
+
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +29,7 @@ class Diagnostico extends StatelessWidget {
           SingleChildScrollView(
             child: Column(
               children: [
+              
                 SizedBox(
                   height: 30,
                 ),
@@ -133,8 +145,31 @@ class Diagnostico extends StatelessWidget {
   }
 }
 
-class Sintomas extends StatelessWidget {
-  const Sintomas({Key? key}) : super(key: key);
+class Sintomas extends StatefulWidget {
+  @override
+  State<Sintomas> createState() => _SintomasState();
+}
+
+class _SintomasState extends State<Sintomas> {
+  @override
+  void initState() {
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -229,8 +264,31 @@ class Sintomas extends StatelessWidget {
   }
 }
 
-class Algoritmo extends StatelessWidget {
-  const Algoritmo({Key? key}) : super(key: key);
+class Algoritmo extends StatefulWidget {
+  @override
+  State<Algoritmo> createState() => _AlgoritmoState();
+}
+
+class _AlgoritmoState extends State<Algoritmo> {
+  @override
+  void initState() {
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -325,8 +383,31 @@ class Algoritmo extends StatelessWidget {
   }
 }
 
-class Peptideos extends StatelessWidget {
-  const Peptideos({Key? key}) : super(key: key);
+class Peptideos extends StatefulWidget {
+  @override
+  State<Peptideos> createState() => _PeptideosState();
+}
+
+class _PeptideosState extends State<Peptideos> {
+  @override
+  void initState() {
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -427,9 +508,11 @@ class ExFisico extends StatefulWidget {
 }
 
 class _ExFisicoState extends State<ExFisico> {
-    bool _customTileExpanded01 = false;
+  bool _customTileExpanded01 = false;
 
-    bool _customTileExpanded02 = false;
+  bool _customTileExpanded02 = false;
+
+   //and this
 
   @override
   Widget build(BuildContext context) {
@@ -469,278 +552,301 @@ class _ExFisicoState extends State<ExFisico> {
                 SizedBox(
                   height: 30.0,
                 ),
-
                 Container(
-                                    width: MediaQuery.of(context).size.width * 0.9,
-                                    decoration: BoxDecoration(
-                                        border: Border.all(color: const Color(0xFF28324E)),
-                                        borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
-                                        color: Colors.white
-                                    ),
-                                    child: Theme(
-                                      data: ThemeData().copyWith(dividerColor: Colors.transparent),
-                                      child: ExpansionTile(
-                                        onExpansionChanged: (bool expanded) {
-                                          setState(() => _customTileExpanded01 = expanded);
-                                        },
-                                        //leading: new Icon(Icons.check_box),
-                                        //headerBackgroundColor: Colors.teal,
-                                        backgroundColor: Colors.transparent,
-                                        title: getAppBorderButton02("       Sinais Mais Específicos", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.white,Color(0xFF828282)),
-                                        children: <Widget>[
-                                          Container(
-                                            child: new Align(
-                                              alignment: Alignment.bottomLeft,
-                                              child: new Padding(
-                                                  padding: EdgeInsets.all(15.50),
-                                                  child: Column(
-                                                    children: [
+                  width: MediaQuery.of(context).size.width * 0.9,
+                  decoration: BoxDecoration(
+                      border: Border.all(color: const Color(0xFF28324E)),
+                      borderRadius:
+                          new BorderRadius.all(const Radius.circular(25.0)),
+                      color: Colors.white),
+                  child: Theme(
+                    data:
+                        ThemeData().copyWith(dividerColor: Colors.transparent),
+                    child: ExpansionTile(
+                      onExpansionChanged: (bool expanded) {
+                        setState(() => _customTileExpanded01 = expanded);
+                      },
+                      //leading: new Icon(Icons.check_box),
+                      //headerBackgroundColor: Colors.teal,
+                      backgroundColor: Colors.transparent,
+                      title: getAppBorderButton02(
+                          "       Sinais Mais Específicos",
+                          EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
+                          Colors.white,
+                          Color(0xFF828282)),
+                      children: <Widget>[
+                        Container(
+                          child: new Align(
+                            alignment: Alignment.bottomLeft,
+                            child: new Padding(
+                                padding: EdgeInsets.all(15.50),
+                                child: Column(
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.end,
+                                      children: [
 
-                                                      new GestureDetector(
-                                                        onTap: () {
+                                        IconButton(
+                                      onPressed: (){
 
-                                                         
-                                                        },
-                                                        child:new Align(
-                                                          alignment: Alignment.bottomLeft,
-                                                          child: new Padding(
-                                                            padding: EdgeInsets.all(5.50),
-                                                            child: getAppBorderButton(
-                                                                "Pressão Venosa Jugular Elevada", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                      new GestureDetector(
-                                                        onTap: () {
+                                        setState(() {
+                                          player.stop();
+                                        });
+                                        
+                                      }, 
+                                      icon: Icon(Icons.stop_circle_outlined,color: Colors.blue[900], size: 30,)
+                                      ),
 
+                                      Text("Parar som",style: TextStyle(fontSize: 20, color: Colors.blue[900]),),
 
-                                                        },
-                                                        child:new Align(
-                                                          alignment: Alignment.bottomLeft,
-                                                          child: new Padding(
-                                                            padding: EdgeInsets.all(5.50),
-                                                            child: getAppBorderButton(
-                                                                "Refluxo Hepatojugular", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
-                                                          ),
-                                                        ),
-                                                      ),
+                                      Text("            "),
 
-                                                      Stack(
-                                                        children: [
-                                                          new GestureDetector(
-                                                            onTap: () {
-
-                                                              final player = AudioCache();
-                                                              player.play("terceiraBulhaCardiacaAudio.mpeg");
-
-                                                            },
-                                                            child:new Align(
-                                                              alignment: Alignment.bottomLeft,
-                                                              child: new Padding(
-                                                                padding: EdgeInsets.all(5.50),
-                                                                child: getAppBorderButton(
-                                                                    "Terceira Bulha Cardiaca", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blueGrey,Colors.white),
-                                                              ),
-                                                            ),
-                                                          ),
-                                                          Padding(
-                                                            padding: EdgeInsets.symmetric(vertical: 18.0, horizontal: 18.0),
-                                                            child: Icon(Icons.volume_up ,color: Colors.white,),
-                                                            )
-
-                                                          
-
-                                                        ],
-                                                      ),
-
-
-                                                      new GestureDetector(
-                                                        onTap: () {
-
-
-                                                        },
-                                                        child:new Align(
-                                                          alignment: Alignment.bottomLeft,
-                                                          child: new Padding(
-                                                            padding: EdgeInsets.all(5.50),
-                                                            child: getAppBorderButton(
-                                                                "Impulso Apical Desviado Para A Esquerda", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
-                                                          ),
-                                                        ),
-                                                      ),
-
-                                                    ],
-                                                  )
-                                              ),
-                                            ),
-
-                                          ),
-
-
-
-                                        ],
+                                      ],
+                                      ),
+                                    
+                                    new GestureDetector(
+                                      onTap: () {},
+                                      child: new Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: new Padding(
+                                          padding: EdgeInsets.all(5.50),
+                                          child: getAppBorderButton(
+                                              "Pressão Venosa Jugular Elevada",
+                                              EdgeInsets.fromLTRB(
+                                                  0.0, 0.0, 0.0, 0.0),
+                                              Colors.blue,
+                                              Colors.white),
+                                        ),
                                       ),
                                     ),
-                                  ),
-
-                                  SizedBox(height: MediaQuery.of(context).size.width * 0.03,),
-                          
-                          Container(
-                                    width: MediaQuery.of(context).size.width * 0.9,
-                                    decoration: BoxDecoration(
-                                        border: Border.all(color: const Color(0xFF28324E)),
-                                        borderRadius: new BorderRadius.all(const Radius.circular(25.0)),
-                                        color: Colors.white
-                                    ),
-                                    child: Theme(
-                                      data: ThemeData().copyWith(dividerColor: Colors.transparent),
-                                      child: ExpansionTile(
-                                        onExpansionChanged: (bool expanded) {
-                                          setState(() => _customTileExpanded01 = expanded);
-                                        },
-                                        //leading: new Icon(Icons.check_box),
-                                        //headerBackgroundColor: Colors.teal,
-                                        backgroundColor: Colors.transparent,
-                                        title: getAppBorderButton02("       Sinais Menos Específicos", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.white,Color(0xFF828282)),
-                                        children: <Widget>[
-                                          Container(
-                                            child: new Align(
-                                              alignment: Alignment.bottomLeft,
-                                              child: new Padding(
-                                                  padding: EdgeInsets.all(15.50),
-                                                  child: Column(
-                                                    children: [
-
-                                                       Stack(
-                                                        children: [
-                                                          new GestureDetector(
-                                                            onTap: () {
-
-                                                              final player = AudioCache();
-                                                              player.play("creptacoesPulmonaresAudio.mpeg");
-
-                                                            },
-                                                            child:new Align(
-                                                              alignment: Alignment.bottomLeft,
-                                                              child: new Padding(
-                                                                padding: EdgeInsets.all(5.50),
-                                                                child: getAppBorderButton(
-                                                                    "Creptações Pulmonares", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blueGrey,Colors.white),
-                                                              ),
-                                                            ),
-                                                          ),
-                                                          Padding(
-                                                            padding: EdgeInsets.symmetric(vertical: 18.0, horizontal: 18.0),
-                                                            child: Icon(Icons.volume_up ,color: Colors.white,),
-                                                            )
-
-                                                          
-
-                                                        ],
-                                                      ),
-
-                                                      
-                                                      new GestureDetector(
-                                                        onTap: () {
-
-
-                                                        },
-                                                        child:new Align(
-                                                          alignment: Alignment.bottomLeft,
-                                                          child: new Padding(
-                                                            padding: EdgeInsets.all(5.50),
-                                                            child: getAppBorderButton(
-                                                                "Taquicardia", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
-                                                          ),
-                                                        ),
-                                                      ),
-
-                                                      new GestureDetector(
-                                                        onTap: () {
-
-                                                         
-                                                        },
-                                                        child:new Align(
-                                                          alignment: Alignment.bottomLeft,
-                                                          child: new Padding(
-                                                            padding: EdgeInsets.all(5.50),
-                                                            child: getAppBorderButton(
-                                                                "Hepatomegalia E Ascite", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
-                                                          ),
-                                                        ),
-                                                      ),
-
-                                                     
-
-
-                                                      new GestureDetector(
-                                                        onTap: () {
-
-
-                                                        },
-                                                        child:new Align(
-                                                          alignment: Alignment.bottomLeft,
-                                                          child: new Padding(
-                                                            padding: EdgeInsets.all(5.50),
-                                                            child: getAppBorderButton(
-                                                                "Extremidades Frias", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blue,Colors.white),
-                                                          ),
-                                                        ),
-                                                      ),
-
-                                                      Stack(
-                                                        children: [
-                                                          new GestureDetector(
-                                                            onTap: () {
-
-                                                        Navigator.push(
-                                                                context,
-                                                                MaterialPageRoute(builder: (context) => Edema()),
-                                                              );
-
-                                                            },
-                                                            child:new Align(
-                                                              alignment: Alignment.bottomLeft,
-                                                              child: new Padding(
-                                                                padding: EdgeInsets.all(5.50),
-                                                                child: getAppBorderButton(
-                                                                    "Edema Periférico", EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), Colors.blueGrey,Colors.white),
-                                                              ),
-                                                            ),
-                                                          ),
-                                                          Padding(
-                                                            padding: EdgeInsets.symmetric(vertical: 18.0, horizontal: 18.0),
-                                                            child: Icon(Icons.insert_photo ,color: Colors.white,),
-                                                            )
-
-                                                          
-
-                                                        ],
-                                                      ),
-
-                                                    ],
-                                                  )
-                                              ),
-                                            ),
-
-                                          ),
-
-
-
-                                        ],
+                                    new GestureDetector(
+                                      onTap: () {},
+                                      child: new Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: new Padding(
+                                          padding: EdgeInsets.all(5.50),
+                                          child: getAppBorderButton(
+                                              "Refluxo Hepatojugular",
+                                              EdgeInsets.fromLTRB(
+                                                  0.0, 0.0, 0.0, 0.0),
+                                              Colors.blue,
+                                              Colors.white),
+                                        ),
                                       ),
                                     ),
-                                  ),
+                                    Stack(
+                                      children: [
+                                        new GestureDetector(
+                                          onTap: () async{
 
-                
-                
+                                            player = await cache.loop('terceiraBulhaCardiacaAudio.mpeg');
+
+                                            
+
+                                          },
+                                          child: new Align(
+                                            alignment: Alignment.bottomLeft,
+                                            child: new Padding(
+                                              padding: EdgeInsets.all(5.50),
+                                              child: getAppBorderButton(
+                                                  "Terceira Bulha Cardiaca",
+                                                  EdgeInsets.fromLTRB(
+                                                      0.0, 0.0, 0.0, 0.0),
+                                                  Colors.blueGrey,
+                                                  Colors.white),
+                                            ),
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding: EdgeInsets.symmetric(
+                                              vertical: 18.0, horizontal: 18.0),
+                                          child: Icon(
+                                            Icons.volume_up,
+                                            color: Colors.white,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                    new GestureDetector(
+                                      onTap: () {},
+                                      child: new Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: new Padding(
+                                          padding: EdgeInsets.all(5.50),
+                                          child: getAppBorderButton(
+                                              "Impulso Apical Desviado Para A Esquerda",
+                                              EdgeInsets.fromLTRB(
+                                                  0.0, 0.0, 0.0, 0.0),
+                                              Colors.blue,
+                                              Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                )),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: MediaQuery.of(context).size.width * 0.03,
+                ),
+                Container(
+                  width: MediaQuery.of(context).size.width * 0.9,
+                  decoration: BoxDecoration(
+                      border: Border.all(color: const Color(0xFF28324E)),
+                      borderRadius:
+                          new BorderRadius.all(const Radius.circular(25.0)),
+                      color: Colors.white),
+                  child: Theme(
+                    data:
+                        ThemeData().copyWith(dividerColor: Colors.transparent),
+                    child: ExpansionTile(
+                      onExpansionChanged: (bool expanded) {
+                        setState(() => _customTileExpanded01 = expanded);
+                      },
+                      //leading: new Icon(Icons.check_box),
+                      //headerBackgroundColor: Colors.teal,
+                      backgroundColor: Colors.transparent,
+                      title: getAppBorderButton02(
+                          "       Sinais Menos Específicos",
+                          EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
+                          Colors.white,
+                          Color(0xFF828282)),
+                      children: <Widget>[
+                        Container(
+                          child: new Align(
+                            alignment: Alignment.bottomLeft,
+                            child: new Padding(
+                                padding: EdgeInsets.all(15.50),
+                                child: Column(
+                                  children: [
+                                    Stack(
+                                      children: [
+                                        new GestureDetector(
+                                          onTap: () {
+                                            final player = AudioCache();
+                                            player.play(
+                                                "creptacoesPulmonaresAudio.mpeg");
+                                          },
+                                          child: new Align(
+                                            alignment: Alignment.bottomLeft,
+                                            child: new Padding(
+                                              padding: EdgeInsets.all(5.50),
+                                              child: getAppBorderButton(
+                                                  "Creptações Pulmonares",
+                                                  EdgeInsets.fromLTRB(
+                                                      0.0, 0.0, 0.0, 0.0),
+                                                  Colors.blueGrey,
+                                                  Colors.white),
+                                            ),
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding: EdgeInsets.symmetric(
+                                              vertical: 18.0, horizontal: 18.0),
+                                          child: Icon(
+                                            Icons.volume_up,
+                                            color: Colors.white,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                    new GestureDetector(
+                                      onTap: () {},
+                                      child: new Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: new Padding(
+                                          padding: EdgeInsets.all(5.50),
+                                          child: getAppBorderButton(
+                                              "Taquicardia",
+                                              EdgeInsets.fromLTRB(
+                                                  0.0, 0.0, 0.0, 0.0),
+                                              Colors.blue,
+                                              Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                    new GestureDetector(
+                                      onTap: () {},
+                                      child: new Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: new Padding(
+                                          padding: EdgeInsets.all(5.50),
+                                          child: getAppBorderButton(
+                                              "Hepatomegalia E Ascite",
+                                              EdgeInsets.fromLTRB(
+                                                  0.0, 0.0, 0.0, 0.0),
+                                              Colors.blue,
+                                              Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                    new GestureDetector(
+                                      onTap: () {},
+                                      child: new Align(
+                                        alignment: Alignment.bottomLeft,
+                                        child: new Padding(
+                                          padding: EdgeInsets.all(5.50),
+                                          child: getAppBorderButton(
+                                              "Extremidades Frias",
+                                              EdgeInsets.fromLTRB(
+                                                  0.0, 0.0, 0.0, 0.0),
+                                              Colors.blue,
+                                              Colors.white),
+                                        ),
+                                      ),
+                                    ),
+                                    Stack(
+                                      children: [
+                                        new GestureDetector(
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      Edema()),
+                                            );
+                                          },
+                                          child: new Align(
+                                            alignment: Alignment.bottomLeft,
+                                            child: new Padding(
+                                              padding: EdgeInsets.all(5.50),
+                                              child: getAppBorderButton(
+                                                  "Edema Periférico",
+                                                  EdgeInsets.fromLTRB(
+                                                      0.0, 0.0, 0.0, 0.0),
+                                                  Colors.blueGrey,
+                                                  Colors.white),
+                                            ),
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding: EdgeInsets.symmetric(
+                                              vertical: 18.0, horizontal: 18.0),
+                                          child: Icon(
+                                            Icons.insert_photo,
+                                            color: Colors.white,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ],
+                                )),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
         ],
       ),
     );
-    
   }
 }
 
@@ -874,8 +980,31 @@ CrepPul() async {
   }
 }
 
-class Edema extends StatelessWidget {
-  const Edema({Key? key}) : super(key: key);
+class Edema extends StatefulWidget {
+  @override
+  State<Edema> createState() => _EdemaState();
+}
+
+class _EdemaState extends State<Edema> {
+  @override
+  void initState() {
+    super.initState();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+    ]);
+  }
+
+  @override
+  dispose() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -920,7 +1049,7 @@ class Edema extends StatelessWidget {
                       decoration: BoxDecoration(
                           borderRadius:
                               new BorderRadius.all(const Radius.circular(25.0)),
-                          color:Colors.blue[900]),
+                          color: Colors.blue[900]),
                       child: Column(
                         children: [
                           SizedBox(
@@ -967,6 +1096,5 @@ class Edema extends StatelessWidget {
         )
       ],
     );
-  
   }
 }
