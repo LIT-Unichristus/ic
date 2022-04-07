@@ -1,5 +1,7 @@
 // ignore_for_file: file_names
 
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:insuficiencia_cardiaca/Questao.dart';
 import 'package:insuficiencia_cardiaca/classificacao.dart';
@@ -20,6 +22,8 @@ class TelaInicial extends StatefulWidget {
 }
 
 class _TelaInicialState extends State<TelaInicial> {
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +33,7 @@ class _TelaInicialState extends State<TelaInicial> {
           SingleChildScrollView(
             child: Column(
               children: [
+              
                 SizedBox(
                   height: 30,
                 ),

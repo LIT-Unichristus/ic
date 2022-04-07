@@ -9,16 +9,20 @@ import 'package:photo_view/photo_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:audioplayers/audioplayers.dart';
 
-
 class Diagnostico extends StatefulWidget {
-  
-
   @override
   State<Diagnostico> createState() => _DiagnosticoState();
 }
 
 class _DiagnosticoState extends State<Diagnostico> {
 
+  @override
+  void initState() {
+    super.initState();
+    player.stop();
+  }
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +33,7 @@ class _DiagnosticoState extends State<Diagnostico> {
           SingleChildScrollView(
             child: Column(
               children: [
-              
+                
                 SizedBox(
                   height: 30,
                 ),
@@ -107,10 +111,17 @@ class _DiagnosticoState extends State<Diagnostico> {
                   padding: EdgeInsets.symmetric(vertical: 10.0),
                   child: FlatButton(
                       onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => ExFisico()));
+
+                        Navigator.pushReplacement<void, void>(
+                                  context,
+                                  MaterialPageRoute<void>(
+                                    builder: (BuildContext context) =>  ExFisico(),
+                                  ),
+                                );
+
+                        
+
+                      
                       },
                       child: ThemeHelper().button("Exame Físico")),
                 ),
@@ -512,7 +523,7 @@ class _ExFisicoState extends State<ExFisico> {
 
   bool _customTileExpanded02 = false;
 
-   //and this
+  //and this
 
   @override
   Widget build(BuildContext context) {
@@ -526,9 +537,16 @@ class _ExFisicoState extends State<ExFisico> {
                 SizedBox(
                   height: 30,
                 ),
-                Row(children: [
+                Row(children: [ 
                   FlatButton(
-                      onPressed: () => Navigator.of(context).pop(),
+                      onPressed: () {
+                        Navigator.pushReplacement<void, void>(
+                                  context,
+                                  MaterialPageRoute<void>(
+                                    builder: (BuildContext context) =>  Diagnostico(),
+                                  ),
+                                );
+                      },
                       child: Icon(
                         Icons.arrow_circle_left,
                         color: Colors.white,
@@ -582,28 +600,6 @@ class _ExFisicoState extends State<ExFisico> {
                                 padding: EdgeInsets.all(15.50),
                                 child: Column(
                                   children: [
-                                    Row(
-                                      mainAxisAlignment: MainAxisAlignment.end,
-                                      children: [
-
-                                        IconButton(
-                                      onPressed: (){
-
-                                        setState(() {
-                                          player.stop();
-                                        });
-                                        
-                                      }, 
-                                      icon: Icon(Icons.stop_circle_outlined,color: Colors.blue[900], size: 30,)
-                                      ),
-
-                                      Text("Parar som",style: TextStyle(fontSize: 20, color: Colors.blue[900]),),
-
-                                      Text("            "),
-
-                                      ],
-                                      ),
-                                    
                                     new GestureDetector(
                                       onTap: () {},
                                       child: new Align(
@@ -637,12 +633,15 @@ class _ExFisicoState extends State<ExFisico> {
                                     Stack(
                                       children: [
                                         new GestureDetector(
-                                          onTap: () async{
+                                          onTap: () async {
+                                            setState(() async {
+                                              player.stop();
 
-                                            player = await cache.loop('terceiraBulhaCardiacaAudio.mpeg');
+                                              player = await cache.loop(
+                                                  'terceiraBulhaCardiacaAudio.mpeg');
 
-                                            
-
+                                              
+                                            });
                                           },
                                           child: new Align(
                                             alignment: Alignment.bottomLeft,
@@ -727,9 +726,12 @@ class _ExFisicoState extends State<ExFisico> {
                                       children: [
                                         new GestureDetector(
                                           onTap: () {
-                                            final player = AudioCache();
-                                            player.play(
-                                                "creptacoesPulmonaresAudio.mpeg");
+                                            setState(() async {
+                                              player.stop();
+
+                                              player = await cache.loop(
+                                                  "creptacoesPulmonaresAudio.mpeg");
+                                            });
                                           },
                                           child: new Align(
                                             alignment: Alignment.bottomLeft,
