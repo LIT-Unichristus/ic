@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 AudioPlayer player = AudioPlayer(); //add this
 AudioCache cache = new AudioCache();
-bool verificarAudio = false;
+
 
 class ThemeHelper {
   Container planoDeFundo() {
