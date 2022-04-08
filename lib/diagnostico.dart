@@ -657,7 +657,7 @@ class _ExFisicoState extends State<ExFisico> {
                                                 player.stop();
 
                                                 player = await cache.loop(
-                                                    'terceiraBulhaCardiacaAudio.mpeg');
+                                                    'terceiraBulhaCardiacaAudio.mp3');
                                               });
                                             },
                                             child: new Align(
@@ -748,7 +748,7 @@ class _ExFisicoState extends State<ExFisico> {
                                                 player.stop();
 
                                                 player = await cache.loop(
-                                                    "creptacoesPulmonaresAudio.mpeg");
+                                                    "creptacoesPulmonaresAudio.mp3");
                                               });
                                             },
                                             child: new Align(
@@ -1009,7 +1009,6 @@ class Edema extends StatefulWidget {
 }
 
 class _EdemaState extends State<Edema> {
-
   @override
   void initState() {
     super.initState();
