@@ -153,25 +153,6 @@ class Sintomas extends StatefulWidget {
 }
 
 class _SintomasState extends State<Sintomas> {
-  @override
-  void initState() {
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose() {
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -242,7 +223,7 @@ class _SintomasState extends State<Sintomas> {
                                           InteractiveViewer(
                                             panEnabled: false,
                                             child: Image.asset(
-                                                'assets/images/sintomas.jpg'),
+                                                'assets/images/sintomas.jpeg',),
                                           ),
                                         ],
                                       ),
@@ -272,26 +253,7 @@ class Algoritmo extends StatefulWidget {
 }
 
 class _AlgoritmoState extends State<Algoritmo> {
-  @override
-  void initState() {
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose() {
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
-
+ 
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -391,25 +353,6 @@ class Peptideos extends StatefulWidget {
 }
 
 class _PeptideosState extends State<Peptideos> {
-  @override
-  void initState() {
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose() {
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -607,7 +550,7 @@ class _ExFisicoState extends State<ExFisico> {
                         //headerBackgroundColor: Colors.teal,
                         backgroundColor: Colors.transparent,
                         title: getAppBorderButton02(
-                            "Sinais Mais Específicos",
+                            "  Sinais Mais Específicos",
                             EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
                             Colors.white,
                             Color(0xFF828282)),
@@ -728,7 +671,7 @@ class _ExFisicoState extends State<ExFisico> {
                         //headerBackgroundColor: Colors.teal,
                         backgroundColor: Colors.transparent,
                         title: getAppBorderButton02(
-                            "Sinais Menos Específicos",
+                            "    Sinais Menos Específicos",
                             EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
                             Colors.white,
                             Color(0xFF828282)),
@@ -1009,27 +952,6 @@ class Edema extends StatefulWidget {
 }
 
 class _EdemaState extends State<Edema> {
-  @override
-  void initState() {
-    super.initState();
-    super.initState();
-    player.stop();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose() {
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {

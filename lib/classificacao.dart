@@ -233,7 +233,7 @@ class Fracao extends StatelessWidget {
                                           InteractiveViewer(
                                             panEnabled: false,
                                             child: Image.asset(
-                                                'assets/images/fracao.jpg'),
+                                                'assets/images/fracao.jpeg'),
                                           ),
                                         ],
                                       ),

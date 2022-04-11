@@ -375,25 +375,6 @@ class RadVenEsq extends StatefulWidget {
 }
 
 class _RadVenEsqState extends State<RadVenEsq> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -495,26 +476,6 @@ class RadAtEsq extends StatefulWidget {
 
 class _RadAtEsqState extends State<RadAtEsq> {
   @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
@@ -614,26 +575,6 @@ class RadIsFib extends StatefulWidget {
 
 class _RadIsFibState extends State<RadIsFib> {
   @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
@@ -732,25 +673,6 @@ class RadDisCond extends StatefulWidget {
 }
 
 class _RadDisCondState extends State<RadDisCond> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -851,25 +773,6 @@ class RaioCard extends StatefulWidget {
 }
 
 class _RaioCardState extends State<RaioCard> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -970,25 +873,6 @@ class RaioCongestPul extends StatefulWidget {
 }
 
 class _RaioCongestPulState extends State<RaioCongestPul> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -1089,25 +973,7 @@ class EcocardioExame extends StatefulWidget {
 }
 
 class _EcocardioExameState extends State<EcocardioExame> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
+ 
 
   @override
   Widget build(BuildContext context) {
@@ -1208,25 +1074,6 @@ class LabExame extends StatefulWidget {
 }
 
 class _LabExameState extends State<LabExame> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -1327,25 +1174,6 @@ class ResMag extends StatefulWidget {
 }
 
 class _ResMagState extends State<ResMag> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -1446,25 +1274,6 @@ class Biomarcadores extends StatefulWidget {
 }
 
 class _BiomarcadoresState extends State<Biomarcadores> {
-  @override
-  void initState(){
-    super.initState();
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-    ]);
-  }
-
-  @override
-  dispose(){
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.landscapeRight,
-      DeviceOrientation.landscapeLeft,
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
